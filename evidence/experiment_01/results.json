@@ -1,0 +1,76 @@
+{
+  "dataset_sha256": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+  "python_version": "3.12.14",
+  "scikit_learn_version": "1.9.1",
+  "split": {
+    "test_fraction": 0.2,
+    "random_state": 42,
+    "stratified": true
+  },
+  "training_records": 4748,
+  "test_records": 1188,
+  "training_label_counts": {
+    "FR": 3119,
+    "NFR": 1629
+  },
+  "test_label_counts": {
+    "NFR": 408,
+    "FR": 780
+  },
+  "model": "TF-IDF unigrams and linear SVM, C=1.0, no class weighting",
+  "tfidf_settings": {
+    "lowercase": true,
+    "stop_words": null,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "norm": "l2",
+    "smooth_idf": true
+  },
+  "accuracy": 0.8796296296296297,
+  "classification_report": {
+    "FR": {
+      "precision": 0.8851269649334945,
+      "recall": 0.9384615384615385,
+      "f1-score": 0.911014312383323,
+      "support": 780.0
+    },
+    "NFR": {
+      "precision": 0.8670360110803325,
+      "recall": 0.7671568627450981,
+      "f1-score": 0.8140442132639792,
+      "support": 408.0
+    },
+    "accuracy": 0.8796296296296297,
+    "macro avg": {
+      "precision": 0.8760814880069134,
+      "recall": 0.8528092006033183,
+      "f1-score": 0.8625292628236512,
+      "support": 1188.0
+    },
+    "weighted avg": {
+      "precision": 0.8789139100748328,
+      "recall": 0.8796296296296297,
+      "f1-score": 0.8777114500595079,
+      "support": 1188.0
+    }
+  },
+  "confusion_matrix_label_order": [
+    "FR",
+    "NFR"
+  ],
+  "confusion_matrix_rows_actual_columns_predicted": [
+    [
+      732,
+      48
+    ],
+    [
+      95,
+      313
+    ]
+  ],
+  "majority_baseline_label": "FR",
+  "majority_baseline_accuracy": 0.6565656565656566,
+  "limitations": "Single random holdout; labels not fully manually validated; similar requirements may remain; no project-level generalization test; no tuning performed."
+}

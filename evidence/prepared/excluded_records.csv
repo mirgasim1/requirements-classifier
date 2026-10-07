@@ -1,0 +1,184 @@
+﻿source_row,requirement_text,original_label,reason
+80,The overall accuracy of the Web API’s response will be measured using a developer-made testing set.,NFR,duplicate_same_label
+86,"The connection between the Web API and the programs will use HTTPS, for security.",NFR,duplicate_same_label
+87,A new user will make less than 3 mistakes in 5 minutes after 5 minutes of use.,NFR,duplicate_same_label
+207,User shall be able to view the full text regarding a topic by clicking on it.,FR,duplicate_same_label
+208,User shall be able to like a certain topic. ,FR,duplicate_same_label
+209,User shall be able to tweet a certain topic. ,FR,duplicate_same_label
+255,The system shall be able to display content in the user's preferred language upon selection.,FR,duplicate_same_label
+316,The system shall be able to personalize generic responses by inserting specific data.,FR,duplicate_same_label
+348,After installing the Application from iTunes or the App store the user will be asked to login.,FR,duplicate_same_label
+493,The system shall be able to handle 1000 customers logged in concurrently at the same time.,NFR,duplicate_same_label
+500,The system shall be able to acquire shipping charges in less than 2 seconds.,NFR,duplicate_same_label
+505,The system shall encrypt all customer data in database.,NFR,duplicate_same_label
+602,The MultiMahjongServer will have a graphical user interface with which the administrator of the server can get log information and change game settings.,NFR,conflicting_labels_for_same_normalized_text
+621,The MultiMahjongServer will have a graphical user interface with which the administrator of the server can get log information and change game settings.,FR,conflicting_labels_for_same_normalized_text
+798,The BE shall verify the successful receipt of incoming data from the Correlator.,FR,conflicting_labels_for_same_normalized_text
+880,The BE shall verify the successful receipt of incoming data from the Correlator.,NFR,conflicting_labels_for_same_normalized_text
+883,"The hardware part of the system shall be able to perform indefinitely without complete loss of service, except in the event of total failure of primary and backup power. ",NFR,duplicate_same_label
+887,All systems and application source code shall be available to or on the systems that execute it. ,NFR,duplicate_same_label
+890,Software tools and pre-built applications that do not have source code available shall come with a complete diagnostic package and customer support.,NFR,duplicate_same_label
+891,Operating System software shall either have source code available or come with sufficient diagnostics and customer support.,NFR,duplicate_same_label
+896,A system administrator shall have unrestricted access to all aspects of the system.,NFR,duplicate_same_label
+898,"The administrator shall have the ability to create and add a new user to the system.
+",NFR,duplicate_same_label
+899,The administrator shall have the ability to remove a user from the system.,NFR,duplicate_same_label
+901,"The administrator shall have the ability to block all access to the system for all users or selectively by user. 
+",NFR,duplicate_same_label
+1010,A MySQL database will be used to store all information required to answer questions.,FR,duplicate_same_label
+1012,The database will be updated periodically and the API will be unavailable during the update.,FR,duplicate_same_label
+1013,The GUI will have a textbox that will accept inputs from a keyboard.,FR,duplicate_same_label
+1014,"Text box will originally contain a suggestive text question, to guide the user to the format of an appropriate question.",FR,duplicate_same_label
+1015,The GUI will have a chat window displaying questions sent to the system and responses from the API.,FR,duplicate_same_label
+1017,"If there is a network issue, the chat window will display an error message.",FR,duplicate_same_label
+1019,"Texts sent to that number will be sent to the API, then the system will reply to the user with the answer as another text message.",FR,duplicate_same_label
+1020,"If a question is not understood by our API, the system will send a text containing an example question after the text with the API response.",FR,duplicate_same_label
+1021,The system will be designed in such a way that the algorithms for the four main units will be able to be easily swapped out.,NFR,duplicate_same_label
+1028,"The connection between the Web API and the programs will use HTTPS, for security.",NFR,duplicate_same_label
+1029,A new user will make less than 3 mistakes in 5 minutes after 5 minutes of use.,NFR,duplicate_same_label
+1137, For each class within a sequence for a cohort Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,FR,duplicate_same_label
+1177,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student including student ID student name phone number e-mail status (full time or part time) and program of study.,#NAME?,invalid_label
+1178,The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.,#NAME?,invalid_label
+1179,The system shall ensure that all screens created for the Disputes application adhere to the corporate interface creation standards.,#NAME?,invalid_label
+1180,The list of dispute cases after a search shall be able to be color-coded for easy status identification.,#NAME?,invalid_label
+1181,100% of the card member and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,#NAME?,invalid_label
+1182,100% of card member services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,#NAME?,invalid_label
+1183,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,#NAME?,invalid_label
+1184,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,#NAME?,invalid_label
+1185,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,#NAME?,invalid_label
+1186,The Disputes application shall be available 24x7x365 with the exception of the following scheduled maintenance windows. Monday – Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST.,#NAME?,invalid_label
+1187,"To resolve disputes, the Disputes application will rely solely on transaction details retrieved from the Statement Database.",#NAME?,invalid_label
+1188,The Disputes application shall retrieve all cardmember details directly from the Cardmember Information Database.,#NAME?,invalid_label
+1189,Disputes applications shall retrieve all merchant details directly from the Merchant Information Database for a more streamlined process.,#NAME?,invalid_label
+1190,The Disputes application shall send all letter requests for dispute initiation and follow up to the Print Letter Utility via an interface with the Letters application.,#NAME?,invalid_label
+1191,The Disputes application shall integrate with the Cardmember Posting and Billing System to directly request account adjustments.,#NAME?,invalid_label
+1192,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,#NAME?,invalid_label
+1193,Users shall only be able to initiate dispute requests if they have Update access.,#NAME?,invalid_label
+1194,The Disputes application shall ensure that only authorized users are allowed to logon to the application.,#NAME?,invalid_label
+1195,All authenticated authorized users shall be granted access to the Disputes System.,#NAME?,invalid_label
+1196,"To ensure audit trails, the Disputes System shall generate reports detailing new user additions and access level changes.",#NAME?,invalid_label
+1197,All additions of new users and modifications to user’s access shall be recorded on the User Report.,#NAME?,invalid_label
+1198,A revoked user account shall only be re-instantiated by the System Administrator.,#NAME?,invalid_label
+1199,Only the System Administrator shall be able to reset a revoked user logon account.,#NAME?,invalid_label
+1200,User shall be able to manipulate and view business data within the Disputes application.,#NAME?,invalid_label
+1201,System shall ensure that all updates to data files or databases are initiated from the Disputes System.,#NAME?,invalid_label
+1202,"User shall be able to access the Disputes System, which must conform to legal requirements specified by the Merchant Operating Regulations.",#NAME?,invalid_label
+1203,System shall ensure that all business rules specified in the Disputes System comply with Merchant Operating Regulations.,#NAME?,invalid_label
+1204,"User shall be able to access the Disputes System, which must also conform to legal requirements specified by Regulation E and Regulation Z governing credit card disputes processing.",#NAME?,invalid_label
+1205,System shall ensure that all business rules specified in the Disputes System comply with the guidelines of Regulation E and Regulation Z.,#NAME?,invalid_label
+1206,"User shall have access to a detailed history of every action taken on a dispute case, ensuring a complete audit trail.",#NAME?,invalid_label
+1207,System shall record all actions that modify an existing dispute case in the case history.,#NAME?,invalid_label
+1633,"User shall be able to change perspective and orientation through a touch scroll bar, serving as the central mechanic of the game.",FR,conflicting_labels_for_same_normalized_text
+1634,"User shall be able to perform sudden movements upward from solid ground, as a necessary movement mechanic.",FR,conflicting_labels_for_same_normalized_text
+1635,"System shall identify areas triggering the restart of the level, whether encompassing stage boundaries or spike-like traps.",FR,conflicting_labels_for_same_normalized_text
+1636,"Upon starting up the application, the first viewable screen shall contain buttons for play game options.",FR,conflicting_labels_for_same_normalized_text
+1637,"In-game option to halt gameplay shall be provided, allowing access to fields displayed on the title screen.",FR,conflicting_labels_for_same_normalized_text
+1646,"User shall be able to change perspective and orientation through a touch scroll bar, serving as the central mechanic of the game.",NFR,conflicting_labels_for_same_normalized_text
+1647,"User shall be able to perform sudden movements upward from solid ground, as a necessary movement mechanic.",NFR,conflicting_labels_for_same_normalized_text
+1648,"System shall identify areas triggering the restart of the level, whether encompassing stage boundaries or spike-like traps.",NFR,conflicting_labels_for_same_normalized_text
+1649,"Upon starting up the application, the first viewable screen shall contain buttons for play game options.",NFR,conflicting_labels_for_same_normalized_text
+1650,"In-game option to halt gameplay shall be provided, allowing access to fields displayed on the title screen.",NFR,conflicting_labels_for_same_normalized_text
+1863,The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.,NFR,duplicate_same_label
+1917,User shall/will be able to request check book allotment.,FR,conflicting_labels_for_same_normalized_text
+1918,System shall be able to manage check book allotment requests.,FR,conflicting_labels_for_same_normalized_text
+1920,System shall be able to function with a minimum of 512MB RAM.,NFR,duplicate_same_label
+1923,User shall/will be able to interact with the system using a standard keyboard and mouse.,NFR,duplicate_same_label
+1927,"User shall/will be able to interact with the system using standard input/output devices including keyboard, monitor, printer, and scanner.",NFR,duplicate_same_label
+1929,User shall/will be able to request check book allotment.,NFR,conflicting_labels_for_same_normalized_text
+1930,System shall be able to manage check book allotment requests.,NFR,conflicting_labels_for_same_normalized_text
+2079,User shall be able to update their information.,FR,conflicting_labels_for_same_normalized_text
+2080,User shall have the ability to change their password.,FR,conflicting_labels_for_same_normalized_text
+2081,"User shall be able to sign up as a student, admin, or company.",FR,conflicting_labels_for_same_normalized_text
+2082,"User shall be able to log in as a student, admin, or company.",FR,conflicting_labels_for_same_normalized_text
+2083,Students shall be able to apply for jobs.,FR,conflicting_labels_for_same_normalized_text
+2084,Companies shall be able to post jobs and add job details.,FR,conflicting_labels_for_same_normalized_text
+2085,Students shall have the ability to view the status of their job applications.,FR,conflicting_labels_for_same_normalized_text
+2086,Users shall be able to search for jobs.,FR,conflicting_labels_for_same_normalized_text
+2087,Admin shall be able to manage students.,FR,conflicting_labels_for_same_normalized_text
+2088,Admin shall be able to manage companies.,FR,conflicting_labels_for_same_normalized_text
+2089,Users shall be able to view student applications.,FR,conflicting_labels_for_same_normalized_text
+2090,User shall be able to update their information.,NFR,conflicting_labels_for_same_normalized_text
+2091,User shall have the ability to change their password.,NFR,conflicting_labels_for_same_normalized_text
+2092,"User shall be able to sign up as a student, admin, or company.",NFR,conflicting_labels_for_same_normalized_text
+2093,"User shall be able to log in as a student, admin, or company.",NFR,conflicting_labels_for_same_normalized_text
+2094,Students shall be able to apply for jobs.,NFR,conflicting_labels_for_same_normalized_text
+2095,Companies shall be able to post jobs and add job details.,NFR,conflicting_labels_for_same_normalized_text
+2096,Students shall have the ability to view the status of their job applications.,NFR,conflicting_labels_for_same_normalized_text
+2097,Users shall be able to search for jobs.,NFR,conflicting_labels_for_same_normalized_text
+2098,Admin shall be able to manage students.,NFR,conflicting_labels_for_same_normalized_text
+2099,Admin shall be able to manage companies.,NFR,conflicting_labels_for_same_normalized_text
+2100,Users shall be able to view student applications.,NFR,conflicting_labels_for_same_normalized_text
+2606,The system shall be capable of restoring itself to its previous state in the event  of failure (e.g. a system crash or power loss).,NFR,duplicate_same_label
+2607,The system shall be able to display a menu at all times to facilitate manual  order taking should the need arise.,NFR,duplicate_same_label
+2619,Any element of the system will take no longer than 10-seconds to restart.,NFR,duplicate_same_label
+2676,System shall ensure that responses to view information appear on the screen within 5 seconds.,NFR,duplicate_same_label
+2875,System shall check the information and apply the changes to the user's account.,FR,duplicate_same_label
+3025,"If the validation succeeds, user shall be redirected to the user-home page.",FR,duplicate_same_label
+3028,System shall validate the provided details.,FR,duplicate_same_label
+3052,"If the validation fails, system shall prompt ""Wrong email or password"".",FR,duplicate_same_label
+3060,System shall display all data for pending passport approvals.,FR,duplicate_same_label
+3069,User shall be able to log out by clicking on the logout button.,FR,duplicate_same_label
+3070,System shall destroy the browser session upon logout.,FR,duplicate_same_label
+3071,"System shall display a message ""Logged Out"" upon successful logout.",FR,duplicate_same_label
+3073,System shall maintain uninterrupted connections.,NFR,duplicate_same_label
+3210,The system shall allow the user to change the password.,FR,duplicate_same_label
+3213,The system shall allow the user to view past attended meetings.,FR,duplicate_same_label
+3214,The system shall allow the user to view pending meetings.,FR,duplicate_same_label
+3410,System shall validate the information provided by the user using JavaScript on the client side.,FR,duplicate_same_label
+3495,User shall be able to access coding problems across various difficulty levels and categories.,FR,conflicting_labels_for_same_normalized_text
+3497,User shall be able to submit their solutions to coding problems.,FR,conflicting_labels_for_same_normalized_text
+3499,"User shall be able to participate in discussions related to coding problems by commenting, asking questions, and providing answers.",FR,conflicting_labels_for_same_normalized_text
+3501,User shall be able to view and edit their profile information.,FR,conflicting_labels_for_same_normalized_text
+3507,User shall be able to access coding problems across various difficulty levels and categories.,NFR,conflicting_labels_for_same_normalized_text
+3509,User shall be able to submit their solutions to coding problems.,NFR,conflicting_labels_for_same_normalized_text
+3511,"User shall be able to participate in discussions related to coding problems by commenting, asking questions, and providing answers.",NFR,conflicting_labels_for_same_normalized_text
+3513,User shall be able to view and edit their profile information.,NFR,conflicting_labels_for_same_normalized_text
+3525,User shall receive feedback when entering an invalid zip code.,FR,conflicting_labels_for_same_normalized_text
+3555,User shall receive feedback when entering an invalid zip code.,NFR,conflicting_labels_for_same_normalized_text
+3750,The system shall be scalable to accommodate a growing user base and data volume.,NFR,duplicate_same_label
+3767,The system shall be highly available and accessible to users most of the time with minimal downtime.,NFR,duplicate_same_label
+3825,The system shall be scalable to accommodate a growing user base and data volume.,NFR,duplicate_same_label
+3905,The system shall display all items planned for estimation in the current session.,FR,duplicate_same_label
+3958,The system shall be user-friendly and easy to navigate.,NFR,duplicate_same_label
+3960,The system shall be highly available with minimal downtime.,NFR,duplicate_same_label
+3961,The system shall be secure and protect user data.,NFR,duplicate_same_label
+3962,The system shall be scalable to accommodate a growing user base.,NFR,duplicate_same_label
+3963,The system may be adaptable to different languages and currencies.,NFR,duplicate_same_label
+3999,The system shall be scalable to accommodate a growing user base and data volume.,NFR,duplicate_same_label
+4096,System shall generate comprehensive and easily understandable reports for acceptance test results.,NFR,duplicate_same_label
+4101,System shall provide intuitive and user-friendly interfaces for creating log book page templates.,NFR,duplicate_same_label
+4102,System shall ensure data integrity and reliability during file uploads and attachments.,NFR,duplicate_same_label
+4103,System shall provide robust search functionality for retrieving experimental protocols and files.,NFR,duplicate_same_label
+4105,System shall provide efficient storage and retrieval mechanisms for large files and datasets.,NFR,duplicate_same_label
+4106,System shall enforce access controls and permissions for sharing and managing data.,NFR,duplicate_same_label
+4395,The system shall respond to user actions promptly and efficiently.,NFR,duplicate_same_label
+4398,The system shall have a user-friendly interface for various user roles.,NFR,duplicate_same_label
+4517,The system shall be scalable to accommodate a growing user base and data volume.,NFR,duplicate_same_label
+4799,A surface app page shall provide a customer with all customer system functionality.,FR,duplicate_same_label
+4800,An app shall provide a User/Restaurant with all user/restaurant system functionality (according to access control). ,FR,duplicate_same_label
+4801,A display shall provide a Delivery Boy with all Delivery boy system functionality.,FR,duplicate_same_label
+4802,A app shall be capable of interfacing with a register to facilitate the accurate processing of a payment.,FR,duplicate_same_label
+4832,Delivery boy shall be able to start the shift.,FR,duplicate_same_label
+4836,Delivery boy shall be able to toggle Online/Offline/Break option.,FR,duplicate_same_label
+4843,Admin shall be able to manage users.,FR,duplicate_same_label
+4844,Admin shall be able to manage providers.,FR,duplicate_same_label
+4849,Admin shall be able to manage delivery boy details.,FR,duplicate_same_label
+4856,The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).,NFR,duplicate_same_label
+4857,The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.,NFR,duplicate_same_label
+4858,The system shall utilise periodic 120-second keep-alive messages between mobile and the server to monitor app operational status.,NFR,duplicate_same_label
+4863,Any element of the system will take no longer than 10-seconds to restart.,NFR,duplicate_same_label
+4864,Admin must not dismiss an engaged menu unless the customer requests it.,NFR,duplicate_same_label
+4866,"The server shall be capable of supporting an arbitrary number of active orders, that is, no orders shall be lost under any circumstances.",NFR,duplicate_same_label
+4867,"The server shall be capable of supporting an arbitrary number of active customer payments, that is, no payments shall be lost under any circumstances.",NFR,duplicate_same_label
+5368,User shall receive a message for any successful or unsuccessful action performed.,NFR,duplicate_same_label
+5369,System shall secure in-app purchases via encryption and use a reliable payment gateway.,NFR,duplicate_same_label
+5370,System shall update user stats in real time after every achievement or completed action for an enhanced gaming experience.,NFR,duplicate_same_label
+5371,User shall receive a message when network coverage is low.,NFR,duplicate_same_label
+5489,The system shall be user-friendly and easy to navigate.,NFR,duplicate_same_label
+5511,System shall respond in less than 2 seconds.,NFR,duplicate_same_label
+5750,System shall authenticate users based on username and password.,FR,duplicate_same_label
+5753,System shall check vehicle availability for booking.,FR,duplicate_same_label
+5757,Newsletters shall be sent to clients' email addresses.,FR,duplicate_same_label
+5860,Performance shall be influenced by the hardware components of the client/customer.,NFR,duplicate_same_label
+5862,System shall automatically log out customers after a period of inactivity.,NFR,duplicate_same_label
+5869,System shall store all databases on redundant computers with automatic switchover for reliability.,NFR,duplicate_same_label

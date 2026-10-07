@@ -1,0 +1,23 @@
+{
+  "source": "https://data.mendeley.com/datasets/4ysx9fyzv4/1",
+  "source_file_sha256": "77e1a7ed5d374e7bff3cda8d29bd5a3914f04921a751a6483c3fe58313cb6cbe",
+  "source_records": 6117,
+  "original_label_counts": {
+    "NFR": 2122,
+    "FR": 3964,
+    "#NAME?": 31
+  },
+  "excluded_counts": {
+    "duplicate_same_label": 100,
+    "conflicting_labels_for_same_normalized_text": 50,
+    "invalid_label": 31
+  },
+  "conflicting_groups_after_invalid_labels_excluded": 25,
+  "prepared_records": 5936,
+  "prepared_label_counts": {
+    "NFR": 2037,
+    "FR": 3899
+  },
+  "duplicate_comparison": "lowercase plus trim and collapse whitespace; punctuation preserved",
+  "policy": "Exclude invalid labels first; exclude all valid records in conflicting groups; retain first source occurrence in same-label groups. Preserve text and labels of retained rows."
+}

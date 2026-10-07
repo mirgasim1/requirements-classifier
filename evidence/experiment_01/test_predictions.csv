@@ -1,0 +1,1193 @@
+﻿source_row,requirement_text,actual_label,predicted_label,correct
+3341,The system shall have a response time of less than 5 seconds for basic operations.,NFR,NFR,True
+4937,System shall allow administrator to block any service by entering the name or selecting from a list.,FR,FR,True
+949,The menu items named Configure Diagnostics and Exit in the main menu entitled File shall be enabled at all times,FR,FR,True
+3251,The system shall allow users to print presentations with customizable layouts and settings.,FR,FR,True
+2409,"User will choose from options including searching for their issue, chatting with customer support, asking the community, emailing customer support, or calling customer support.",FR,FR,True
+2252,"User shall have the ability to search for jobs by keywords, category, and work status.",FR,FR,True
+2060,System shall provide professional video and photo editing tools within the VivaVideo app.,FR,NFR,False
+2142,A batch program shall run nightly to create an appointment file for the next 5 days and purge existing files.,FR,FR,True
+2670,"System shall enable customer care representatives to receive and address customer complaints, queries, and feedback.",FR,FR,True
+4689,User shall be able to create a new account by entering basic details like address and phone numbers.,FR,FR,True
+3363,"The system shall be highly available with minimal downtime, ensuring access to ebooks for users.",NFR,NFR,True
+270,The system shall be able to add a new restaurant owner upon creation by an administrator.,FR,FR,True
+2885,System shall store the user's details in the database for account creation.,FR,FR,True
+1783,"If the user forgets their account information, they shall be able to retrieve it via the ""forgot your password?"" panel.",FR,FR,True
+5630,The system must be connected to the network for optimal performance and support simultaneous access by multiple users with fast response times.,NFR,NFR,True
+1135,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,FR,FR,True
+3252,The system shall be intuitive and easy to learn for users with varying levels of experience.,NFR,NFR,True
+5463,The Khan Academy platform shall provide students with opportunities to practice and refine math skills.,FR,FR,True
+2315,"User shall have the option to create a customized workout plan, with a detailed graph of the workout displayed.",FR,FR,True
+3313,"The system shall generate reports on sales, inventory, prescriptions dispensed, etc.",FR,FR,True
+588,The user shall be able to play or learn about Mahjong.,NFR,FR,False
+453,The System must allow a user to be a member of more than one group.,NFR,NFR,True
+3745,"The system shall display a list of Certified Scrum Masters, Practitioners, Trainers, and Product Owners.",FR,FR,True
+1816,Customers shall choose their favorite restaurant or the restaurant they wish to order from.,FR,FR,True
+4585,Customers can revise and update orders if incorrect.,FR,FR,True
+599,The system shall be able to calculate possible Chow/Pung/Kong/Mahjong moves within 5 seconds of receiving the latest discard information.,NFR,FR,False
+3439,"If paying by cash on delivery, user shall enter address details for order confirmation.",FR,FR,True
+4765,User shall be able to list all students enrolled in a specific year.,FR,FR,True
+4459,Administrators shall download embargo metadata for ETDs.,FR,FR,True
+2710,"System shall maintain efficiency even in the event of system failure, with recovery expected within an hour or less.",NFR,NFR,True
+5422,User shall be able to select the online booking option for LPG cylinder.,FR,FR,True
+3186,The system shall allow Administrators to delete requests but not enter or approve them.,FR,FR,True
+4261,User shall be able to create and edit Event records.,FR,FR,True
+2386,"The system shall ensure reliability, earning users' trust with their information.",NFR,NFR,True
+3720,The system shall allow recruiters to post job advertisements.,FR,FR,True
+6021,"If a network connection is lost during roll, the program shall allow the instructor to transmit roll information at a later time.",NFR,NFR,True
+4070,"User shall have a small, wearable ALFRED device for easy portability.",FR,FR,True
+3143,The software will only be operational when a user is registered.,NFR,NFR,True
+2043,There shall be proper interconnectivity between files to facilitate communication.,FR,FR,True
+2468,"The user shall be able to discard all the changes by tapping on ""Close Exam View"".",FR,FR,True
+3972,The system shall allow curators to manage user groups and permissions for collections.,FR,FR,True
+4638,"User shall be able to add inventory assets, with DA group members or authorized inventory group members adding assets owned by the department.",FR,FR,True
+1054,The system shall present projected data on a 10x10 screen such that 90% of viewers at 100 feet can identify ongoing Events or Activities.,NFR,NFR,True
+1062,The system shall be used by realtors with no training.,NFR,NFR,True
+5565,The system must support a high data transfer rate for efficient processing.,NFR,NFR,True
+2641,User shall be able to purchase products using a valid credit card.,FR,FR,True
+5402,"Agricultural experts shall be able to respond to user queries, which will be displayed on the user’s dashboard upon successful reply.",FR,FR,True
+1509,The system shall implement anonymization and aggregation techniques to securely share route information.,NFR,NFR,True
+3701,The system shall allow administrators to approve/reject applications for Certified Scrum Practitioner (CSP) and Certified Scrum Trainer (CST) status.,FR,FR,True
+5544,"System shall handle different negative responses from the bank, such as incorrect password, unsupported bank code, or account issues, and reject the card.",FR,FR,True
+5242,The system shall notify customers about the status of their insurance policies.,FR,FR,True
+6050,Compatibility with previous Windows versions will require further testing.,NFR,NFR,True
+4045,User shall either keep log book entries private or share them with individuals.,FR,FR,True
+2648,System shall allow visitors to browse the site without the need for registration.,FR,FR,True
+987,"The system shall be able to define and manage various type of messages already in the drivers smart card holder like predelivery check, stolen/lost cards, renewals, exchanges and duplicates",FR,FR,True
+4268,System shall facilitate the import of EAD data into the application.,FR,FR,True
+1583,System shall lock databases to protect sensitive client information from intrusion and unauthorized modifications.,NFR,NFR,True
+5100,The application shall render images and effects efficiently to maintain a productive workflow.,NFR,FR,False
+734,The TCS shall have the capability to simultaneously control and monitor a line-of-sight as well as a BLOS data terminal.,FR,FR,True
+981,The system shall allow a member to do statistics on messages  issued and received from/to his system,FR,FR,True
+3118,The system shall confirm deletion of the selected task.,FR,FR,True
+5961,User shall register as a new user by clicking on the registration link at the login page.,FR,FR,True
+2187,User shall/will have sensitive data encrypted during transmission and storage.,NFR,NFR,True
+259,The system shall allow administrators to add new restaurant types.,FR,FR,True
+6087,User shall be able to validate the user password.,FR,FR,True
+5230,"System shall allow users to search and book tours by specifying place and number of travelers, providing tour plans with costs, destinations, and accommodations, with redirection to payment gateway for booking.",FR,FR,True
+6074,System shall be able to check if the withdrawal amount is within predefined policy and start or re-initiate the transaction dialog.,FR,FR,True
+4121,"User shall be able to see which trainings they have signed up for, to plan their event experience.",FR,FR,True
+1264,One insurance company shall not be able to view another insurance company's claim data.,NFR,FR,False
+1580,"User shall validate PAN card number format as AAAA9999A, with first five characters as letters, followed by four digits, and ending with a letter.",FR,FR,True
+3713,The system shall allow trainers to update or delete their courses/events.,FR,FR,True
+1848,Delivery boys shall pick up and deliver orders to customers.,FR,FR,True
+4520,System shall facilitate interaction and information exchange between police and complainants.,FR,FR,True
+3943,The system shall allow publishers to access previous tagged versions of data packages.,FR,FR,True
+346,The system shall display a detailed product page with all the information and features found on the main website.,FR,FR,True
+4329,System shall support the attachment of subject-specific metadata to datasets to enhance discoverability within specific research disciplines.,FR,FR,True
+4151,"User shall be able to list an agenda for their summit, to entice attendees and presenters.",FR,FR,True
+5140,User shall be able to use automated backup scheduling for ensuring data availability.,FR,FR,True
+5180,"Each user shall have a unique username, password, user ID, department affiliation, duration (in years), age, grade, and user role.",NFR,FR,False
+2644,System shall allow customers to provide feedback to the customer care service center regarding their experience.,FR,FR,True
+2651,Shop owners shall consult with the administrator regarding product quality and advertisements.,FR,FR,True
+3123,"User shall not be able to choose show completed tasks, if these tasks are already shown.",FR,FR,True
+3636,A Data Consuming User shall be able to search for datasets by title and metadata.,FR,FR,True
+2738,User shall be able to access the employee homepage upon login.,NFR,FR,False
+1270,The user shall search for the preferred repair facility using vehicle location and radius in miles.,FR,FR,True
+5661,The system shall ensure safe transactions.,FR,NFR,False
+2049,User shall utilize the application across various sectors where file transfer is essential.,NFR,NFR,True
+1261,Only adjusters with a supervisor role can update preferred repair facility ratings.,NFR,FR,False
+431,Upon the USB being plugged in the system shall be able to be deployed and operational in less than 1 minute,NFR,NFR,True
+1419,Delivery boy shall be able to start the shift.,FR,FR,True
+5034,User accessibility shall be censured in all ways.,NFR,NFR,True
+3264,"The system shall allow users to format cells and worksheets for presentation purposes (e.g., fonts, borders, colors).",FR,NFR,False
+1699,User shall be able to input correct last watched title string with validation for its presence.,NFR,FR,False
+782,The user will respond to questions by clicking on the desired answer from a set of choices,FR,FR,True
+1738,"The system shall allow user registration and login, enabling them to provide personal information for associating with requests.",FR,FR,True
+1687,System shall prioritize speed in performing actions such as searching for recipes and providing recommendations.,NFR,NFR,True
+3416,"Passwords must meet specific criteria, including a minimum length of 8 characters, at least one uppercase character, one digit, and one special symbol.",NFR,NFR,True
+4473,System shall preserve both content and metadata within the repository.,NFR,NFR,True
+4316,User shall be able to link datasets to publications in Opus for improved discoverability.,FR,FR,True
+701,The TCS shall provide the capability to control the flight of the selected AV in accordance with the specific AV's operational performance capabilities.,FR,FR,True
+5969,"User shall search for potential employees by entering interests and preferences such as salary, location, job category, and profession.",FR,FR,True
+1251,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,NFR,NFR,True
+5178,"The software shall interact with mouse movements and clicks to activate data input areas, command buttons, and menu options.",NFR,FR,False
+9,The campus map shall cover the central train station of Eindhoven.,NFR,FR,False
+1407,A display shall provide a Delivery Boy with all Delivery boy system functionality.,FR,FR,True
+1579,"User shall establish Address of Communication using four lines, each 25 characters long, for house name/number, street name/place, and state.",FR,FR,True
+1044,The system shall filter data by: Venues and Key Events.,FR,FR,True
+960,The diagnostic information window shall have a button labeled History that when clicked will display the diagnostic history window and display the previous weeks diagnostic results. ,FR,FR,True
+1869,Any element of the system will take no longer than 10 seconds to restart.,NFR,NFR,True
+4369,The system shall allow repository managers to define access controls for collections.,FR,FR,True
+5582,"Users can manage properties by viewing, editing, or deleting them.",FR,FR,True
+1128,The system shall protect private information in accordance with the organizations information policy.,NFR,NFR,True
+3822,The system shall be secure and protect user data.,NFR,NFR,True
+3250,"The system shall allow users to export presentations in various file formats like PPTX, PPT, PDF, and video formats.",FR,FR,True
+2462,The user shall be able to add the date and time for the exam.,FR,FR,True
+4000,The system shall have a user-friendly interface for various user roles.,NFR,NFR,True
+849,Operating system software shall either have source code available or come with sufficient diagnostics and customer support.,NFR,NFR,True
+1441,"Dispute panel shall be able to reassign order in the case, if delivery boy dint acknowledge the request.",FR,FR,True
+979,The system must allow a member of the network to send requests to a particular or all the other members about possible delivery of a driver's smart card to a similar person.,FR,FR,True
+4299,System shall adhere to best practices for data security and privacy protection throughout the application.,NFR,NFR,True
+5262,The system shall accept an item identification parameter and a time period or duration as input.,FR,FR,True
+213,System shall allow users to select other TU/e related Facebook sites from a list upon starting the Facebook app.,FR,FR,True
+370,User shall be able to log out of the system by using the logout button.,FR,FR,True
+5800,User shall view examination schedules and details.,FR,FR,True
+6071,User shall be able to offer withdrawal transactions.,FR,FR,True
+5411,"The database shall be maintained using MySQL, and the server will be Apache; in case of system failure, both the database and server can be reinitialized.",NFR,NFR,True
+1335,A moderator shall be able to edit a previously created session.,FR,FR,True
+4787,System shall verify user eligibility to access functions based on permission. (Level 1),FR,FR,True
+5243,The system shall maintain consistent security through the use of passwords.,FR,NFR,False
+4175,System shall provide a user-friendly landing page for browsing training offerings.,NFR,FR,False
+854,All users of the system shall login using some form of unique identification.,NFR,NFR,True
+4804,Customer shall be able to view nearby restaurants(Specified Distance).,FR,FR,True
+1814,Customers shall log in or skip registration to access the menu dashboard.,FR,NFR,False
+1535,Patients shall be able to request appointments with healthcare providers based on their availability.,FR,FR,True
+1690,"All functions, particularly complex ones, shall undergo thorough testing to ensure usability.",NFR,FR,False
+4141,"User shall be able to tag blog posts for consumption by Drupal Planet, for increased visibility.",FR,FR,True
+4379,"The system shall allow associating names, subjects, and rights information with components.",FR,FR,True
+1120,The system shall be interoperable with any HTML browser.,NFR,NFR,True
+4465,System shall be highly available with minimal downtime.,NFR,NFR,True
+5913,"System shall display a list of blogs on the homepage upon user request, accessible to all users.",FR,FR,True
+5374,The application shall be available to all users without any charges.,NFR,NFR,True
+4751,System shall restrict communication during user/license validation (use https).,NFR,NFR,True
+3262,"The system shall offer a wide range of functions for calculations, data analysis, and manipulation (e.g., SUM, AVERAGE, VLOOKUP).",FR,FR,True
+568,There shall be a maximum number of heating or cooling u nits that can be on at any given time.,FR,FR,True
+5648,"The system shall provide three forms of logging: registration for new users, login for existing users, and restricted login for anonymous users.",FR,NFR,False
+940,"Each window of the diagnostic tool shall display an animated graphical feature indicating the status, whether active or not, of the diagnostic processing.",FR,FR,True
+2713,"User shall experience continuous availability of the system, accessible 24/7 via web browsers.",NFR,NFR,True
+2520,"Upon capturing a selfie, the system shall generate a Snapcode and offer associated actions.",FR,FR,True
+4325,System shall enable depositors to specify disposal policies for datasets to ensure legal and contractual compliance.,FR,FR,True
+2859,System shall add the blocked user to the user's blocked list in the database.,FR,FR,True
+1093,The system shall be able to call the seller or buyer to schedule an appointment.,FR,FR,True
+4414,"The system shall allow researchers to download files, reports, and locate materials for social media sharing.",FR,FR,True
+5182,The user shall be able to choose to log in with a Google account.,FR,FR,True
+1283,The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers.,FR,FR,True
+4811,Customer shall be able to disengage bill mode to cancel the billing process through their chosen menu by card.,FR,FR,True
+3485,User will require a minimum internet connection speed of 500kbps to play videos without buffering.,NFR,NFR,True
+1556,"The healthcare portal shall be accessible and optimized for mobile devices, ensuring a seamless user experience across different screen sizes and orientations.",FR,NFR,False
+105,The system shall restrict language selection to the main application.,FR,FR,True
+41,The system will be designed in such a way that the algorithms for the four main units will be easily swapped out.,NFR,NFR,True
+227,Users shall be able to switch between a map view and a list view for all search options.,FR,FR,True
+3672,The system shall allow users to include visualizations within Data Packages. ,FR,FR,True
+977,"The log shall indicate the time and date of the change, original value of the item(s) hanged, and the new value of the item(s)",FR,FR,True
+990,"The system shall allow a Member State to ask for the status of card (lost, stolen) to the corresponding Card Issuing Authority of the ember State having issued the card.",FR,FR,True
+4381,The system shall allow repository managers to associate content files with objects and components.,FR,FR,True
+4211,User shall be able to import metadata captured with a metadata tool into a Data Management Plan (DMP).,FR,FR,True
+1550,Healthcare providers shall have access to billing and payment history for each patient.,FR,FR,True
+730,The TCS shall provide a graphical user interface display for the purpose of controlling the payload,FR,FR,True
+5423,User shall be able to enter their consumer number to verify and complete the booking.,FR,FR,True
+5061,The system shall allow users to change the tempo of the music within a score.,FR,FR,True
+1812,A display shall offer delivery boys all system functionality.,FR,FR,True
+5733,User shall perform weekly roster of employees.,FR,FR,True
+1895,System front end shall be developed using Java.,NFR,NFR,True
+5167,The system shall only allow registered users to access courses.,FR,NFR,False
+538,The system shall be able to automatically assign ownership of any asset to the department if the asset is assigned to a DA group member or an authorized inventory group member.,FR,FR,True
+1804,System shall store user information for more than one hundred thousand users.,NFR,NFR,True
+4,The icons shall be according to the Android Icon Guidelines.,NFR,NFR,True
+3292,The system shall provide basic data visualizations like charts and graphs for response analysis.,FR,FR,True
+4909,User shall follow exact sequencing of operations for system tasks.,FR,FR,True
+2038,The system shall secure itself by limiting access to authorized users and requiring password protection.,NFR,NFR,True
+1924,"System shall be able to provide compatibility with Windows XP, Windows 7, or above operating systems.",NFR,NFR,True
+1822,Customers shall cancel the billing process by card using the bill mode.,FR,FR,True
+1716,The user shall be able to browse different categories of content.,FR,FR,True
+2906,User shall have the option to customize the layout and appearance of their Gmail inbox.,FR,FR,True
+4142,"User shall be able to create blog posts to share information about BADCamp, for public outreach.",FR,FR,True
+5319,User shall be required to register the software with a serial key provided in the kit.,NFR,FR,False
+3001,The system should perform its intended function without failure for a specified period.,NFR,NFR,True
+4586,Customers shall receive a confirmation email with order details.,FR,FR,True
+1900,"User shall/will be able to interact with the system using standard input/output devices including keyboard, monitor, printer, and scanner.",NFR,NFR,True
+995,"The system shall function reliably, with few or no interruptions in its first operational year and fewer still thereafter.",NFR,NFR,True
+2389,"System shall open a new window for users to compose and view messages, retrieving previous messages from the database.",FR,NFR,False
+1123,Only authorized users shall have access to students personal information.,NFR,NFR,True
+3873,The system shall allow parents to view and edit their enrolled children's information.,FR,FR,True
+3502,System shall be able to display the user's profile with options to edit information.,FR,FR,True
+2797,User shall expect continuous system availability.,NFR,NFR,True
+1864,The system shall utilize periodic 120-second keep-alive messages between mobile and the server to monitor app operational status.,NFR,NFR,True
+4041,User shall view and update an inventory of equipment and consumables.,FR,FR,True
+5257,The system shall receive products' IDs from the bar code reader and weight readings from the automatic weighing scale.,FR,FR,True
+2650,System shall require shop owners to obtain permission from the administrator before selling products.,FR,FR,True
+3998,The system shall protect user data and repository content with robust security measures.,NFR,NFR,True
+905,The system shall allow agents to broadcast messages to all other agents on the same local network.,FR,FR,True
+5103,The minimum processor clock speed shall be 2 GHz.,NFR,NFR,True
+4639,"User shall be able to add inventory assets related to all departments if a faculty member, or all assets if a university group member, with bulk entry options available.",FR,FR,True
+2614,A waiter shall only be able to log into one tablet at any given instance of time.,NFR,FR,False
+5861,System shall use secure sockets in all transactions involving confidential customer information.,NFR,NFR,True
+3820,The system shall allow inspection supervisor to assign inspections to ensure appropriate inspectors receive the work.,FR,FR,True
+197,System shall be able to display the most searched items on the title screen when the Encyclopedia app is launched.,FR,FR,True
+1238,The product shall comply with corporate User Interface Guidelines.,NFR,NFR,True
+2040,User shall have access to a database in a workable state.,FR,NFR,False
+1733,User shall be authorized to log in if the entered credentials are valid.,FR,FR,True
+5021,"User shall be able to connect their account to Facebook, Twitter, and Instagram.",FR,FR,True
+634,"User's will be able to discard a tile if they have picked one up. When they choose to discard, the MultiMahjongClient must send this information to the MultiMahjongServer",FR,FR,True
+5272,The system shall display a confirmation message regarding the product ID and amount update.,FR,FR,True
+1169,The system will notify affected parties when changes occur affecting clinicals including but not limited to clinical section capacity changes and clinical section cancellations.,FR,FR,True
+4921,System shall manage up to 10 terabytes of information in various formats.,NFR,FR,False
+2940,"User shall be able to complete transactions, including managing the shopping cart.",FR,FR,True
+2272,Photos and Cover Letters will be added to profiles and job applications.,FR,FR,True
+1686,System shall execute recipe searches and recommendations swiftly to enhance performance and user experience.,NFR,NFR,True
+717,"As and objective, the TCS shall be interoperable with the Integrity Beacon Landing System (IBLS)",NFR,NFR,True
+2491,The user shall be able to enter a Term Name.,FR,FR,True
+1680,Security concerns are mitigated as Light My Way doesn't create user profiles or access credentials.,NFR,NFR,True
+4018,System shall ensure that all steps required to reconfigure a dataset must be done as a single atomic action.,NFR,NFR,True
+819,The BE shall be able to initiate a reboot of any Backend a physical processor. ,FR,FR,True
+5226,"System shall allow users to search for buses using destination, boarding place, and date of journey, displaying available buses according to user requirements.",FR,FR,True
+888,All software modules shall be designed for easy debugging by allowing simulation of inputs and outputs.,NFR,NFR,True
+1401,The user shall be able to view their list of assignments grouped by class.,FR,FR,True
+5539,System shall not accept cards if running out of cash and display an error message.,FR,FR,True
+3661,The platform shall offer embedded visualization color customization.,NFR,NFR,True
+2231,Payment options shall include invoice or credit/debit card.,FR,FR,True
+3361,The system shall maintain responsiveness during peak usage with minimal loading times for ebook browsing and opening.,NFR,NFR,True
+5057,The system shall allow users to edit scores using the keyboard.,FR,FR,True
+522,The system shall be easy to upgrade.,NFR,NFR,True
+5153,"System shall require users to comply with applicable laws and regulations governing data privacy, security, and intellectual property rights, including legal notices related to licensing, copyrights, trademarks, and usage restrictions in production environments.",NFR,NFR,True
+1616,"Filtering options by date, instrument, or trade type shall be available.",FR,FR,True
+5731,The PayPal network must be available 24 hours a day to ensure continuous service availability.,NFR,NFR,True
+5782,"If the items are in stock, the system shall display the items; if not, it shall display that the items are out of stock.",FR,FR,True
+4892,VS Code shall require GLIBC version 2.28 or later.,NFR,FR,False
+5705,System shall trigger the mail message generator to send emails to customers and agents as needed.,FR,FR,True
+5665,"Candidates shall log in, select the examination tab, and choose the Marks Information option.",FR,FR,True
+362,"Users are not able to safely operate the device under certain conditions, such as while driving.",NFR,NFR,True
+6118,"The system shall restrict access to maintainers only for connecting new devices to the network, ensuring controlled and authorized system expansions.",NFR,NFR,True
+3985,The system shall generate reports on storage consumption by financial contact.,FR,FR,True
+474,The system shall minimize user errors and make error recovery effortless.,NFR,NFR,True
+5479,The system shall enable users to generate reports and analyze sales data and marketing trends.,FR,FR,True
+4033,User shall create log book page templates with bespoke metadata fields as a lab administrator.,FR,FR,True
+852,The system shall be able to operate seamlessly at its interfaces with hardware modules and software functionality.,NFR,NFR,True
+2583,A customer shall be able to drag a meal into a bankcard payment or a cash  payment.,FR,FR,True
+3426,User shall be able to create a profile and set credentials for authentication.,FR,FR,True
+430,"The system shall be designed for extensibility, maintainability, and open-source release.",NFR,NFR,True
+158,Administrators shall be able to add buildings.,FR,FR,True
+1155,Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.,FR,FR,True
+5588,"The user can manipulate and view course details, including department-wise and description.",FR,FR,True
+6047,"The system code shall be written for future upgrades, documented, and fully commented.",NFR,NFR,True
+4674,System shall output temperature limit exceeded status if temperature limit is exceeded.,FR,FR,True
+2023,"User shall have access to the system at all times, ensuring 24/7 availability.",NFR,NFR,True
+5828,System shall display all related items that other users purchased in addition to the selected product.,FR,FR,True
+1891,System shall support a monitor with a minimum size of 14 inches and VGA resolution.,NFR,NFR,True
+5529,"Admin shall be able to declare match results, including the names of the winning and losing teams and the final score.",FR,FR,True
+5899,"User's personal and payment data shall be encrypted during transmission and storage, ensuring confidentiality.",NFR,NFR,True
+5799,User shall login to access the examiner portal.,FR,FR,True
+2279,"Admin shall manage job seeker and employer profiles, payments, and services.",FR,NFR,False
+632,The MultiMahjongClient will inform the user of legal Chow/Pung/Kong/Mahjong options under Chinese rules and send chosen actions to the MultiMahjongServer.,FR,FR,True
+1776,"User shall be able to register by providing username, surname, password, and email.",FR,FR,True
+4671,System shall determine when reported temperature exceeds specified limits and generate appropriate alarms.,FR,FR,True
+5421,System shall redirect user to the particular company's portal upon selecting a company from the list.,FR,FR,True
+3819,The system shall allow inspection staff to provide results to customers.,FR,FR,True
+2217,"An FAQ page shall be provided in Webble to explain terms, functionality, and other relevant information.",NFR,FR,False
+5689,Applicants shall be automatically logged out after a period of inactivity to ensure security.,NFR,NFR,True
+4154,"User shall be able to see a list of all summits, to explore available options.",FR,FR,True
+2658,System shall enable sales managers to monitor product stocks and alert the administrator of low stock levels.,FR,FR,True
+496,The system shall be able to search for a specified product in less than 1 second.,NFR,NFR,True
+3274,"The system shall recover gracefully from crashes or errors, minimizing data corruption.",NFR,NFR,True
+647,The game will end when all 4 rounds have been played or if the user chooses to end the game.,FR,FR,True
+5204,The website shall be compatible with all browsers.,NFR,FR,False
+5956,"User shall benefit from interoperability with third-party systems and services, enabling seamless integration with external applications, devices, and ecosystems through support for industry-standard protocols and open APIs.",NFR,NFR,True
+2208,"User shall access a 7-day advance weather prediction for searched and stored cities, in addition to current weather data.",FR,FR,True
+5386,User shall be able to participate in one-to-one and group video chats.,FR,FR,True
+627,Users who create a new game will be able to change the ability level of any CO involved in the game. ,FR,FR,True
+284,User shall be able to log out of the system.,FR,FR,True
+4575,System shall ensure security of customer accounts and resist tampering.,FR,NFR,False
+4966,Cash withdrawal transaction time must not exceed 4 seconds under normal workload and 5 seconds under peak workload.,NFR,NFR,True
+3230,The system shall prompt users to take breaks based on predefined settings or usage patterns.,FR,FR,True
+3400,System shall use Mapbox APIs for geolocation functionality.,FR,FR,True
+3564,Agency user shall be able to understand file-level errors better.,FR,NFR,False
+2570,A customer shall be able to add an item to a pending order by dragging the  item from the engaged menu onto the order.,FR,FR,True
+3582,Agency user shall know when the submission periods start and end.,FR,NFR,False
+1211,System shall provide different levels of access for dispute case initiation and follow-up actions.,FR,FR,True
+4348,"System shall enable direct deposition of facility data into the archive on behalf of researchers, eliminating the need for separate facility archives.",NFR,FR,False
+5520,Fee shall be paid by students and verified by the admin.,NFR,FR,False
+5011,"User shall be able to submit feedback by entering their name, address, contact number, and feedback, and receive confirmation of successful submission.",FR,FR,True
+2117,Each student shall only be recruited by one company.,NFR,NFR,True
+1121,Only authorized users shall have access to clinical site information.,NFR,FR,False
+333,There will be a designated phone number that users can send texts to. ​,FR,FR,True
+130,System shall be able to navigate between buildings on the campus.,FR,FR,True
+1608,"System shall present users with updated stock prices, percentage changes, and volume for the current day.",FR,FR,True
+1453,"The server shall be capable of supporting no less than 200 concurrent connections from any combination of computers, tablets and displays.",NFR,NFR,True
+4255,User shall be able to authenticate using LDAP.,FR,FR,True
+5993,"User shall specify desired report criteria, and the system shall display the report accordingly.",FR,FR,True
+1425,Delivery boy shall be able to receive customer details from restaurant.,FR,FR,True
+3080,System shall prioritize security and performance as software quality attributes.,NFR,NFR,True
+2626,System shall enable the administrator to manage the database and track all customer and employee records.,FR,FR,True
+2580,"When in billing mode, a surface computer shall display a representation of a  bankcard payment for each customer.",FR,FR,True
+5151,"System shall offer comprehensive documentation for installation, configuration, and usage, as well as troubleshooting guides and FAQs for resolving common issues.",NFR,NFR,True
+925,The administrator shall have the capability to modify the expected range of sensed data against which the data will be validated.,FR,FR,True
+5065,"The system shall include ""grammar"" checks to ensure proper placement of slurs and ties.",FR,FR,True
+3130,The program shall be free software for maximum public benefit through unrestricted redistribution.,NFR,NFR,True
+3270,The system shall allow for password protection of spreadsheets to restrict access.,FR,NFR,False
+5266,The system shall accept the product identification parameter and new price for the product as input.,FR,FR,True
+5951,"User shall have their privacy protected through data anonymization techniques, encryption methods, and data masking mechanisms, ensuring confidentiality and reducing the risk of data breaches.",NFR,NFR,True
+4760,"System shall allow input of numbers, operands, special symbols, and letters.",NFR,FR,False
+882,"The software part of the system shall be able to perform without total system restart due to internal failure between system maintenance windows.
+",NFR,NFR,True
+3044,System shall display the status of the application on successful search.,FR,FR,True
+5360,System shall secure in-app purchases via encryption and use a reliable payment gateway.,NFR,NFR,True
+5986,System shall display an error message if authentication fails or other issues occur.,FR,FR,True
+3259,"The system shall offer validation rules to ensure data entered meets specific criteria (e.g., positive numbers only).",FR,FR,True
+4430,The system shall allow administrators to control the visibility of specific metadata fields for different user groups.,FR,FR,True
+3463,System's back-end databases shall be encrypted to protect customer data.,NFR,NFR,True
+4584,Customers can review and confirm orders before checkout.,FR,FR,True
+3938,The system shall allow publishers to preview data package views before publishing.,FR,FR,True
+4592,Plug-ins can interact with the system via the plug-in API.,FR,FR,True
+2889,"User shall have the option to attach files to emails, with a file size limit of 25 MB.",FR,FR,True
+4487,The system shall prefilter nudity content.,FR,FR,True
+1239,The product shall comply with corporate color scheme.,NFR,NFR,True
+1534,"Patients shall have the ability to update and manage their profile information, including personal details, medical history, and insurance information.",FR,FR,True
+4060,System shall support version control and revision history tracking for files and log book entries.,NFR,FR,False
+95,The system shall support the English language.,FR,FR,True
+4259,User shall be able to add additional properties for repositories.,FR,FR,True
+4014,System shall ensure that apps can depend on the interface of a dataset type and have the system inject the implementation at runtime.,NFR,NFR,True
+33,The application will require well-defined test environments to ensure thorough testing of its various functionalities.,NFR,NFR,True
+2488,"The user shall be able to select Scheduling options: Classes occur on the same day every week, Weekly rotations, Daily rotations.",FR,FR,True
+5161,"Faculties shall be able to upload lectures and discussions in various formats (videos, presentations, etc.).",FR,FR,True
+3747,The system shall be responsive and perform actions promptly.,NFR,NFR,True
+490,The system shall be scalable and accommodate police stations of all sizes with varying caseloads.,NFR,NFR,True
+5241,The system shall provide a help link that downloads a user manual and projects it onto the screen when users encounter difficulty using the program.,FR,FR,True
+1811,The app shall provide users/restaurants with their respective functionalities based on access control.,FR,FR,True
+2960,"System shall utilize a commercial database for database maintenance, with the application server managing the site.",NFR,NFR,True
+4900,The OneDrive mobile app shall be compatible with phones and tablets running Android 6.0 or later versions.,NFR,NFR,True
+3929,The system shall allow publishers to configure clients for data package publishing.,FR,FR,True
+5760,User shall support the use of multiple users at a time.,NFR,NFR,True
+4168,System shall integrate cancellation deadlines into registration workflows.,NFR,FR,False
+1230,"For any systematic action, such as disputes aging process, a case activity will be generated, and the user who initiated the dispute case must be notified upon next logon.",FR,FR,True
+5934,"User shall transcribe spoken language input into text format before initiating the translation process, enabling instant translations for conversations and voice commands.",FR,FR,True
+4677,System shall output request to turn on or off heating or cooling unit based on temperature data.,FR,FR,True
+2119,Each student shall have only one account.,NFR,FR,False
+5922,"User shall have access to the website 24/7, except during maintenance periods.",NFR,NFR,True
+1962,The system shall ensure robust data backup and recovery strategies to prevent data loss in case of system failures.,NFR,NFR,True
+5669,The system shall provide marks information in PDF format.,FR,FR,True
+2836,Students shall be able to take mock tests for their courses and evaluate their performance.,FR,FR,True
+5247,The system shall provide redundant storage of all databases on automatic switchover computers to ensure reliability.,NFR,NFR,True
+4762,"System shall be able to maintain and display subject details including code, name, type, semester, and credits.",FR,FR,True
+1252,The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.,NFR,NFR,True
+1400,The user shall be able to view their list of assignments ordered by due date.,FR,FR,True
+3566,Tester shall ensure that FABS properly derives fields through robust testing.,FR,NFR,False
+251,The system shall allow authenticated restaurant owners to edit existing restaurant information.,FR,FR,True
+4869,"The server shall have a supported version of a common Linux distribution (Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 22.10, CentOS, Debian, or RHEL).",FR,FR,True
+4205,System shall provide a user-friendly registration form for ease of registration.,NFR,NFR,True
+638,The MultiMahjongClient will keep the user's tiles in order.,FR,FR,True
+391,System shall respond to user interactions within 2 seconds.,NFR,NFR,True
+5958,"System shall check for the existence of requested reports and redirect control to the generated report screen, displaying information on paid members, free members, and all members.",FR,FR,True
+1377,The Disputes System shall preserve user phases even when moderators revert to a previous phase.,FR,FR,True
+4320,User shall have metadata automatically filled from University systems and remembered from previous deposits.,FR,FR,True
+1299,The current repair facility ratings shall be displayed to the user.,FR,FR,True
+2530,"The system shall enforce strong password management, requiring users to keep passwords confidential and unique for each service.",NFR,NFR,True
+1165,The system shall be able to display a printable summary of the system log.,FR,FR,True
+2822,System shall be able to ensure that common operations on an equivalent document are completed within 0.2 seconds.,NFR,NFR,True
+1289,The adjuster shall request a recycled parts audit of the collision estimate.,FR,FR,True
+3978,The system shall encrypt collection data and maintain checksums for verification.,FR,FR,True
+2899,System shall allow users to create drafts of emails that can be saved and edited later before sending.,FR,FR,True
+2312,User shall be able to use the application in both English and French languages.,NFR,NFR,True
+4492,The system shall identify volunteer types.,FR,FR,True
+2528,User shall be able to determine if a sent snap has been received by the recipient.,FR,FR,True
+3521,User shall be able to add donation centers as favorites on their profile.,FR,FR,True
+4419,The system shall allow browsing through files in collections.,FR,FR,True
+1674,The game shall be closed upon user interaction with the exit icon or the phone's back buttons.,FR,FR,True
+2547,Updates to the Teams app shall be delivered through mechanisms that minimize or eliminate impact on ongoing meetings.,NFR,NFR,True
+4289,System shall support the creation and editing of Rights Management statements with appropriate permissions.,NFR,FR,False
+288,"User shall be able to browse items including pictures, prices, and other features.",FR,FR,True
+2921,Automated testing procedures shall be implemented to detect and mitigate software bugs and errors before deployment.,NFR,NFR,True
+929, The tool shall be designed to permit the addition of diagnostic algorithms for other subsystems of HVAC units.,NFR,FR,False
+1003,"An API query shall be a single URL parameter formulated as a single, clear question in standard English.",FR,FR,True
+2816,"User shall be able to copy items by selecting them and clicking the ""Copy"" button.",FR,FR,True
+2106,"Errors will be minimized, and users will be provided with appropriate error messages to guide them through the issue.",NFR,NFR,True
+4753,User shall be able to reset all options and user variables to defaults.,NFR,NFR,True
+811,"The system shall be able to monitor the overall data processing rate, compare it to tolerances, and report any deviations from those tolerances.",NFR,FR,False
+2669,"Customer care representatives shall receive and address customer complaints, queries, and feedback.",FR,FR,True
+2817,"Alternatively, the user can push the ""Ctrl+C"" key combination or right-click the mouse and select the ""Copy Item"" button from the context menu.",FR,FR,True
+4713,User shall be able to access the system using a web browser without restrictions.,NFR,NFR,True
+3237,The system shall provide an intuitive and user-friendly interface.,NFR,NFR,True
+2741,"System shall show the manager homepage for adding and deleting cars, displaying car statistics, and adjusting car rents.",NFR,FR,False
+1734,System shall verify the entered ID and password against the database.,FR,FR,True
+909,"The system shall support agent membership in multicast groups, allowing them to join and leave.",FR,FR,True
+2618,A display shall not require a user to log in.,NFR,FR,False
+6036,Managers shall have the ability to reset passwords.,FR,FR,True
+1679,"System shall ensure availability 24/7, informing users and preventing them from continuing in case of unexpected failures.",NFR,NFR,True
+5573,Users must be advised not to share their PIN with anyone.,NFR,NFR,True
+140,System shall allow selecting the from-location from the search results obtained based on requirements UCAR211 and UCAR212 (presumably for building and POI searches).,FR,FR,True
+4532,System shall customize search results by criminal/accused or by cases.,FR,FR,True
+2902,User shall have the ability to mark emails as important or star them for future reference.,FR,FR,True
+1431,Admin shall be able to Manage providers.,FR,FR,True
+2681,"Normal users shall have read-only access to information, except for their personal and authorized data.",NFR,NFR,True
+4988,"System components such as modem, memory, disk, and drives shall be easily serviceable without vault access.",NFR,NFR,True
+3289,The system shall guide users through the process of creating and publishing a form.,FR,FR,True
+5893,User shall access the system reliably with an uptime of at least 99% over a 30-day period.,NFR,NFR,True
+4156,"User shall be offered several choices of individual sponsorship on the second page of registration, for easy selection.",FR,NFR,False
+889,"All software processes shall be killable, restartable, debuggable and testable with minimal impact on normal system operations. ",NFR,NFR,True
+3007,"If the validation fails, system shall prompt ""Wrong email or password"".",FR,FR,True
+4718,System shall automatically log out customers after a period of inactivity.,NFR,NFR,True
+3906,The system shall show an indication when an estimator submits an estimate.,FR,FR,True
+2696,System shall display the Admin Home Page upon successful login.,FR,FR,True
+2012,System shall send a notification via email after registering a book.,FR,FR,True
+1798,User shall be able to block other users through the system.,FR,FR,True
+3927,The system shall allow publishers to sign up for an account to publish data packages.,FR,FR,True
+3027,"User shall provide additional details such as voter ID, bank account number, etc.",FR,FR,True
+5080,The system shall have sufficient hardware resources to support all functionalities of Adobe Illustrator without limitations due to insufficient hardware.,FR,NFR,False
+4927,System shall maintain response time under 100 milliseconds for normal workload conditions.,NFR,NFR,True
+5679,The system shall provide PDF files of the forms for certificates.,FR,FR,True
+1151,Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,FR,FR,True
+704,The TCS shall allow the operator to control an AV using the LOS as well as SATCOM data links.,FR,FR,True
+3352,The system shall complete the cloning process within a reasonable timeframe (define reasonable timeframe).,NFR,NFR,True
+3624,A Data Publishing User shall be able to add a dataset in a hidden state.,FR,FR,True
+3598,User shall receive information about the number of rows to be published before deciding whether to publish for informed decision-making.,NFR,FR,False
+445,The user shall be able to access help content in both offline and online modes.,NFR,FR,False
+2516,"The system shall display a real-time map powered by Mapbox copyrighted by OpenStreetMap and DigitalGlobe, where user's Bitmoji avatar representing them moves according to their location and even simulates driving by entering a car icon.",FR,FR,True
+2672,System shall empower customer care representatives to provide feasible solutions to customers' complaints and queries.,FR,FR,True
+5293,"In case of failure, the program shall re-initialize, and the software design shall support modularity for efficient maintainability.",NFR,NFR,True
+3031,System shall validate the selected files according to specified criteria.,FR,FR,True
+2531,The system shall ensure high reliability for its 3 billion+ concurrent users and guarantee secure data storage with appropriate data anonymization techniques.,NFR,NFR,True
+129,"System shall be able to display an element from the search result (buildings or POIs) in the map view, following requirements UCAR201, UCAR202, and UCAR203.",FR,FR,True
+240,User (restaurant owner) shall be able to apply for verification after registering on the web portal.,FR,FR,True
+4833,Delivery boy shall be able to receive incoming requests from restaurants.,FR,FR,True
+1717,System shall display the categories available to the user.,FR,FR,True
+5056,The system shall support the use of key signatures in scores.,FR,FR,True
+5325,User shall be advised to update the software as soon as a new update is available.,NFR,FR,False
+1554,"The system shall generate analytics and reports for healthcare providers, including patient demographics, appointment statistics, and EHR insights.",FR,FR,True
+6025,"Upon login, the system shall direct users to either the manager or worker portion of the program.",FR,NFR,False
+4874,"The IDE and the project shall be located on a local file system (network block storage like EBS is acceptable, network file systems like NFS or SMB are not).",FR,NFR,False
+2356,All content on Crafty kids corner shall be age-appropriate and suitable for children.,NFR,NFR,True
+1831,"Customers shall receive notifications for accepted orders, order pickup, and delivery.",FR,FR,True
+626,The MultiMahjongClient will save the user preferences in a file and read them in when the program begins.,FR,FR,True
+606,All graphics will be in 16 bit colour.,NFR,NFR,True
+1915,User shall/will be able to transfer balances.,FR,FR,True
+1752,User shall be able to check feedbacks.,FR,FR,True
+211,User shall be able to select other TU/e related Facebook sites from a list. ,FR,FR,True
+1591,System shall offer a registration form for users.,FR,FR,True
+2130,"User shall be able to view and update the details of an existing chemist/lab, with pincode remaining unchanged.",FR,FR,True
+224,"Users shall be able to view search results on a map with a maximum of 100 restaurants displayed, including pins with information links, a default zoom level, and a button to access filtering options.",FR,FR,True
+4510,The system shall identify the number of whales in audio files.,FR,FR,True
+3849,The system shall allow camp administrators to send mass notifications to parents.,FR,FR,True
+2708,System shall ensure the portability of the application across various operating systems and devices.,NFR,NFR,True
+511,The system shall automatically compress image files that are too large in size.,NFR,NFR,True
+1994,The LMS shall grant access to both the previous Access-based database and online databases.,FR,FR,True
+3286,The system shall allow users to publish forms and share them with specific audiences.,FR,FR,True
+5298,User shall receive an error message if the software is running out of validation and will be prevented from using extra features.,FR,FR,True
+1329,The product shall be used in office environments.,NFR,NFR,True
+5574,The system must lock out users after three incorrect PIN attempts for security.,NFR,NFR,True
+1630,Only authorized workers will be able to access the administrative panel.,NFR,FR,False
+3344,The system user interface shall be user-friendly and easy to navigate.,NFR,NFR,True
+3108,The fields shall be typed-in or entered through voice command.,FR,FR,True
+5914,"System shall allow users to search for blogs based on a query string, displaying matching results.",FR,FR,True
+920,"The system shall qualify the certainty of each sensed data item during acquisition, flagging doubtful data due to errors or unexpected values.",FR,FR,True
+3773,The system shall allow to Submit supporting documentation for applications.,FR,FR,True
+1820,Customers shall navigate menus and add items to their cart.,FR,FR,True
+1911,User shall/will be able to perform online data entry (staff only).,FR,FR,True
+169,System shall show the first lines of news articles based on the titles on the title screen.,FR,FR,True
+1240,Professional appearance of the product is required.,NFR,NFR,True
+5404,"Agricultural and animal product producers shall be able to add items for sale with product details such as product name, quantity, product rate, required place, and contact details.",FR,FR,True
+4555,"System must provide reports for actions on cases organized by case, user, and in chronological sequence.",NFR,NFR,True
+2581,"When in billing mode, a surface computer shall display a representation of  every meal ordered that may each be dragged into a payment.",FR,FR,True
+3395,User shall be able to add properties to the website by providing all necessary information about the property.,FR,FR,True
+2460,The user shall be able to select a subject from a drop-down menu or add a new subject.,FR,FR,True
+5380,"User shall be able to register easily through the mobile application by providing a username, password, and email address; a phone number may also be provided optionally.",FR,FR,True
+609,The user may click in the frame that contains the remaining wall and a frame showing the discarded tiles will be shown.,FR,FR,True
+5629,"System shall be able to manage bills for clients, including clearance receipt, freight fare, and delivery charges, and maintain complete records of payments.",FR,FR,True
+1722,Content ratings and reviews shall be visible to other users.,FR,FR,True
+3608,Developer shall determine the best way to load historical FPDS data since 2007 for comprehensive data integration.,NFR,FR,False
+3022,System shall generate and send OTP for mobile and email verification.,FR,FR,True
+4258,System shall provide a local authentication mechanism for user login.,FR,FR,True
+694,The TCS shall transmit command and control information to the AV via the uplink to the AV,FR,FR,True
+4017,System shall provide meaningful error messages when dataset creation or reconfiguration fails due to incompatible properties.,NFR,NFR,True
+1066,The product shall produce search results in an acceptable time.,NFR,NFR,True
+4565,All error messages must be meaningful and accompanied by explanatory text.,NFR,NFR,True
+2316,"User shall access a variety of meal plans based on target calorie intake per day, with options for daily or weekly plans.",FR,FR,True
+1384,Users shall be able to add a class to a list of classes in which they are enrolled.,FR,FR,True
+132,System shall be able to navigate from a POI to a building on the campus.,FR,FR,True
+5165,"Administrator shall be able to create users, departments, and courses.",FR,FR,True
+1033,The system shall display Events or Activities.,FR,FR,True
+3590,Agency user shall have all historical Financial Assistance data loaded for FABS go-live for completeness.,NFR,NFR,True
+2160,"System shall be able to respond to critical processes within defined time limits, including patient registration, consultation requests, and prescription lookup.",NFR,NFR,True
+2074,System shall comply with relevant privacy regulations and standards to safeguard user privacy and data security.,NFR,NFR,True
+372,"User shall be able to browse other users profiles, including usernames, profile photos, and listed items.",FR,FR,True
+5864,System shall not store any cookies containing the user’s password or confidential information on the customer’s computer.,NFR,NFR,True
+595,The system shall be able to display a dialogue box explaining the nature of the error for non-fatal errors.,NFR,NFR,True
+2579,"When in billing mode, a surface computer shall display a representation of a  cash payment for the whole table.",FR,FR,True
+2706,System shall ensure that all requirements outlined for the Online Matrimonial Portal are correctly implemented and operational.,NFR,NFR,True
+2576,A customer shall be able to call for waiter assistance through their engaged  menu.,FR,FR,True
+5852,User shall be able to select the payment method for the order.,FR,FR,True
+3616,Agency user shall submit data elements surrounded by quotation marks to prevent Excel from stripping leading and trailing zeroes for data integrity.,NFR,FR,False
+4085,User shall have an ALFRED device with options for customization.,FR,FR,True
+5403,"Agricultural exports shall be able to post information for users to view by entering agricultural news, books, and technology developments for display.",FR,FR,True
+3969,The system shall allow curators to perform author and item authority control.,FR,FR,True
+690,The TCS shall be able to generate payload planning information to be uplinked to the AV separate from a flight route plan,FR,FR,True
+1067,The search results shall be returned no later 30 seconds after the user has entered the search criteria.,NFR,FR,False
+5005,User shall be able to click on subcategories and videos to view all videos related to a specific category.,FR,FR,True
+1100,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,NFR,NFR,True
+970,"The main window, subsystems window, and condition window shall have three diagnostic indicators for each item listed.",FR,FR,True
+1551,"The portal shall provide a repository of informative articles, FAQs, and health tips for patients.",FR,FR,True
+3950,The system shall allow consumers to view publisher profiles.,FR,FR,True
+1039,The system shall color code events according to their variance from current time.,FR,FR,True
+4416,The system shall notify researchers if requested materials are already digitized.,FR,FR,True
+5726,"User shall be able to access customer services by selecting options like search for issue, chat, ask community, email, or call, and submitting the problem/issue.",FR,FR,True
+3879,The system shall allow selecting an item for estimation or re-estimation.,FR,FR,True
+2747,"Response time for system operations shall be less than 1 second, except for internet-dependent functions.",NFR,NFR,True
+2417,User will input a new password and confirm the password.,FR,FR,True
+3489,Maintenance and updates of the site will be carried out by developers and a team of software engineers.,NFR,NFR,True
+4262,System shall provide functionality to create and edit Event records.,FR,FR,True
+528,The system shall be able to create a test environment for the web order system.,NFR,NFR,True
+502,"The system shall validate credit cards against fraud.
+",NFR,NFR,True
+2910,User shall have the option to enable two-factor authentication for added security.,FR,FR,True
+3414,Regular backups of the code shall be taken at defined intervals to prevent data loss.,NFR,NFR,True
+5433,System recommends using Google Chrome browser for best experience.,NFR,NFR,True
+5931,"System shall ensure correctness in displaying blog details and content, preventing inaccuracies.",NFR,NFR,True
+653,"The CO will be able to pick up tiles off the wall, discard tiles, reveal Kongs, and Chow/Pung/Kong/Mahjong.",FR,FR,True
+4766,System shall provide functionality to list all students enrolled in a particular year.,FR,FR,True
+5581,"Users can view, update, or delete their own profile.",FR,FR,True
+16,The information and the search methods of the Student Handbook-app will be restricted depending on file format of the handbook-information.,NFR,FR,False
+5936,"User shall benefit from automatic language detection, streamlining the translation process and enhancing user convenience in multilingual environments.",FR,FR,True
+4798,A server shall host the Swiggy App and provide system data processing and storage capability.,FR,FR,True
+6053,User shall be able to see the initial interface if no user is detected.,FR,FR,True
+4317,System shall provide functionality to link datasets with associated publications in Opus.,FR,FR,True
+1410,"When in billing mode, app shall display a representation of a bankcard payment for each customer.",FR,FR,True
+5375,System shall provide necessary security measures during online payments to maintain user privacy and integrity.,NFR,NFR,True
+4640,"User shall be able to create requests to borrow assets or reserve locations, with requests made by any authorized user and pending approval from an administrative level user.",FR,FR,True
+3255,The system shall be compatible with various operating systems and file formats.,NFR,NFR,True
+3444,User shall have access to handicap-friendly features for improved accessibility.,NFR,NFR,True
+5350,System shall process the account deletion request and update the database accordingly.,FR,FR,True
+243,User shall be able to reset their password by entering their email address and receiving a password reset link.,FR,FR,True
+5171,"The system shall allow faculty to upload course materials (syllabus, lesson plans, notes, etc.) and question banks.",FR,FR,True
+1382,The system shall integrate with Google Maps to provide location and travel time details.,FR,FR,True
+5323,System shall limit user accessibility to protect the software.,NFR,NFR,True
+1749,The administrator will be able to view system statistics and generate reports based on selected criteria.,FR,FR,True
+1316,The product shall allow the user to select a chosen language from one of the target market countries.,NFR,FR,False
+4338,"System shall provide a user interface familiar to depositors, integrating seamlessly with existing University systems.",NFR,FR,False
+962,The diagnostic history window shall provide user selections for start times and end times for the history interval. ,FR,FR,True
+1604,Users shall add specific stocks to their portfolio.,FR,FR,True
+3626,A Data Publishing User shall be able to validate a CSV file before publishing.,FR,FR,True
+1059,The user interface shall have standard menus buttons for navigation.,NFR,FR,False
+2643,User shall provide feedback to the 24X7 customer care service center regarding their experience with the site and services.,FR,FR,True
+2956,System’s back-end servers shall only be accessible to authenticated administrators.,NFR,NFR,True
+2628,System shall facilitate communication with vendors and authorize them to sell products on the site after quality assessment.,FR,NFR,False
+1886,User shall input eligibility criteria status.,FR,FR,True
+4934,"User shall have administrator options to reboot, shut down, block, or disable services.",FR,FR,True
+1025,"On-campus dining locations, hours, food types, etc. will have accuracy greater than 50%.",NFR,NFR,True
+5834,"User and seller profiles shall contain contact, location, address, and seller's license details.",FR,FR,True
+1508,"Security and privacy in the mobility domain shall be prioritized by the system, ensuring transparency and trust.",NFR,NFR,True
+1539,"The system shall securely store and manage patient electronic health records, including medical history, diagnoses, treatments, and lab results.",FR,FR,True
+2378,The system shall process and display the changed user information.,FR,FR,True
+5185,A user shall be able to view and modify their personal information.,FR,FR,True
+5213,The system shall utilize an object store (S3) for storing large video files.,NFR,FR,False
+2229,Information on remaining job posting time and CV access shall be reportable.,FR,FR,True
+2510,"The user shall be able to apply lenses, set a timer, enable gridlines, enable flash, and then capture a selfie or photo.",FR,FR,True
+5453,"Upon image editing completion, the edited image shall be saved.",FR,FR,True
+3207,The system shall allow the user to view pending meetings.,FR,FR,True
+4397,The system shall be scalable to accommodate a growing volume of data and users.,NFR,NFR,True
+1641,Each user shall select different modes and maps.,FR,FR,True
+1538,Patients shall receive confirmation and reminder notifications for their scheduled appointments.,FR,FR,True
+2938,User shall receive a notification if login credentials are invalid.,FR,FR,True
+2725,"System shall generate a bill, update the database upon payment confirmation, and change the car status to 'available'.",FR,FR,True
+1109,The system shall achieve 95% up time.,NFR,FR,False
+3981,The system shall allow searching by date range for items.,FR,FR,True
+801,"The system shall be able to validate and monitor time series data for correct order, valid values, and out-of-tolerance conditions.",FR,FR,True
+2436,The calendar shall be viewable in either week or month format by tapping on a drop-down menu.,FR,FR,True
+6,"The Twitter ""tweet"" interface shall be according to the Twitter Guidelines.",NFR,NFR,True
+3015,"If the validation fails, system shall prompt ""Wrong OTP"".",FR,FR,True
+1486,User shall have access to continuous power to ensure uninterrupted operation.,NFR,NFR,True
+11,A new stylistic map must be geographically correct.,NFR,NFR,True
+3970,The system shall allow curators to move items between collections.,FR,FR,True
+4360,System shall store archived data on existing storage systems for consistency and maintainability.,NFR,NFR,True
+5739,Employee shall log into the system.,FR,FR,True
+4851,Admin shall be able to display offers for specific restaurants.,FR,FR,True
+183,User shall be able to search for events by date.,FR,FR,True
+3500,System shall be able to display forum threads and replies.,FR,FR,True
+3178,The system shall require data entry to be completed before a request can be approved.,FR,FR,True
+4372,The system shall allow listing and browsing of collections by users and repository managers.,FR,FR,True
+4742,System shall record client booking requests.,FR,FR,True
+451,The System must allow the user to limit access to cases to specified users or user groups.,NFR,NFR,True
+5510,System shall interconnect with other systems.,NFR,NFR,True
+1629,"User data will be encrypted using industry-standard encryption algorithms, including payment information and personal data.",NFR,NFR,True
+1307,The product will function alongside server software on any operating system where the Java runtime can be installed.,NFR,NFR,True
+829,"The Backend System shall ensure input data fidelity and dynamic range integrity across all processing, manipulation, and I/O functions.",NFR,NFR,True
+4177,System shall provide clear information about the coding lounge.,NFR,FR,False
+324,"For data with enough structuring, web scraping will be used to programmatically extract all the data needed and store it in our database.",FR,FR,True
+2726,User shall input new car information and car statistics.,FR,FR,True
+4747,"Database shall accommodate at least 10,000 client records.",NFR,NFR,True
+4681,System shall output alarm data and record alarm events for system monitoring.,FR,FR,True
+219,Users shall be able to check for new software releases and download them manually through the mobile phone.,FR,FR,True
+5224,"System shall allow users to update their profile details, including name, email, password, mobile number, address, and date of birth, with successful updates confirmed.",FR,FR,True
+738," As a minimum the TCS LOS data terminal control modes shall include acquisition, autotrack, search,manual point, omni directional, as well as directional modes of operation, if applicable to the selected data link.",FR,FR,True
+1310,A database management system such as Oracle DB2 MySql or HSQL will need to be integrated with the product.,NFR,NFR,True
+4598,System shall search for specified products within 1 second.,NFR,NFR,True
+5803,User shall evaluate and score candidate responses.,FR,FR,True
+5653,Candidates shall be able to choose the examination category and download the PDF containing cut off marks.,FR,FR,True
+1380,"The ride coordination system shall prioritize a user-friendly, secure, and reliable experience.",NFR,NFR,True
+581,The THEMAS system shall be able to generate and record an event when a heating or cooling request is denied.,FR,FR,True
+3814,The system shall allow staff members to update transactional parcel pins to reference the GIS layer for split or merged parcels.,FR,FR,True
+1830,Customers shall be able to favorite restaurants.,FR,FR,True
+3104,First field will be add task name.,FR,FR,True
+2381,The system shall allow users to open the notification box and select desired notifications.,FR,FR,True
+2966,"Upon successful login, the system shall redirect the user to the home page of theaa.com.",FR,FR,True
+4310,User shall be able to apply licenses to datasets to protect intellectual property rights.,FR,FR,True
+1295,The audit report shall include the total score of the audit which sums the individual line items.,FR,FR,True
+1793,User shall only delete routes that they have added.,FR,FR,True
+3374,The system shall produce high-quality scanned documents with clear and legible text.,NFR,NFR,True
+3048,"System shall display a message ""Logged Out"" upon successful logout.",FR,FR,True
+5982,System shall grant access and allow further actions if the ID card is valid.,FR,FR,True
+810,"The BE shall verify that all sent data was successfully
+received. Report all errors. ",FR,FR,True
+394,System shall utilize the search form and indexed sites to deliver search results.,FR,FR,True
+5499,System shall remain available to the user without crashing.,NFR,NFR,True
+3848,The system shall allow camp administrators to view medical forms for allergy preparedness.,FR,FR,True
+4206,System shall ensure accessibility to session information for user exploration.,NFR,NFR,True
+1913,User shall/will be able to update data.,FR,FR,True
+3896,The system shall allow logging in using account credentials.,FR,FR,True
+4080,"User shall receive visual support, especially when viewing lists, maps, or agendas.",FR,FR,True
+2924,Load balancing techniques shall be employed to distribute incoming traffic evenly across multiple servers and prevent server overload.,NFR,NFR,True
+1953,User shall/will be able to receive automatic alerts for unusual or suspicious account activities.,FR,FR,True
+2548,The product shall be designed with very limited graphics usage and shall utilize a simple keypad for user input.,FR,NFR,False
+3099,System must support concurrent access by up to 1000 users simultaneously.,NFR,NFR,True
+3930,The system shall allow publishers to publish data packages using a publish command.,FR,FR,True
+5596,"The Master menu allows the user to access department, course, designation, subject details, examination details, fees details, donation and tuition, and scholarship information.",FR,FR,True
+4933,System shall allow up to three reattempts for unsuccessful login and display supported languages for successful login.,FR,NFR,False
+1134,Students added to a cohort shall be eligible for the cohort’s Program of Study.,FR,FR,True
+4052,System shall maintain backward compatibility and smooth dependency installation for Ubuntu 10.04 LTS.,NFR,NFR,True
+2059,"User shall have access to various editing features including video collages, themes, music bank, and sound effects in the VivaVideo app.",FR,NFR,False
+4654,Backup operations should be executed periodically to ensure data safety.,NFR,NFR,True
+5699,User shall be able to send requests for customer medical reports to the verification department.,FR,FR,True
+601,The MultiMahjongServer will have no graphical user interface and will be run using a command prompt.,NFR,NFR,True
+766,There shall be a UNIX-based APAF system production computer with an archival system. ,NFR,NFR,True
+2575,A customer shall be able to cancel an order through their engaged menu if it is  pending and not yet placed.,FR,FR,True
+5832,User shall be able to exchange items with the seller in case of delivery of defective items and provide feedback.,FR,FR,True
+3740,The system shall send reminder emails to recruiters before job ad expiry.,FR,FR,True
+4502,The system shall perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.,FR,FR,True
+3417,The website shall utilize HTTPS protocol to enhance security during data transmission.,NFR,NFR,True
+304,"System shall be able to respond to API queries with either JSON data or error messages, using appropriate response codes and headers.",FR,FR,True
+3393,User shall be redirected to the landing page upon successful login.,FR,FR,True
+5778,System shall check whether the account exists or not.,FR,FR,True
+4533,System shall execute different types of queries for reporting purposes.,FR,NFR,False
+4646,"Output reports include asset reports by location, request reports, and user permission reports.",FR,FR,True
+652,The CO will not have access to the data containing the faces of any tiles in the wall or any concealed tiles in any other players' hands.,FR,FR,True
+4998,User must file a First Information Report (FIR) and present a copy for card blocking in case of lost ATM card.,NFR,FR,False
+1215,System shall allow the user to initiate a single dispute case on multiple transactions belonging to a single merchant.,FR,FR,True
+3364,The system shall be scalable to accommodate a growing user base and data volume.,NFR,NFR,True
+2004,User shall be able to login to the system as an authorized user using a username and password.,FR,FR,True
+4387,The system shall allow searching for resources based on various metadata criteria.,FR,FR,True
+613,The MultiMahjongServer will be designed to reside on a central computer (server) that is connected to a TCP/IP network and has a unique IP address.,FR,NFR,False
+2776,System shall provide a user-friendly interface for seamless interaction.,NFR,NFR,True
+4675,System shall activate heating or cooling units based on temperature trigger exceedance.,FR,FR,True
+1903,System shall utilize Microsoft SQL Server 2008 as the database management system.,NFR,NFR,True
+4209,User shall be able to indicate where data will be stored during and after the project.,FR,FR,True
+2435,The user shall be able to view the Menu from the dashboard.,FR,FR,True
+540,The system shall allow any authorized university group member to add assets to the inventory.,FR,FR,True
+1691,"The system's response time to users and various time measurements, such as refresh time, shall be optimized for efficiency.",NFR,NFR,True
+912,"The system shall use a best-effort multicast/broadcast approach, where delivery of packets to all specified agents is not guaranteed.",NFR,FR,False
+376,User shall be able to purchase credits using a credit card or PayPal account.,FR,FR,True
+2216,Webble shall depict weather information using graphical icons corresponding to the current weather.,NFR,FR,False
+1511,The system shall disclose security policies and practices to build user trust.,NFR,NFR,True
+2227,Employer and agency registration shall be facilitated.,FR,NFR,False
+934,"The automated diagnostic tool shall display and record diagnostic results. Diagnostic results to be displayed to the user will be done so in a simple, graphical and textual format.",FR,FR,True
+5048,The system shall allow users to create accounts and log in to the server.,FR,FR,True
+1484,User shall have the option to input using either touch screen or keypad methods.,NFR,FR,False
+4499,The system shall detect images with no classifiable plankton in Plankton Portal.,FR,FR,True
+2298,Limits for CV views and alerts for abnormal user activity shall be configurable.,FR,FR,True
+3482,System shall display Watch Later section showing all the videos added by the user for later viewing.,FR,FR,True
+5051,The system shall allow users to rename scores they own.,FR,FR,True
+1882,User shall be able to delete student records.,FR,FR,True
+1040,The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications,FR,FR,True
+4425,The system shall allow archivists to search non-public finding aids and view collection files.,FR,FR,True
+2645,User shall log out of the site after completing product purchases.,FR,FR,True
+5791,User shall expect the Big Basket server to be operational 24*7 without any interruptions.,NFR,NFR,True
+4450,System shall allow searching by date range for items.,FR,FR,True
+3386,"The system shall protect user data (financial information, group details) with robust security measures and access controls.",NFR,NFR,True
+3668,The system shall allow users to save new visualizations created within the platform. ,FR,FR,True
+4401,"The system shall allow archivists to set restrictions based on dates, IP addresses, or users.",FR,FR,True
+2873,System shall check the information and apply the changes to the user's account.,FR,FR,True
+2629,User shall view all employee details and oversee the entire site operation.,FR,FR,True
+1779,"If any required field in the registration form is not properly filled, the system shall display a warning message.",FR,FR,True
+1372,A Moderator shall be able to assign a number of votes for participants.,FR,FR,True
+3829,The system shall allow camp administrators to add campers with details for tracking purposes.,FR,FR,True
+790,"Reliability will be ensured by extensive testing by the team members and mentors, if available. 
+",NFR,NFR,True
+1826,Customers shall be able to order items using their wallet balance.,FR,FR,True
+2214,Premium Users shall be permitted to make up to 66 calls per day.,NFR,NFR,True
+1719,"Upon selecting a category, the system shall show the corresponding content.",FR,FR,True
+3319,The system shall maintain audit logs to track user activity and data changes.,NFR,FR,False
+744,The system shall remotely monitor the status and operational changes of wind power plant and network devices.,FR,NFR,False
+5401,"User shall be able to ask questions to agricultural experts by entering a question and additional information, which will be stored in the database for further processing.",FR,FR,True
+4965,Account balance transfer time must not exceed 3 seconds under normal workload and 4 seconds under peak workload.,NFR,NFR,True
+3388,The system shall have a user-friendly interface that is intuitive and easy to navigate for users with varying technical skills.,NFR,NFR,True
+5720,"User shall be able to request money by entering recipient's name or email ID, selecting currency and request amount, and specifying the amount to be requested.",FR,FR,True
+250,The user shall be able to delete information from their restaurant listing.,FR,FR,True
+4550,"System shall maintain an unalterable audit trail capturing actions taken on critical entities, users initiating actions, and date/time of events.",NFR,NFR,True
+2442,The user shall be able to search for a task by tapping the search icon on the top of the screen.,FR,FR,True
+128,System shall be able to display a set of POI's that match the search input when a user performs a search by name.,FR,FR,True
+2647,Visitors shall access the site without registration.,FR,FR,True
+4974,Memory system shall be non-volatile to maintain data reliability.,NFR,NFR,True
+5976,"User shall not share their password with anyone, and the system must ensure complete privacy of filtered details and user chats.",NFR,NFR,True
+4191,System shall support sponsorship opportunities matching sponsor brands.,NFR,FR,False
+603,The MultiMahjongClient will have a graphical user interface that the user will be able to interact with using a mouse and a keyboard. ,NFR,NFR,True
+3018,"If the password meets the criteria, system shall prompt ""Password Changed"".",FR,FR,True
+403,System shall be able to update the user's location if they are found to be within the 1-mile radius.,FR,FR,True
+6010,The program shall support taking roll for class sizes of up to 100 students while maintaining performance requirements.,NFR,NFR,True
+5120,The software shall allow users to create precise and intricate designs more easily with a touch-screen enabled tablet/monitor.,NFR,NFR,True
+3268,The system shall allow users to print spreadsheets or specific ranges of data.,FR,FR,True
+3272,The system shall be able to handle large and complex spreadsheets without significant performance degradation.,NFR,NFR,True
+4539,System shall help police personnel in planning and executing tasks efficiently.,FR,NFR,False
+3684,The system shall allow users to create embeddable data summaries for websites. ,FR,FR,True
+3615,Agency user shall have a landing page to navigate to either FABS or DABS pages for easy access to different functionalities.,NFR,FR,False
+5490,The system should be accessible on various devices (mobile app implies mobile accessibility).,NFR,NFR,True
+857,The administrator shall have the ability to create and add a new user to the system. ,NFR,FR,False
+4645,"Any administrative level user can delegate actions to another user, acquiring the role of inventory administrator.",FR,FR,True
+5079,The system shall meet the minimum requirements to allow for successful activation of Adobe Illustrator and access to all features.,FR,FR,True
+1374,The displayed number of total ideas shall be updated frequently.,FR,FR,True
+3013,System shall validate the entered OTP.,FR,FR,True
+847,All systems and application source code shall be available to or on the systems that execute it.,NFR,NFR,True
+1359,Teasers shall be tracked in the database the same as ideas are tracked. ,FR,FR,True
+2447,"The user shall be able to choose the type of task (Assignment, Reminder, Revision) from a drop-down menu.",FR,FR,True
+4824,Restaurant shall be able to receive orders from customers.,FR,FR,True
+6007,Queries upon the database shall be performed in less than 5 seconds.,NFR,NFR,True
+5219,"The system shall employ an asynchronous ingestion queue (e.g., Kafka or AWS Kinesis) for processing video data.",NFR,NFR,True
+4838,Delivery boy shall be able to receive customer details from the restaurant.,FR,FR,True
+3529,User shall be able to check transaction history and keep records.,FR,FR,True
+3366,"The system shall support multiple languages for user interface elements, potentially including multilingual ebooks.",NFR,NFR,True
+5159,Faculties shall be able to conduct lectures.,FR,FR,True
+3610,FABS user shall not receive DABS banner messages and vice versa for clear communication and information presentation.,NFR,FR,False
+5619,The system shall facilitate conversations between the user and the selected doctor for consultation.,FR,FR,True
+1293,The audit report shall include the number of available recycled parts from the original search results.,FR,FR,True
+2200,User shall be able to create a new account and select Free or Premium membership.,FR,FR,True
+2490,The user shall be able to either Save or Discard their changes for a New/Edit Term.,FR,FR,True
+895,"All users of the system shall login using some form of unique identification. (e.g., username and password)",NFR,NFR,True
+6070,System shall be able to display an error message and take corrective action if multiple incorrect attempts are made.,FR,FR,True
+4449,System shall record publication and unpublication events.,FR,FR,True
+1313,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,NFR,NFR,True
+4253,User shall be able to reset a User's password for them.,FR,FR,True
+2069,"User shall create slideshows with additional text art, animated texts, and Photoshop features.",NFR,FR,False
+709,The TCS shall allow the operator to command the flight behavior characteristics inherent to the selected AV.,FR,FR,True
+2248,Newsletter subscription or unsubscription shall be possible.,FR,FR,True
+1513,"End-users shall be provided with control over their private data, including deletion options, by the system.",NFR,FR,False
+2254,Applying for a job shall be facilitated with a single click.,FR,FR,True
+3926,The system shall provide basic usage metrics for administrators,NFR,FR,False
+2660,System shall require purchase managers to obtain permission from the administrator before purchasing products.,FR,FR,True
+2683,System shall implement access constraints for different types of users.,NFR,NFR,True
+3898,The system shall allow deleting user accounts.,FR,FR,True
+4333,System shall support the management and sharing of live research data to ensure seamless workflow integration.,FR,NFR,False
+2856,User shall be able to upload videos to their channel.,FR,FR,True
+4745,System shall record client feedback.,FR,FR,True
+755,The ASPERA-3 and MEX OA IDFS data sets shall be stored on a local SwRI archive,FR,FR,True
+4875,OpenSSH server version 7.9p1 or later shall be installed on the server (other SSH servers fully implementing RFC 4254 may work but are not supported).,FR,NFR,False
+5373,System shall ensure the application loads quickly on supported devices.,NFR,NFR,True
+4046,"User shall view the workflow plan, execution history, and results recorded in Neurohub while executing a workflow.",FR,FR,True
+2019,"System shall set the book status to Available if the book is not currently borrowed, allowing members to reserve it.",FR,FR,True
+5991,Administrator shall view submitted leave requests and take appropriate action.,FR,FR,True
+4505,The system shall assess volunteer classification weight based on experience.,FR,FR,True
+914,"The system shall support multicast protocols for sending multicast messages, requiring compatible routers, network cards, and operating systems.",NFR,NFR,True
+5772,User shall prevent data corruption by applying possible backup procedures and techniques for reliability.,NFR,NFR,True
+3145,There shall be a feature to locate affiliated cinemas based on user's location for a chosen day.,FR,FR,True
+5879,"Upon successful payment processing, users are redirected to the payment success page.",FR,FR,True
+2963,User shall be able to log in to theaa.com by providing a valid user ID and password.,FR,FR,True
+1536,The system shall provide a calendar view of available appointment slots for each healthcare provider.,FR,FR,True
+469,"The system shall provide self-descriptive navigation, allowing users to understand their location, history, and future options within the application.",NFR,FR,False
+1037,The top 1/4 of the table will hold events that are to occur sequentially.,FR,FR,True
+4995,Staff shall unblock ATM cards blocked after three failed login attempts.,NFR,NFR,True
+75,The development team will follow best practices for clean code and software modularity in order to make the application as maintainable as possible.,NFR,FR,False
+3839,The system shall allow camp administrators to send warnings to staff members.,FR,FR,True
+2439,The calendar shall allow jumping to the current date by tapping the calendar icon in the top right corner of the screen.,FR,FR,True
+1695,"User shall be able to process data, reloading if necessary, and accurately handle attributes for recommendations.",FR,NFR,False
+4426,The system shall allow archivists to search by material type and image using image upload.,FR,FR,True
+4415,The system shall allow researchers to request analog versions and order copies of digital objects.,FR,FR,True
+5938,"User shall integrate the app with communication platforms for real-time translation of conversations, chat messages, and social media posts.",FR,NFR,False
+4495,The system shall detect timestamping malfunctions and perform automatic series detection in Snapshot Serengeti images.,FR,FR,True
+5707,User shall have access to the system based on the reliability of the separate components.,NFR,NFR,True
+1398,The user shall be able to set the class which an assignment belongs to.,FR,FR,True
+1874,User shall be able to log in with a valid login ID and password.,FR,FR,True
+2068,"System shall restrict access to sensitive features and functionalities to authorized users only, ensuring privacy and data security.",NFR,NFR,True
+1726,User shall be able to search for specific content using keywords.,FR,FR,True
+1612,"Users shall purchase stocks, specifying the number of shares and order type (e.g., market order, limit order).",FR,FR,True
+5312,System shall update the software if the version expires.,FR,FR,True
+3982,The system shall display embargo status and release date for items.,FR,FR,True
+115,The system shall be able to like insApption from the main menu.,FR,FR,True
+1818,Customers shall order food and add items to their cart.,FR,FR,True
+27,The admin login system must always block unauthorized access and notify admins of failed login attempts with non-existent accounts.,NFR,NFR,True
+4779,System shall be accessible to users with disabilities.,NFR,NFR,True
+5644,The software assumes the use of a tool like Tomcat for connecting web pages and the database.,NFR,FR,False
+3383,"The system shall generate reports summarizing group expenses, individual balances, and settlement history.",FR,FR,True
+3708,The system shall allow site editors to manage the FAQ section.,FR,FR,True
+3232,"The system shall implement user authentication and access controls based on user roles (e.g., standard user, administrator).",FR,NFR,False
+1004,The client will be able to parse the JSON and determine if there was an error.,FR,FR,True
+1107,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,NFR,NFR,True
+3971,The system shall allow administrators to create and manage deposit groups with access controls.,FR,FR,True
+2273,Newsletter subscription and customization options will be provided.,FR,FR,True
+1005,The server will send all API data in JSON response documents with the header Content-Type: application/json.,FR,FR,True
+216,System shall allow users to select other TU/e related Twitter sites from a list upon starting the Twitter app (content of the list is defined in requirement UCAR903).,FR,FR,True
+1922,System shall be able to support a monitor with a minimum size of 14 inches and VGA resolution.,NFR,NFR,True
+1803,System shall handle over one thousand simultaneous user requests.,NFR,NFR,True
+5655,The system shall provide a PDF containing cut off marks.,FR,FR,True
+498,The system shall be able to validate credit card in less than 2 seconds.,NFR,NFR,True
+3514,System shall display the user's profile with options to edit information.,NFR,FR,False
+5908,"User shall register by filling out a registration form, with success or failure based on data availability.",FR,FR,True
+98,Sub-apps and their launchers in the main app shall be deleted by a qualified programmer.,FR,FR,True
+258,"The system shall allow administrators to reject restaurant owners, disabling their login and sending a rejection email.",FR,FR,True
+88,The FAU class ensures security-relevant events are logged and identifies what information should be included in those logs.,NFR,NFR,True
+5968,System shall return the user to the login page when the session expires.,FR,FR,True
+1455,User shall be able to store a limited number of snaps using Memories.,FR,FR,True
+3623,A Data Publishing User shall have a view of all their published datasets.,FR,FR,True
+2413,User will input the email or mobile number associated with their PayPal account.,FR,FR,True
+5983,System shall deny access and display an error message if the ID card is invalid.,FR,FR,True
+2280,Messages will be sent to employers and job seekers for subscription-related matters.,FR,FR,True
+3245,The system shall allow users to define transitions and animations for slides within a presentation.,FR,FR,True
+3843,The system shall securely store campers' emergency information for easy access.,FR,NFR,False
+3913,The system shall allow scrolling through past stories and estimates.,FR,FR,True
+1223,The Disputes System shall accurately provide a list of possible reason codes for transactions based on transaction type and merchant industry.,FR,FR,True
+3224,The system shall run on Windows Server 2003.,FR,NFR,False
+6110,"The system shall ensure user authentication, allowing access only through valid and secure validation processes.",NFR,NFR,True
+3952,The system shall allow admins to invite users to join the platform.,FR,FR,True
+3838,The system shall allow camp administrators to assign different positions to staff members.,FR,FR,True
+1154,A clinical lab section shall include the clinical site name the class instructor day and time of the lab.,FR,FR,True
+5128,The system shall have adequate RAM to handle complex projects and large files without lag or slowdown.,NFR,NFR,True
+4961,The ATM shall provide customers with 24-hour service for consistent availability.,NFR,FR,False
+3703,The system shall allow members to create and edit their profile descriptions.,FR,FR,True
+2454,The Exams screen shall display the user's exams.,FR,FR,True
+954,The configuration window shall have a button labeled Save that when clicked will present the user with a window by which to enter a disk file or database name in which to save the modifiable data in the window.,FR,FR,True
+5287,The system shall encrypt sensitive data before sending it over insecure connections like the internet.,NFR,NFR,True
+5231,"User shall be able to complete payments by providing card details, with verification against the bank server and successful debits for approved transactions.",FR,FR,True
+5843,User shall be able to print the invoice.,FR,FR,True
+4291,"System shall provide robust search functionality for locating resource, accession, and digital object records within repositories.",NFR,FR,False
+3221,The system shall allow users to view information concerning the available distributed location templates(if any).,FR,FR,True
+3343,The system shall be secure and protect user data with appropriate access controls.,NFR,NFR,True
+2156,User shall/will be able to view and print prescriptions and invoices.,NFR,FR,False
+1119,The system shall interface with the student master server.,NFR,NFR,True
+51,The user interface should be GUI based.,NFR,NFR,True
+4538,"System shall provide role-based landing pages showing relevant information such as assigned cases, alerts, and pending tasks.",FR,FR,True
+4784,System shall be easy to operate and manage.,NFR,NFR,True
+1315,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,NFR,NFR,True
+4822,Customer shall be able to use offers for restaurants they have chosen.,FR,FR,True
+4985,Security camera shall be installed near the ATM.,NFR,NFR,True
+5942,User shall receive automatic updates for downloaded language packs to ensure access to the latest translations and language improvements.,FR,FR,True
+3653,An API User shall be able to normalize measures by GINI and related indexes.,FR,FR,True
+2588,A waiter shall be able to log out of a tablet.,FR,FR,True
+4554,System must capture and store violations and attempted violations of access control mechanisms.,NFR,NFR,True
+4878,The server shall have at least 500MB of free disk space even if the IDE is already installed.,NFR,NFR,True
+4568,"Interfaces must be customizable and user-configurable, saving configurations in user profiles.",NFR,NFR,True
+4994,Staff shall block accounts with illegal transactions or lost/stolen ATM cards upon proper verification.,NFR,FR,False
+1339,The moderator shall be able to open a closed session.,FR,FR,True
+4284,System shall facilitate bulk updates of enum values with efficient backend changes.,NFR,NFR,True
+466,Frequently-executed System transactions must be designed so that they can be completed with a small number of interactions (e.g. mouse clicks). ,NFR,NFR,True
+2973,"User (vehicle owners, pedestrians) shall provide valid information to traffic police through the admin.",FR,FR,True
+3496,System shall be able to display the problem statement and coding environment based on the user's selection of problem category and difficulty level.,FR,FR,True
+1959,System shall allow for the addition of new servers or resources as the system grows.,NFR,FR,False
+4042,User shall have a spreadsheet hosted within Neurohub for collaborative editing and cost calculation.,FR,FR,True
+5820,User shall display only 10 matching results on the current screen.,FR,FR,True
+189,Administrators shall be able to modify the list of agenda RSS feeds available in English.,FR,FR,True
+4816,"Customer shall be able to cancel an order and if canceled, money will be transferred to wallet to order food for next time (If Card Payment).",FR,FR,True
+278,"The system shall present search options in a clear, understandable way.",FR,NFR,False
+4972,All functionality must be thoroughly tested through comprehensive test cases.,NFR,NFR,True
+4514,The system shall identify interesting volunteer comments on subjects.,FR,FR,True
+2861,System shall store and display the user's comments.,FR,FR,True
+6023,Usability of the system shall be achieved through online help pages and an introductory training session for all instructors upon installation.,NFR,NFR,True
+3844,The system shall store camper's immediate parent/guardian's information for contact purposes.,FR,FR,True
+2855,System shall change the resolution of the video and display it accordingly.,FR,FR,True
+5897,User shall rely on critical system components with a Mean Time Between Failures (MTBF) exceeding 30 days.,NFR,NFR,True
+4382,The system shall track checksums for content files.,FR,FR,True
+1898,System development shall utilize JDK-6.,NFR,NFR,True
+1254,"The product shall be able to handle 10,000 concurrent users within 2 years of the initial launch.",NFR,NFR,True
+5351,System shall have a strong network of servers managed by a qualified team to handle application functionality worldwide.,FR,NFR,False
+2526,"System shall validate user data, verify credentials, and assign the account to the new user with all new user information upon successful validation.",FR,FR,True
+3667,The system shall allow users to import data from MS-SQL databases.,FR,FR,True
+1960,"The system shall ensure a high level of availability, with minimal downtime for maintenance or upgrades.",NFR,NFR,True
+2408,System will display a message indicating that the bank account has been successfully added.,FR,FR,True
+6006,Acknowledgement of roll received must be returned within 8 seconds.,NFR,NFR,True
+1423,Delivery boy shall be able to toggle Online/Offline/Break option.,FR,FR,True
+90,"SplitPay will prioritize user safety by ensuring it doesn't interfere with other apps or data, and in the future, the application will warn users against using it when focus is critical. ",NFR,NFR,True
+853,The Backend system shall ultimately be scaleable to an extent that it will be capable of handling up to two Gbytes per second per Correlator output channel in real-time.,NFR,NFR,True
+5184,The system shall verify the entered login credentials (email/password) and grant access if valid.,FR,FR,True
+5811,User shall access the discussion forum section.,FR,FR,True
+1286,The estimator shall apply selected recycled parts to the collision estimate.,FR,FR,True
+3611,FABS user shall have read-only access to DABS for reference and information retrieval purposes.,NFR,FR,False
+2110,"Authorized personnel only, such as admins, shall access private data, and users shall only view their user page with valid credentials.",NFR,NFR,True
+4820,Customer shall be able to favorite the restaurant.,FR,FR,True
+5124,The graphics card compatibility with minimum requirements shall allow full utilization of Adobe Illustrator's capabilities (benefit).,NFR,NFR,True
+5813,User shall view and respond to posts from other users.,FR,FR,True
+298,"The user shall be able to edit their existing items, including adding/removing pictures and changing price and details.",FR,FR,True
+5714,"In case of failure, the program shall be re-initialized.",NFR,NFR,True
+6091,User shall be able to check for account-related issues.,FR,FR,True
+5521,"Only eligible students shall apply for scholarships, which shall be verified by the admin.",NFR,FR,False
+4627,System shall be easy to migrate or backup via another USB drive.,NFR,NFR,True
+4097,System shall ensure security and privacy of log book entries and attached files.,NFR,NFR,True
+314,The system shall be able to retrieve data about mapped elements from the database.,FR,FR,True
+2073,"User shall access different modes for adding filters and effects to scenes and images, enhancing versatility and customization options.",NFR,FR,False
+5418,Users shall be able to register for a new LPG connection using the system.,FR,NFR,False
+5756,Temporary password shall be mailed to the user in case of forgotten password.,FR,FR,True
+1424,Delivery boy shall be able to reach the restaurant and check with order details.,FR,FR,True
+4743,System shall check vehicle availability for booking.,FR,FR,True
+3004,User shall be able to access the login screen.,FR,FR,True
+2233,Information on vacancy viewings and applications shall be provided.,FR,FR,True
+462,"Ideally, each error message will be accompanied by explanatory text and an indication of the action(s) which the user can take in response to the error. ",NFR,FR,False
+4472,System shall allow users to assign CC licenses to files.,NFR,FR,False
+3297,The system shall be highly available and accessible to users most of the time.,NFR,NFR,True
+6058,System shall be able to check if user credentials are valid and display an error message if invalid.,FR,FR,True
+1563,"The healthcare portal shall have high availability, with minimal downtime for scheduled maintenance and updates.",NFR,NFR,True
+5036,Users shall be limited to three attempts to enter their password.,NFR,FR,False
+1273,"The system shall resolve the zipcode for the street address, city, and state if zipcode is unknown.",FR,FR,True
+3772,"The system shall allow to Submit applications with information, plans, and documents.",FR,FR,True
+4886,VS Code shall be lightweight and run easily on most modern hardware.,NFR,NFR,True
+3602,Agency user shall leave off the last 4 digits of the ZIP without encountering an error for seamless data submission.,NFR,NFR,True
+5162,"Faculties shall be able to upload and download assignments, college notices, student notices, journals, and videos.",FR,FR,True
+1787,System shall not mandate logging out.,FR,NFR,False
+1937,"User shall/will be able to open various types of accounts like savings, fixed deposit, etc.",FR,FR,True
+5821,User shall enable navigation between the search results.,FR,FR,True
+687,The TCS shall provide the capability to display waypoint data in alphanumeric format.,FR,FR,True
+3775,The system shall allow to Check the status of their transactions.,FR,FR,True
+5591,"The user can manipulate and view donation details that have been made, such as department-wise, course-wise, and semester-wise donations.",FR,FR,True
+5881,JavaScript code includes error handling mechanisms to display error messages if payment processing fails.,FR,FR,True
+3765,A Visual Designer shall demonstrate the value of visual design to the NSF project team.,NFR,FR,False
+1532,The system shall validate and verify the registration details to ensure accuracy and prevent duplicate entries.,FR,FR,True
+993,The system shall be easy to learn and does not obstruct the thematic understanding of the users.,NFR,NFR,True
+2124,User shall be able to maintain doctors and associate them with specialties.,FR,FR,True
+3498,"System shall be able to provide submission status (Accepted, Wrong Answer, Time Limit Exceeded, etc.) for user's code solutions.",FR,FR,True
+865,"Wherever applicable, all computers and peripherals shall be powered though UPS type devices with sufficient capacity for the computers to safely coordinate a system wide shutdown of the correlator hardware in the event of a prolonged power outage",NFR,NFR,True
+1819,Customers shall remove items from their cart.,FR,FR,True
+1479,"User shall be able to send audio, video, and image attachments, with supported formats and a maximum file size of 2MB per message.",FR,FR,True
+3678,The system shall allow users to import/export data from MS-SQL databases using Data Packages.,FR,FR,True
+6030,The system shall provide limited but necessary operations for workers.,FR,FR,True
+1369,The idea field shall be limited to a maximum of 250 characters to match the current EDGE system limitation.,FR,FR,True
+4938,User shall see a screen with options and brief descriptions for easy selection.,FR,FR,True
+4245,System shall facilitate integration with institutional repositories and data catalogues.,NFR,FR,False
+2377,The system shall allow users to change their information at any time.,FR,FR,True
+5947,"User shall benefit from optimized resource utilization to minimize memory, CPU, and network bandwidth consumption, ensuring scalability and performance in resource-constrained environments.",NFR,NFR,True
+757,Web-based displays of the most current ASPERA-3 data shall be provided for public view.,FR,FR,True
+4808,Customer shall be able to remove orders from cart.,FR,FR,True
+741,"For shipboard operations, the TCS shall provide the capability to switch to a second LOS antenna, if a second antenna is available, when desired.",FR,FR,True
+1772,The system shall record and analyze feedback received from clients.,FR,FR,True
+2202,User shall have the option to sign out or switch between accounts.,FR,FR,True
+4200,System shall provide detailed information on summits for user understanding.,NFR,NFR,True
+5721,User shall be able to view transaction activity by entering start date and end date.,FR,FR,True
+2112,The system shall have a simple yet high-quality user interface.,NFR,NFR,True
+5708,"User shall access the system through a web browser, subject to server downtime.",NFR,NFR,True
+1584,Administrator shall have exclusive editing access to databases.,NFR,NFR,True
+4257,User shall be able to authenticate locally.,FR,FR,True
+5965,User shall retrieve forgotten passwords by clicking on the password retrieval link.,FR,FR,True
+4479,"The system shall recommend content based on user profiles, news events, and image/video similarity.",FR,FR,True
+5032,Subscription packages shall have a duration of one month.,NFR,NFR,True
+4213,User shall be able to plan the types of data to record and store for the project.,FR,FR,True
+4241,System shall maintain high availability to ensure continuous access to DMPs and associated data.,NFR,NFR,True
+3057,System shall display all data for pending passport approvals.,FR,FR,True
+1417,The customer shall receive notifications upon both order acceptance and order delivery.,FR,FR,True
+2448,The user shall be able to select a due date by tapping on the Date field and choosing a date from the pop-up calendar.,FR,FR,True
+5328,User shall provide a valid email for Google Games to execute the application on their device.,FR,FR,True
+1905,System shall support network connections via Ethernet port and serial port jack.,NFR,NFR,True
+5681,Users shall select the recruitment option and choose Forms and Downloads.,FR,FR,True
+1786,User shall be able to log out by pressing the log out button.,FR,FR,True
+877,"All system error and debug messages shall be categorized in a logical fashion such that message traffic can be filtered as to content, detail, and message rate.",NFR,NFR,True
+4701,User shall be able to access their bank account through Freecharge.,FR,FR,True
+3915,The system shall allow changing estimates before a draw is complete.,FR,FR,True
+4218,System shall maintain updated descriptions of datasets throughout the project lifecycle.,FR,FR,True
+893,"Transparency shall be accomplished in manner that is transparent to processing, communications and I/O software functions with the possible exception of recompilation of executables. ",NFR,NFR,True
+2388,User shall be able to connect with other people on Quora by sending messages.,FR,FR,True
+1667,User shall be able to drag the chosen object and rotate the chosen mirror in the ingame screen.,FR,FR,True
+2815,"Alternatively, the user can push the ""Ctrl+X"" key combination or right-click the mouse and select the ""Cut Item"" button from the context menu.",FR,FR,True
+5624,User shall be able to register by providing required details and receive a success message upon account creation.,FR,FR,True
+1888,User shall/will be able to operate the system with a Dual Core or above processor.,NFR,NFR,True
+5555,System shall check if the entered password is valid for the specified cash card.,FR,FR,True
+4754,System shall commit all user variable data to the database upon entry.,NFR,FR,False
+3886,The system shall allow entering a custom agreed-upon estimate.,FR,FR,True
+5926,"System shall store data securely in the database, ensuring protection of sensitive information.",NFR,NFR,True
+761,ASPERA-3 and MEX OA IDFS data and any APAF-generated intermediate files of ASPERA-3 and MEX OA cleaned-up telemetry shall be provided to all ASPERA-3 Co-Is.,FR,FR,True
+1011,The information extraction unit shall populate the database before system startup to ensure immediate data accessibility.,FR,FR,True
+631,The MultiMahjongClient will inform the user whose turn it is to pick up a tile.,FR,FR,True
+1341,All sessions shall be able to have multiple moderators.,FR,FR,True
+4831,Restaurant shall be able to give offers.,FR,FR,True
+3551,Employee shall receive quick notifications for prompt action.,NFR,FR,False
+3079,System shall perform proper validation of data before sending it to the database.,NFR,FR,False
+1723,Users shall be able to access ratings and reviews for each piece of content.,FR,FR,True
+5512,System shall be reliable with no failures.,NFR,NFR,True
+5781,System shall check the database to determine if the items are in stock.,FR,FR,True
+5841,System shall send order confirmation to the user and seller through email or SMS.,FR,FR,True
+5706,System shall communicate with the database via a wireless Ethernet system.,FR,FR,True
+4099,System shall maintain backward compatibility and smooth dependency installation.,NFR,NFR,True
+287,The user shall be able to browse categories and see the item count for each.,FR,FR,True
+1568,User shall save the dividend released by each company for client information.,FR,FR,True
+355,"User shall be able to view a list of 360° videos after selecting the ""Videos"" option.",FR,FR,True
+2314,"User shall have their daily calorie goals recorded, and reminders will be sent if a workout is missed.",FR,FR,True
+2351,Crafty kids corner shall feature an intuitive user interface design suitable for each age group.,NFR,NFR,True
+4364,System shall support dataset deposition and management via SWORD2 API for interoperability.,NFR,FR,False
+3156,The systems back-end servers shall only be accessible to authenticated administrators.,NFR,NFR,True
+5532,"Only admin shall know the percentage of bidders bidding on a particular team, and the system shall display the bidding percentages.",FR,FR,True
+4992,Bank staff shall make entries regarding user bank account details.,NFR,FR,False
+6067,User shall be able to finish the authorization process if successful.,FR,FR,True
+1651,User shall be able to render the scene at a minimum of 30 frames per second.,NFR,NFR,True
+4764,"System shall allow creation, modification, and deletion of student records, including enrollment number, name, and year of enrollment.",FR,FR,True
+4919,System shall support a maximum of 1000 terminals simultaneously.,NFR,NFR,True
+5125,"Adobe Creative Cloud shall offer seamless updates for Adobe Illustrator CC, ensuring users automatically receive the latest versions with new features and bug fixes.",NFR,NFR,True
+4830,Restaurant shall be able to receive notifications once an order is delivered.,FR,FR,True
+2893,System shall automatically move some emails to the spam folder and may block the sender of spam messages.,FR,FR,True
+184,User shall be able to search for events by subject.,FR,FR,True
+4794,User shall be able to generate reports on student course information. (Level 1),FR,FR,True
+4292,System shall ensure data integrity and reliability during the import and export of archival data.,NFR,NFR,True
+6085,User shall be able to handle invalid user accounts.,FR,FR,True
+2703,"Based on user feedback, Admin shall have the ability to change or modify accessibility.",FR,FR,True
+4113,"User shall be able to view a very clear map showing the buildings and rooms, so that they can make it to class on time.",FR,FR,True
+295,The user shall be able to decline an exchange offer from another user.,FR,FR,True
+5407,"The system shall support concurrent users, enabling multiple users to access information simultaneously with efficient and quick display time changes.",NFR,NFR,True
+1948,System shall be able to generate and provide downloadable account statements.,FR,FR,True
+2544,The Teams app shall be designed to scale based on the size of the organization.,NFR,FR,False
+4733,User shall be able to view driver history (client function).,FR,FR,True
+1442,"Dispute panel shall manage, if customer needs replacement of order or cancel order in case of order not available.",FR,FR,True
+110,The system shall display a launcher to the Facebook-app version 3.1.9 on the main menu.,FR,FR,True
+2321,"User shall be alerted if they input incorrect or invalid target calories, such as values below a certain threshold or excessively high values.",FR,FR,True
+4947,Keyboard shall be weather resistant.,FR,FR,True
+2652,System shall facilitate communication between shop owners and the administrator for discussing product quality and advertisements.,FR,FR,True
+2661,Purchase managers shall manage product stocks.,FR,FR,True
+4107,System shall support version control and revision history tracking.,NFR,FR,False
+1908,System shall be able to provide functionality for online balance checks.,FR,FR,True
+2821,User shall be able to load a document with 50 activities and 50 connections within 1 second on the client side.,NFR,NFR,True
+1592,Users shall input a unique username.,FR,FR,True
+1348,A Moderator shall be able to limit the number of nodes that an individual user can create.,FR,FR,True
+3945,The system shall allow consumers to download data packages as a single file.,FR,FR,True
+512,The system will employ on demand asynchronous loading for faster execution of pages.,NFR,NFR,True
+113,"The system shall conditionally display a launcher to the Encyclopedia-app on the main menu, only when the Dutch language is selected.",FR,FR,True
+1397,The user shall be able to set the due date of an assignment.,FR,FR,True
+1796,User shall be able to send messages through the system.,FR,FR,True
+4455,System shall display collection-level replication status.,FR,FR,True
+2383,"The system shall be maintainable by highly professional maintainers, who are solely responsible for updating and adding new features.",NFR,NFR,True
+3729,The system shall allow visitors to search for upcoming courses and events using an advanced search option.,FR,FR,True
+1487,"User shall be able to utilize the device's camera, gallery, and microphone functionalities.",NFR,FR,False
+726,The TCS shall have the capability to receive data from and control payloads on an AV that is being controlled from another TCS.,FR,FR,True
+3159,The overall program shall be as reliable as its least reliable component.,NFR,NFR,True
+1018,There will be a designated phone number that users can send texts to.,FR,FR,True
+4667,System shall validate temperature data from thermostats to ensure it is within specified range.,FR,FR,True
+908,"The system shall allow agents to select between unicast, multicast, and broadcast communication.",FR,FR,True
+5227,"User shall be able to search for trains by providing destination, boarding place, and date of journey, receiving a display of available trains matching the search criteria.",FR,FR,True
+4734,User shall be able to change their password (client function).,FR,FR,True
+3532,Developer shall access an API from the website for integration into other applications.,FR,FR,True
+3336,"The system shall allow users to search for cars by make, model, or year.",FR,FR,True
+3885,"The system shall automatically populate the ""estimate"" field if all estimators reveal the same card.",FR,FR,True
+5391,System shall provide high-quality images and clear quality video calling for an optimal user experience.,NFR,NFR,True
+2594,A tablet shall allow a waiter to indicate the delivery of an item to its customer.,FR,FR,True
+3778,The system shall allow applicants to resubmit revised plans.,FR,FR,True
+4712,"System shall store and process refund requests in the database, providing status updates to users.",FR,FR,True
+2449,The user shall be able to add a title for the new task.,FR,FR,True
+530,Yoggie shall coordinate on future enhancement and features with our organization.,NFR,NFR,True
+533,The system shall be able to process inter-faculty transfer requests initiated by authorized users and approved by faculty groups or higher levels.,FR,FR,True
+5722,"User shall be able to choose payment methods such as PayPal balance, debit or credit card, and transfer funds by entering recipient's email ID or name, and making the payment.",FR,FR,True
+5845,System shall provide a shopping cart during online purchase.,FR,FR,True
+4895,The system shall only allow one personal account per user.,FR,NFR,False
+2264,A powerful online job search tool shall be included.,FR,FR,True
+4797,System shall be able to handle and support the total number of students enrolled in CSUN.,NFR,FR,False
+5498,System shall respond in less than 2 seconds.,NFR,NFR,True
+2103,The system shall be scalable to accommodate numerous concurrent users.,NFR,NFR,True
+5492,"User shall be able to register students through the website, and the admin shall be able to register new students.",FR,FR,True
+4928,System shall maintain response time under 200 milliseconds for peak workload conditions.,NFR,NFR,True
+4047,System shall provide a seamless and reliable installation process for the Neurohub node.,NFR,FR,False
+4352,System shall enable querying of the entire archive for reporting and analysis purposes.,NFR,NFR,True
+2405,User will choose between linking a credit or debit card.,FR,FR,True
+5724,User shall be able to apply cashback by entering promo code and successfully transferring the amount.,FR,FR,True
+4286,System shall display Dates and Extents consistently in both read and edit views for Accessions and Resources.,NFR,FR,False
+4665,"Upon initialization, system shall turn off all heating and cooling units and check thermostat settings.",FR,FR,True
+3153,The system shall use SSL in all transactions that include any confidential customer information.,NFR,NFR,True
+4053,System shall facilitate efficient backup and recovery of Neurohub data for system administrators.,NFR,NFR,True
+5004,User shall be able to search for categories by video name or type.,FR,FR,True
+4525,System shall track progress and updates of ongoing investigations.,FR,FR,True
+2063,"User shall have access to video editing effects including background blur, video speed adjustment, fade in and out, animated texts and fonts, GIFs, Giphy video stickers, and a music editor.",FR,NFR,False
+4370,The system shall allow curators to compose collections based on various criteria.,FR,FR,True
+5944,"User shall access fallback mechanisms in situations where offline resources are unavailable, assisting in understanding foreign language content.",FR,FR,True
+5824,"System shall customize the user's homepage based on previous interactions, including wish-list additions, page views, and previous searches.",FR,FR,True
+3738,The system shall allow members to request password resets.,FR,FR,True
+3580,FABS user shall have validations run in a reasonable amount of time.,FR,NFR,False
+5390,"The search feature shall be prominent and easy for the user to find, enabling efficient navigation.",NFR,NFR,True
+1844,Delivery boys shall acknowledge requests within 3 seconds.,FR,NFR,False
+5472,"The system shall allow users to create, schedule, track, and manage tasks related to sales activities.",FR,FR,True
+1855,Admins shall manage delivery boy details.,FR,FR,True
+434,The police will then investigate the complaint based on evidence and facts.,FR,FR,True
+3658,Users shall be able to set their usernames for data discoverability.,NFR,FR,False
+4136,"User shall be able to see all events, trainings, and summits sponsored by a specific sponsor, to engage with the sponsor's offerings.",FR,FR,True
+5847,User shall confirm orders for purchase later.,FR,FR,True
+2145,"Chemists shall be able to view open prescriptions assigned to them based on pincode and update the status, with medicines delivered offline to patients.",FR,FR,True
+5303,System shall display an error message and terminate installation if the authorization dialog receives a negative answer from the service provider.,FR,FR,True
+5246,"The system shall not have explicit performance requirements, as server requests and responses depend on the end user's internet connection.",NFR,NFR,True
+5069,The system shall allow users to import MIDI files.,FR,FR,True
+508,The system shall have an availability of 99.99%.,NFR,NFR,True
+2843,"User ID and password shall not be shared with anyone, including students, faculty, or any other individuals.",NFR,NFR,True
+3446,User shall experience a consistent look and feel across all web pages of the e-store.,NFR,NFR,True
+2809,"Alternatively, the user can push the delete key of the keyboard to delete the activity.",FR,FR,True
+3554,Developer shall attend UI/UX lessons for developing a visually appealing website.,NFR,FR,False
+1617,"Users shall specify a timeframe (e.g., one day, one week, one month) for forecasts.",FR,NFR,False
+299,The user shall be able to remove an item they no longer wish to sell/exchange by tapping the Remove the item button.,FR,FR,True
+1817,"Customers shall view menus, categories, and subcategories.",FR,FR,True
+492,Upon the USB being plugged in the system shall be able to be deployed and operational in less than 1 minute.,NFR,NFR,True
+842,"The hardware part of the system shall be able to perform indefinitely without complete loss of service, except in the event of total failure of primary and backup power. ",NFR,NFR,True
+411,"System shall be able to present the sites on a map, marked with their names, descriptions, and links to their respective pages.",FR,FR,True
+4349,"System shall perform checks on deposited datasets for quality, compliance, and licensing before public release.",NFR,FR,False
+3236,"The system shall protect user data with robust security measures (e.g., encryption).",NFR,NFR,True
+5425,System shall redirect user to the particular company's portal upon selecting 'give up LPG subsidy' option.,FR,FR,True
+3780,The system shall allow applicants to request inspections.,FR,FR,True
+3430,User shall have the option to select multiple search criteria.,FR,FR,True
+1150,Classes for a given cohort shall not conflict with regards to the time and day that they are offered.,FR,FR,True
+5671,Users shall select the examination and choose the answer key option.,FR,FR,True
+3461,"System's back-end servers shall not display the customer's password, only reset it if necessary.",NFR,NFR,True
+2369,The system shall allow users to comment on posts they like.,FR,FR,True
+5866,User's credit card number shall only display the last 4 digits after retrieval from the database.,NFR,NFR,True
+4432,The system shall provide clear and informative messages to users.,NFR,NFR,True
+144,System shall be able to search for the to-location by the name of a POI.,FR,FR,True
+4027,User shall theme the Web interface graphics/colours as a lab administrator.,FR,FR,True
+5667,The system shall provide an examination category page.,FR,FR,True
+3562,FABS user shall have submission errors accurately represent FABS errors.,FR,NFR,False
+300,Users can permanently delete their accounts and access to the system.,FR,FR,True
+2904,User shall be able to set up email signatures to be automatically added to outgoing emails.,FR,FR,True
+3919,The system shall function in specific legacy browsers (Developer).,NFR,FR,False
+4443,Administrators shall restore previous versions of objects.,FR,FR,True
+3637,A Data Consuming User shall have default visualizations for multi-year datasets.,FR,FR,True
+2868,User shall be able to add interests.,FR,FR,True
+1847,Delivery boys shall receive customer details from restaurants.,FR,FR,True
+5970,"System shall search the database for individuals matching the entered qualifications and preferences, displaying their complete details.",FR,FR,True
+2847,System shall display whether the video/channel is found or not.,FR,FR,True
+2789,User shall ensure software meets defined quality attributes.,NFR,NFR,True
+1161,The system shall be able to display a printable summary for individual cohorts which will include the students enlisted the Program of study sequence of classes cohort progress through the program and timeline of completion.,FR,FR,True
+1657,"System shall ensure reliability by storing user accounts in the database, preventing users from suffering from errors and maintaining consistent data.",NFR,NFR,True
+6038,It shall be compatible with Windows 8 and Mac X operating systems.,NFR,NFR,True
+5662,The system shall validate user information before processing transactions.,FR,FR,True
+5497,"User (admin) shall be able to provide information about scholarships, and eligible students shall be able to apply for scholarships through the system.",FR,FR,True
+1611,Users shall search for specific stocks using stock symbols or company names.,FR,FR,True
+5747,Client shall view driver history.,FR,FR,True
+1268,The product shall comply with the estimatics laws relating to recycled parts usage.,NFR,NFR,True
+1533,Registered patients shall be able to log in to the portal using their credentials.,FR,FR,True
+4993,Staff shall keep user bank accounts updated and consistent.,NFR,FR,False
+804,The BE shall be able to apply corrections based on state count and/or quantizer power measurement data. ,FR,FR,True
+6037,The system shall perform basic operations in less than 2 seconds.,NFR,NFR,True
+2194,User shall/will access a system available 100% of the time during regular business hours.,NFR,NFR,True
+4757,System shall employ error prevention through sanity checks and limited free-text input.,NFR,NFR,True
+5945,User shall toggle between online and offline modes within the app settings to manage connectivity preferences based on environment and usage requirements.,FR,FR,True
+6086,"System shall be able to send a message ""invalid user account"" to the central system for an invalid user account.",FR,FR,True
+4946,Keypad shall have 16 tactile keys and 8 tactile function keys.,FR,FR,True
+4963,PIN verification time must not exceed 0.3 seconds under normal workload and 0.5 seconds under peak workload.,NFR,NFR,True
+3473,User shall upload videos by clicking on the upload button and selecting the file to upload.,FR,FR,True
+635,The MultiMahjongClient shall inform the user if another player is fishing.,FR,FR,True
+4954,Receipt and statement dispensers shall have specified maximum dimensions.,FR,FR,True
+4271,User shall be able to create and update basic archival description information.,FR,FR,True
+5177,The software shall display information on a monitor screen.,NFR,FR,False
+1132,Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.,FR,FR,True
+1739,"Upon user login, the system will display personalized information and automatically add certain details to booking requests.",FR,FR,True
+1427,Delivery boy shall be able to receive rating from customers.,FR,FR,True
+1304,The user shall select to save the preferred repair facility ratings.,FR,FR,True
+3539,Superuser shall update recycling center information to provide the latest details.,FR,FR,True
+1325,The product shall be capable of handling up to 1000 concurrent requests.,NFR,NFR,True
+2190,User shall/will experience a system capable of supporting the addition of new features without requiring a complete system overhaul.,NFR,NFR,True
+3519,User shall have the option to select flexible pick-up times for recycling services.,FR,FR,True
+5348,System shall help the user understand how the application works and how to approach its various functions.,FR,FR,True
+3056,System shall redirect to a page with respective selected type.,FR,FR,True
+5703,User shall be notified by the system about their insurance policy.,FR,FR,True
+5605,The system should avoid becoming overloaded and should maintain optimal performance even under peak load conditions.,NFR,NFR,True
+2440,The Tasks window shall display all current and upcoming tasks to the user.,FR,FR,True
+5202,"The system shall currently support cash payments, with future expansion for credit/debit cards.",FR,NFR,False
+3704,The system shall allow certified members to showcase additional details on their profiles (experience etc.).,FR,FR,True
+2397,The system shall be available as an application on both Android and iOS platforms.,NFR,NFR,True
+3146,"Shall a city be selected, all theatres and movies showing on that day shall be listed.",FR,FR,True
+3512,System shall display forum threads and replies for user engagement.,NFR,FR,False
+4384,The system shall allow users to access content files based on access permissions.,FR,FR,True
+2803,User shall expect efficient re-initialization in case of failure.,NFR,NFR,True
+2168,System shall ensure that each doctor is mapped to one and only one specialty.,NFR,NFR,True
+4982,Passwords shall be 6-14 characters long and not contain the user's name.,NFR,NFR,True
+3150,Users shall be able to put a hold on selected seats for five minutes before finalizing and making payment.,FR,FR,True
+5854,User shall be able to select the support type.,FR,FR,True
+4389,The system shall restrict access to resources based on user roles and permissions.,FR,FR,True
+630,"The MultiMahjongClient must only allow players to make moves according to the Chinese rules of Mahjong as described in the rulebook, How to Play Mah Jong.",FR,FR,True
+2319,User shall use the barcode scanner feature to retrieve detailed information about food products by scanning their barcodes.,FR,FR,True
+2593,A tablet shall allow a waiter to reject an order placed by a customer through a  surface computer.,FR,FR,True
+4876,SSH port forwarding shall be enabled in the server configuration.,FR,NFR,False
+5438,System shall restrict users to access only their own accounts after login.,NFR,NFR,True
+5233,"System shall provide secure access to confidential data, such as user details, by utilizing SSL encryption.",NFR,NFR,True
+2735,"System shall provide a login window with fields for username and password, along with buttons for logging in and registering.",NFR,FR,False
+2870,User shall be able to update or edit their profile appearance.,FR,FR,True
+342,The user shall be able to select a catalogue from Spring 2013 or Winter 2013.,FR,FR,True
+2783,User shall specify security measures and access controls.,NFR,NFR,True
+192,User shall be able to search for a person by department.,FR,FR,True
+5090,The software shall allow users to adjust the size and angle of brushes on the touch-screen.,FR,FR,True
+1914,System shall be able to facilitate data updating.,FR,FR,True
+846,"All system processing and interconnect hardware shall be readily accessible for maintenance, repair, replacement and/or reconfiguration",NFR,NFR,True
+3586,User shall receive more helpful file-level error messages for better troubleshooting.,NFR,FR,False
+3883,"The system shall allow revealing all estimates immediately, even before everyone submits.",FR,FR,True
+4770,"System shall maintain and display marks obtained by students in different semesters, including internal and external marks, total marks, and credits.",FR,FR,True
+3397,User shall have the option to add photographs of the property using either drag-and-drop functionality or by selecting images from their files.,FR,FR,True
+1482,User shall be able to connect to both Wi-Fi and mobile networks for seamless connectivity.,NFR,FR,False
+2663,Accounts managers shall track payment transactions and update payment information.,FR,FR,True
+2705,User shall be able to access all features of the Online Matrimonial Portal accurately implemented as specified in the document.,NFR,FR,False

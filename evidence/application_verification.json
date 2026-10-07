@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Initial page provides labelled text input and classification button.",
+    "Empty and whitespace-only input rejected without a prediction.",
+    "Four submissions display the actual saved-model prediction and preserve input text.",
+    "Submitted HTML is escaped before display.",
+    "A simulated model failure displays an error without a prediction.",
+    "Unknown page returns 404."
+  ],
+  "scope": "Local HTTP behaviour; model accuracy assessed separately in experiment_01."
+}
