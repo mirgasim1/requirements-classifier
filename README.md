@@ -50,6 +50,4 @@ The model may return an incorrect category even when the web interface works.
 TO REPEAT THE EXPERIMENT
 After RUN.cmd has installed dependencies:
   .venv\Scripts\python.exe evidence\train_classifier.py
-This writes a new run to evidence\experiment_01 and uses
-evidence\prepared\FR_NFR_prepared.csv. The app's classifier.joblib is not
-automatically replaced by retraining; replacement should be deliberate.
+Running this again replaces the files in evidence\experiment_01.” The script uses that same folder each time.
