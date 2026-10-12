@@ -1,4 +1,4 @@
-#SOFTWARE REQUIREMENTS CLASSIFIER
+SOFTWARE REQUIREMENTS CLASSIFIER
 
 Purpose
 This local prototype predicts Functional or Non-functional for one English
