@@ -4,7 +4,7 @@ cd /d "%~dp0"
 if not exist ".venv\Scripts\python.exe" (
   py -3.12 -m venv .venv
   if errorlevel 1 (
-    echo Python 3.12 is required. See README.txt for installation instructions.
+    echo Python 3.12 is required. See README.md for installation instructions.
     pause
     exit /b 1
   )
