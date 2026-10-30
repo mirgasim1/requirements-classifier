@@ -1,0 +1,7 @@
+.venv/
+.experiment_env/
+__pycache__/
+*.py[cod]
+evidence/experiment_04/model_assets/
+evidence/experiment_05/model_assets/
+evidence/experiment_*/results_repeat*/

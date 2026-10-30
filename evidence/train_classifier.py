@@ -1,6 +1,7 @@
 """Run the first FR/NFR experiment on the prepared dataset."""
 from pathlib import Path
 import csv
+import argparse
 import hashlib
 import json
 import re
@@ -20,11 +21,16 @@ from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
 
 DATA = BASE / "prepared" / "FR_NFR_prepared.csv"
-OUTPUT = BASE / "experiment_01"
 
 
 def main():
-    OUTPUT.mkdir(exist_ok=True)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="experiment_01/results_repeat")
+    args = parser.parse_args()
+    output = (BASE / args.output).resolve()
+    if not output.is_relative_to(BASE) or output == BASE or output.exists():
+        raise ValueError("Choose a new output folder inside evidence; recorded results are preserved.")
+    output.mkdir(parents=True)
     with DATA.open(encoding="utf-8-sig", newline="") as file:
         rows = list(csv.DictReader(file))
     keys = [re.sub(r"\s+", " ", row["requirement_text"]).strip().casefold() for row in rows]
@@ -64,21 +70,18 @@ def main():
         "majority_baseline_accuracy": accuracy_score(truth, [majority_label] * len(test)),
         "limitations": "Single random holdout; labels not fully manually validated; similar requirements may remain; no project-level generalization test; no tuning performed.",
     }
-    (OUTPUT / "results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
-    with (OUTPUT / "split_membership.csv").open("w", encoding="utf-8-sig", newline="") as file:
+    (output / "results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
+    with (output / "split_membership.csv").open("w", encoding="utf-8-sig", newline="") as file:
         writer = csv.writer(file)
         writer.writerow(["source_row", "subset", "label"])
         for subset, subset_rows in [("train", train), ("test", test)]:
             writer.writerows((row["source_row"], subset, row["label"]) for row in subset_rows)
-    with (OUTPUT / "test_predictions.csv").open("w", encoding="utf-8-sig", newline="") as file:
+    with (output / "test_predictions.csv").open("w", encoding="utf-8-sig", newline="") as file:
         writer = csv.writer(file)
         writer.writerow(["source_row", "requirement_text", "actual_label", "predicted_label", "correct"])
         for row, prediction in zip(test, predictions):
             writer.writerow([row["source_row"], row["requirement_text"], row["label"], prediction, row["label"] == prediction])
-    joblib.dump(model, OUTPUT / "classifier.joblib")
-    versions = {name: __import__(name).__version__ for name in ["sklearn", "numpy", "scipy", "joblib"]}
-    names = {"sklearn": "scikit-learn", "numpy": "numpy", "scipy": "scipy", "joblib": "joblib"}
-    (BASE / "requirements.txt").write_text("\n".join(f"{names[name]}=={version}" for name, version in versions.items()) + "\n", encoding="utf-8")
+    joblib.dump(model, output / "classifier.joblib")
     print(json.dumps(results, indent=2))
 
 

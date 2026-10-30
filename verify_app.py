@@ -65,7 +65,8 @@ try:
     assert status == 404
     checks.append("Unknown page returns 404.")
     result = {"status": "passed", "checks": checks, "scope": "Local HTTP behaviour; model accuracy assessed separately in experiment_01."}
-    (BASE / "evidence" / "application_verification.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+    if not (BASE / "evidence" / "application_verification.json").exists():
+        (BASE / "evidence" / "application_verification.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))
 finally:
     server.shutdown()

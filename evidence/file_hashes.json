@@ -1,0 +1,631 @@
+{
+  "algorithm": "sha256",
+  "description": "Fixed inputs, code, models and recorded scientific outputs in the simplified layout. Documentation is not a training dependency.",
+  "files": {
+    "app.py": "d7f2e6660487cec9c6a544c46835a10a522d828307f6559b446959a5db1c5729",
+    "classifier.joblib": "0695ca262f5f5824810499e8537a789204d95ade6cd2ea9e9b6f3d801c3445ce",
+    "evidence/application_verification.json": "adaa268cd2cead1fba9651be2fe5015de0f9a75ab000acf146773f820b18602e",
+    "evidence/browser_preview.png": "09a5c51c837860acc6cb9407863df266ff97daff882e8814b6bcce986a779102",
+    "evidence/check_files.py": "9196893ae40c759378abf752bebd721dee4f9adb3df7e3f1facf9d3deaf69383",
+    "evidence/experiment_01/results.json": "74e061a3a44975e41ac1d0081550a7556640eb8f22a2ad3aedff1bfb48092cb4",
+    "evidence/experiment_01/split_membership.csv": "45025653672573e6512ebb315438e0d081864bff0ca28732d26f6ebe45078af7",
+    "evidence/experiment_01/test_predictions.csv": "c67d1aaa24dd5be6e8d9c0c93b231ebe74fcd4231b2145bcdd4de1890e0f0b26",
+    "evidence/experiment_02/analyse_external_cases.py": "d31f9b67646beb53bfb39fc2114ce17592857e818d6858dc8ef2b2fb2de4426b",
+    "evidence/experiment_02/application_checks/verification.json": "e3461d69a80987621d1c3d10bf3fd2190b09419d59c34a7cfd182ffef96d91da",
+    "evidence/experiment_02/inputs/dcai24_src_dataset.xlsx": "216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec",
+    "evidence/experiment_02/protocol.json": "d7d638f1f35ce56614975dea69dcac36976c58aa91710d394818ae314838a7f5",
+    "evidence/experiment_02/results/conflicting_label_records.csv": "ce9f6060e02f9d112e1caac651c12181b02eea4280428bdc53ce865f0c1ac394",
+    "evidence/experiment_02/results/confusion_matrices.csv": "6bbe3d35e620d3b245b04ca091018cc3a0ab5c42043a5f8150cf4d1fa181e69d",
+    "evidence/experiment_02/results/constant_label_baselines.csv": "d34dfcd8b4a9741c17e1a05b002a23a3996dd633c8e7a3cef73fcb1cb6686b5f",
+    "evidence/experiment_02/results/cv_fold_membership.csv": "3c1835fe8f8ddf4b781137badee270b748e8f71322498ed992870130b6452a4f",
+    "evidence/experiment_02/results/cv_scores.csv": "80d36c3033a34d1831a37dad4068b0621b5c5817870d8fe1d779d2be15d8a0f7",
+    "evidence/experiment_02/results/excluded_records.csv": "a07547bce24df15a9e224b5c6035038d5525f0ec010bcab72cfa509c3e29b5b9",
+    "evidence/experiment_02/results/execution_order.json": "13deef1fdd39221e631dac156332d2b30864686a3a8554620e51138d2a41a0a5",
+    "evidence/experiment_02/results/model_comparison.csv": "26bc0f43031329ed94a86c6f664ed9503ac053a23c0b6806e61ee43e74d97156",
+    "evidence/experiment_02/results/model_selection.json": "937b8eb1d605946ad3ce70d3261d38b21176d0b49bd973928f5ec6427d10aa37",
+    "evidence/experiment_02/results/models/linear_svm.joblib": "5cf605a06e6084aaf970c310941b80d74f59d2002ae79aec9a3854012a9ef3bc",
+    "evidence/experiment_02/results/models/logistic_regression.joblib": "1b4601f3e92f9947972e6ea68bac3760702c1783bbec137f4bf1a2f3180099b8",
+    "evidence/experiment_02/results/models/multinomial_naive_bayes.joblib": "c6d796597ad0e4939f1e5ca650564a87a7ea9d0d651c572255fae1ebca556b44",
+    "evidence/experiment_02/results/near_match_candidates.csv": "52e81168516d46bd1a81c8f460caab31a04ab6febd112f5cb803ca41f95965db",
+    "evidence/experiment_02/results/per_class_metrics.csv": "d379872c15176d27121ec0459d87fb6e67f1b5a9071fc30dd03cb027a6d4cf13",
+    "evidence/experiment_02/results/predictions_original_test.csv": "ca2922f8af8acb50613448daeef9a794785a2fc9f811c887705d8eb1353b9903",
+    "evidence/experiment_02/results/predictions_secreq_combined.csv": "66bf99ede888efced47a003fb8d5f30adf8baa3c622f191acd3ff3354effc4ae",
+    "evidence/experiment_02/results/preparation_summary.json": "edf2cdb6e9501b02fd2188b147f65f51c3eabd0109362a0d32e4fa24847bd252",
+    "evidence/experiment_02/results/results.json": "7bd504903fdee6bf02fc9f2f28344f9388985ac9acabff1fa25584bd0a831d67",
+    "evidence/experiment_02/results/SecReq_FR_NFR_prepared.csv": "2f2c3ae1a00fe3cc14dee71f8d75f5c8fb963570d5dcfafb0ac01475344f7ad8",
+    "evidence/experiment_02/results/selected_model_disagreements.csv": "770f57d2c3001028044383e14b89a9cc37aad0783090d11e75ccc3c57d6d8354",
+    "evidence/experiment_02/results/verification.json": "ea44f27dbb0b2c99ab358cf7028611e0665a4e542e78214410937a5c8715cfeb",
+    "evidence/experiment_02/review/case_notes.json": "2847144003761e88c176f13f4a9c6d67ba70f6b1ef5999462957a1f7e4f8f3f8",
+    "evidence/experiment_02/review/case_review.csv": "79e6f108c97b8926431971372641e61e97f6ebc2a84439f93db97083b4b626b0",
+    "evidence/experiment_02/review/frequent_unseen_terms.csv": "41803ad0f6bc8c8e6c7709550b6a4cbfb9f79cfdbf0bdd9a9bc23cee1e565097",
+    "evidence/experiment_02/review/near_conflicting_pairs.csv": "5fe07d1a94e1f481b3a14e2d148d6cc26c56c70813954c58e3033d1ccab5b323",
+    "evidence/experiment_02/review/review_summary.json": "ae0bb0203dda78ff1967cc56fb8c6c526a1f6b4e6abfb75fe4f26315f7778580",
+    "evidence/experiment_02/review/verification.json": "737ffba365a741fd4f43cc4cbff92a883200eaf9561f878c35a6c243c19229c3",
+    "evidence/experiment_02/review/vocabulary_records.csv": "a3bfd1935e1bb84d30757d2286a02fea6c43464f9558926e913076ae46925fd6",
+    "evidence/experiment_02/review/vocabulary_summary.csv": "d68b6489cea73abbd3a6ce0e38c9679aa0668f3a97a430ba46f2b8dbece97cd1",
+    "evidence/experiment_02/run_experiment.py": "19c1dcab34b10f2092043716b5d23f829834e21f137c4d07db0cb0f486e88062",
+    "evidence/experiment_02/sources.json": "09b8b067121beaa2b90cc7bf15567669cee116b60a498f30a11aea70fab061c3",
+    "evidence/experiment_02/verify_application_75.py": "0b38ab53f6f086872db185e13d82a975244df98f9e09181b0bd8cd1741bdb30a",
+    "evidence/experiment_02/verify_experiment.py": "6edf70203481b1d2e0fad185a5e4b3e2f9bf918d4af6010bb8c2bd2d75faa31b",
+    "evidence/experiment_03/protocol.json": "9c658ecef0d58aeaeedacf536d465f36774bbbe8aeff61b8093362c3bb80a85c",
+    "evidence/experiment_03/results/cv_predictions.csv": "eb84068100404bc8e9c3964eb418ede4b322a79974f6e42e39521d5aee025347",
+    "evidence/experiment_03/results/cv_scores.csv": "ba0ce8dff403f125f2d3cee81789a4daefa72a8ea955e9f459453481e63a4bd9",
+    "evidence/experiment_03/results/execution_order.json": "94c7d5c4a38924592d6dc12e229c94e940ed226de01b5af6526fcc61832cd995",
+    "evidence/experiment_03/results/model_comparison.csv": "502c25dd0a13a8a5ea9a540fe7be93b4afe5051183b75f5c33575547b15ce7f1",
+    "evidence/experiment_03/results/model_selection.json": "7c75939ce8fcafe95b974ee4a5e884c9c8580bb3739afded38c12f55f94fa378",
+    "evidence/experiment_03/results/models/selected_candidate.joblib": "96df6350697685d8ab09a9e67286d07980ca04bafb516fa20b477645dea651ed",
+    "evidence/experiment_03/results/predictions.csv": "603519fa83bd6cc729ded0b4e08ff536dccb018526202814cbf2ab9f0d7ea179",
+    "evidence/experiment_03/results/results.json": "0839559a8fc3d6ba41aa94fcdf436b652634136100d3d5c2f1695cfb3ce6e096",
+    "evidence/experiment_03/results/verification.json": "79cc7089cbff45451b9367b9bd15044c88b8d3ce5bac2ed7c40f7daf766a8161",
+    "evidence/experiment_03/run_tuning.py": "7725ebc84a3e73edab21a2f1125090680b93224705d0a15a7ca6b97770faebf2",
+    "evidence/experiment_03/verify_tuning.py": "9a174c640692bdee9e320dee0d533b86689d8c1531a3103996416483b3684d63",
+    "evidence/experiment_04/download_model.py": "c51ef8c12bbcfb307ff761f4d1954ad41e33606a0f4d30d420b66e580c7d29cd",
+    "evidence/experiment_04/inputs/promise_plus_metadata.json": "9d69b44a43e6a3196ae98c74fca5b25062fb2dd749f017e36bdd033acc2a7b17",
+    "evidence/experiment_04/inputs/Promise_plus_original.arff": "9772c11732b93a3b03d96f07bfacaaa552992ea492cb020c98284c930dbf510a",
+    "evidence/experiment_04/prepare_external.py": "731c20d6935294df97c527669f4057c45ce2bebac3d8e45cd619f5b1e7eb657a",
+    "evidence/experiment_04/prepared/additional_training_overlap_exclusions.csv": "82792147d97777878f8893deb8839c19347245abaf5afa2e1ded765a27a61184",
+    "evidence/experiment_04/prepared/Promise_plus_audit.json": "f4229c85a2c629c6399c785c59835d776277736f08c84fca6f70f58b1177d1f4",
+    "evidence/experiment_04/prepared/Promise_plus_exclusions.csv": "fa82837d5cb97858c6542f9c6e1724d41e4738c7438002099983df31375ae1bd",
+    "evidence/experiment_04/prepared/Promise_plus_near_matches.csv": "c1e3daed906fcfe47d8b5c580dbf55782884f1fceb18358b133df7e6f059d89d",
+    "evidence/experiment_04/prepared/Promise_plus_parsed.csv": "4c23c370c9c093ccc6b32679b673ee2d876b52260a79f1ec9bd9230355d6588c",
+    "evidence/experiment_04/prepared/Promise_plus_partition.csv": "3598df794e7b41dbd36a35c2b32a8e332887eeb9297ee5b902dbabee66914526",
+    "evidence/experiment_04/prepared/Promise_plus_pre_prediction_review.csv": "1879f9c1c89f4f677ea454e95eec61e0b9012362cf8e97445cebae5fe0f17be7",
+    "evidence/experiment_04/prepared/Promise_plus_unparsed.csv": "5653b2fc1666d135fa08a567929ebc280180cf6b2d785471f5f72cdc8f8882b8",
+    "evidence/experiment_04/protocol.json": "6f1fbc4e5a4503f0c22c410a60a869f9452128e3d61db03e03897473e76499d5",
+    "evidence/experiment_04/results/additional_training_embeddings.npy": "35dce5d1297811955121d06199b2ad21357d1ca95420a5d8b22199f2532b4003",
+    "evidence/experiment_04/results/cv_predictions.csv": "6927fabd75d255f5528b82f8eeedb1c2a7f675cc88f9f99192f64edb25f476cd",
+    "evidence/experiment_04/results/cv_scores.csv": "05cdf57205cfff7415b479353d17477fbb9f7ba0d7b4047a45f9bc4e6be94876",
+    "evidence/experiment_04/results/execution_order.json": "5432fdda15f67b8e2711645bda08f3c05070f414e3c6cffaaad338a868ae4a56",
+    "evidence/experiment_04/results/model_comparison.csv": "7bc2780d6fa6bf7a5251338ef24e7ee9fe05dd85754ce27543c4cf7e83589512",
+    "evidence/experiment_04/results/model_selection.json": "32d83ae2765bf0da2a3fca489e616c92dd38ed2c305beb14f4caf9a1ea959ead",
+    "evidence/experiment_04/results/models/semantic_augmented_training.joblib": "270fe20a03b40bf7da2a0429a19bc67f139e42100397b3da537108260725577d",
+    "evidence/experiment_04/results/models/semantic_original_training.joblib": "7d094725f2c5b7bd85441fcbbad8da09cf0bc61feb6545cf671d85e8b0dea4e6",
+    "evidence/experiment_04/results/models/word_augmented_training.joblib": "3988df42dcabff3f218c024ff2e948782bd79cb7c0575ec640c1c9c4d55cde6b",
+    "evidence/experiment_04/results/original_test_embeddings.npy": "eeec5514ad112def3c62a0dd7a5716d2b6c53c5051b0b81f86a03afd44c45afd",
+    "evidence/experiment_04/results/original_training_embeddings.npy": "1a45d3ebc78e44e81f3132d07f8fa6d990730bfe46518496b2a4d32f900e450c",
+    "evidence/experiment_04/results/per_class_metrics.csv": "c535f6030145c932d49943ba85b5c87b34abecb99141faa1732f5f1d87be630e",
+    "evidence/experiment_04/results/per_project_metrics.csv": "ed83ff59d28ea1e03939e2383a4662f65619e3417cc7652c5b0e232fc011aada",
+    "evidence/experiment_04/results/predictions.csv": "b4890ca40a46ecea55a66f4ada9df6eb34077a95468244a11bff16ea3305fb47",
+    "evidence/experiment_04/results/promise_plus_heldout_projects_embeddings.npy": "056bb2c363dfbc2b3059e98dce5a581577e154561984708ab52fc66ed3289e6d",
+    "evidence/experiment_04/results/results.json": "72b9626d2c8be0a2bada63b4305dfe7893ce7502445504747ac76628fc0d6290",
+    "evidence/experiment_04/results/secreq_embeddings.npy": "79c16aa21006bd8c4a7e0959b9b1e70503c63280734ba655dee5e1e0cf8f6b56",
+    "evidence/experiment_04/results/verification.json": "c7daa98127545889aaec2641678d6bdec1d51300ec4fbea5e4b8eae53c82fc2b",
+    "evidence/experiment_04/run_comparison.py": "dd458bcbc489bd7a9fa82e32d081fdffd2057b262138fe8c6cf618491bdb2ef5",
+    "evidence/experiment_04/semantic_features.py": "a473acb72048cf73765f2515b2fae411ac54a02109ecff0118fe845ebc11aa29",
+    "evidence/experiment_04/sources.json": "349747b1a04f01e7e6021ebce251bce87cd3c3d56c9dd6cf932b47b735d5ac22",
+    "evidence/experiment_04/verify_comparison.py": "b93f1780b882343bb81717381bfead51dcab70cd38b70a49f7f4d53c2d186872",
+    "evidence/experiment_05/BASE_MODEL_LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "evidence/experiment_05/download_model.py": "d796c3aa64c75f2794db852447e295a0f480322ae420e02f11ee725988da4b78",
+    "evidence/experiment_05/MODEL_DERIVATION_NOTICE.txt": "ca20be8a8e08636c68cf68578a1824d10c435c155d7b25f724bbbfd3d72f065d",
+    "evidence/experiment_05/protocol.json": "c2fb14b18bc2700258a2e4b40e33ac7a6843b15744d85c05d0c5b83f2aebaa79",
+    "evidence/experiment_05/results/augmented_refit_history.json": "ca09ce0229c1cd3f529d5a9fb701abbe240cba910f5fd94ab6e00c0cd1fb5a7b",
+    "evidence/experiment_05/results/augmented_selection_history.json": "f270dbf939730ac07be51fb1ad725da015a6ca1c1db15d0634a0a955bef85753",
+    "evidence/experiment_05/results/augmented_validation_predictions.csv": "f9c68d9a10b2ce1979ecaa1eaffb2f76201cb99f8a196a8e061fd864d50b3f8b",
+    "evidence/experiment_05/results/candidate_application_checks.json": "92cbff1707299b738cd13f51dee250030a734db8234c50a119c7be07c9f176cf",
+    "evidence/experiment_05/results/epoch_selection.json": "d12b6bce35e28118522f6aea27a241221292385f68b4ca539da707f47aeaa950",
+    "evidence/experiment_05/results/execution_order.json": "a0034def9ae1e2fa85e79c3fbe1429d91601c5d3336654bbe9196df9fd7c911f",
+    "evidence/experiment_05/results/model_comparison.csv": "75f977983deeb0bc99fd43d4b644e907c6b4703818931391d8f2a008717ba43e",
+    "evidence/experiment_05/results/models/augmented.safetensors": "03c61173adc5f351e2b4a22590e6ecc04f375897594ee75cee03c82e09e4e8a8",
+    "evidence/experiment_05/results/models/original_only.safetensors": "9d4c554d5d3e89ff752f57ff71300fef1228c1f3d760f51447513578a67395db",
+    "evidence/experiment_05/results/original_only_refit_history.json": "baa4495a4f871192d1a91d8c5cee54e12620f74c0a27e115845e9a19e41a2ac2",
+    "evidence/experiment_05/results/original_only_selection_history.json": "8a27cc603dac8e8bd0f13edc6573e08fc95993116d260b2f38c78f350b6e9a09",
+    "evidence/experiment_05/results/original_only_validation_predictions.csv": "3e72511cde23be95e6a0f7c237d873a46d9f439ff7b45e31924014d2c6fe55d5",
+    "evidence/experiment_05/results/per_project_metrics.csv": "f09b734a6a3c8a0201533f59b52c0ea7ea8911d823bf2c32e1b8e02fbb86dc6c",
+    "evidence/experiment_05/results/predictions.csv": "d48308719a95841a62c7bec8af7b17a1ffe84ed96deb51aaf8d71dd3c24cb0c7",
+    "evidence/experiment_05/results/results.json": "1c553f3bc7286305f68b3c529376f2977b2efc16fe7eff884cbf054bf6ef5484",
+    "evidence/experiment_05/results/training_validation_membership.csv": "d48957ed8cb77f468af714c579e72c4b8e01490e7c748b2101a30daa6a4a65f1",
+    "evidence/experiment_05/results/verification.json": "12ad6cbae8660d9765a03e4dfa528520f2786d410d04d05ca0eb5e8418f461b0",
+    "evidence/experiment_05/run_candidate_app.py": "601f88465322dab4c1a37b77d8b8cb8764214f81380a9ad2c4cdfdf3f190f402",
+    "evidence/experiment_05/run_finetuning.py": "6345b922ed0e856af3b989c3b33ea7ff2025785343a20970eaded995ae8a5a5e",
+    "evidence/experiment_05/text_model.py": "eae2eeec1e6ed5d4970db0d3aba490a1ca3409f0478ba7057075c10870031ed5",
+    "evidence/experiment_05/verify_candidate_app.py": "00a4b7d8eaefd330f789b657d4d3b3ffe1eaa7cf3ef99f2afa6b1de58c0a8abe",
+    "evidence/experiment_05/verify_finetuning.py": "0683ba65868812356fd0dc11b74f1fb7092d3ebee56f1525b2dd29bb760863d9",
+    "evidence/original/FR_NFR_dataset/FR_NFR_Dataset.xlsx": "77e1a7ed5d374e7bff3cda8d29bd5a3914f04921a751a6483c3fe58313cb6cbe",
+    "evidence/prepared/excluded_records.csv": "2ea8780a251e706a11e32e74b1b5ec8eda9a9e534ddce70553c389c5b5eb5f9a",
+    "evidence/prepared/FR_NFR_prepared.csv": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+    "evidence/prepared/preparation_summary.json": "575ff06342dbc143c55c80b389e786a81c6c6cfcc67938bf214e05f7efbae3cc",
+    "evidence/requirements_advanced.txt": "23f051b807e909372ea1cacffaeab874a5d9308393aff18bebc76eef45b693db",
+    "evidence/train_classifier.py": "d1ab5b10ca7c846b241cb0d506a1e543eb5b036ef4555e41c11b662937e35e49",
+    "index.html": "d2c4602eb8fc16a860d19b56d3ea1564925731842d580889a79964b065e961fc",
+    "requirements.txt": "048613c013a65b61db96d855e2a2600f834bef395d29a9718c7f8c840b509394",
+    "RUN.cmd": "c9cd17397053b607d3a7ed0f2973aaf3eb9ec97411f48d5558d4461402be749c",
+    "verify_app.py": "ac38df639a8eab809921d96384f8c185d57cc2e6302e95a2258c5555975a02e4"
+  },
+  "shared_input_paths": {
+    "evidence/experiment_02/inputs/original_prepared.csv": "evidence/prepared/FR_NFR_prepared.csv",
+    "evidence/experiment_02/inputs/original_results.json": "evidence/experiment_01/results.json",
+    "evidence/experiment_02/inputs/original_saved_classifier.joblib": "classifier.joblib",
+    "evidence/experiment_02/inputs/original_split_membership.csv": "evidence/experiment_01/split_membership.csv",
+    "evidence/experiment_02/inputs/original_test_predictions.csv": "evidence/experiment_01/test_predictions.csv"
+  },
+  "layout_cleanup": {
+    "date": "2026-10-29",
+    "removed_files": [
+      "EXPERIMENTS_75_PERCENT.txt",
+      "evidence/75_percent_results/additional_references.txt",
+      "evidence/75_percent_results/source_hashes.json",
+      "evidence/experiment_01/classifier.joblib",
+      "evidence/experiment_02/requirements.txt",
+      "evidence/experiment_02/original_files_unchanged.json",
+      "evidence/experiment_02/inputs/original_prepared.csv",
+      "evidence/experiment_02/inputs/original_results.json",
+      "evidence/experiment_02/inputs/original_saved_classifier.joblib",
+      "evidence/experiment_02/inputs/original_split_membership.csv",
+      "evidence/experiment_02/inputs/original_test_predictions.csv",
+      "evidence/experiment_02/review/REVIEW.md",
+      "evidence/experiment_02/review/cases.md",
+      "evidence/experiment_03/results/cv_fold_membership.csv",
+      "evidence/experiment_04/requirements.txt",
+      "evidence/experiment_05/requirements.txt",
+      "evidence/experiment_04/pre_prediction_review.md",
+      "evidence/experiment_04/preparation_reproducibility.md",
+      "evidence/experiment_02/README.md",
+      "evidence/experiment_03/README.md",
+      "evidence/experiment_04/README.md",
+      "evidence/experiment_05/README.md",
+      "evidence/experiment_02/manifest.json",
+      "evidence/experiment_03/manifest.json",
+      "evidence/experiment_04/manifest.json",
+      "evidence/experiment_05/manifest.json",
+      "evidence/experiment_03/existing_files_snapshot.json",
+      "evidence/experiment_04/existing_files_snapshot.json",
+      "evidence/experiment_05/existing_files_snapshot.json",
+      "__pycache__/app.cpython-312.pyc",
+      "evidence/experiment_04/.gitignore",
+      "evidence/experiment_05/.gitignore",
+      "evidence/75_percent_results/accuracy_and_macro_f1.png",
+      "evidence/75_percent_results/all_model_metrics.csv",
+      "evidence/75_percent_results/confusion_matrices.csv",
+      "evidence/75_percent_results/per_class_metrics.csv",
+      "evidence/75_percent_results/RESULTS.md"
+    ],
+    "retained_original_files_verified_byte_identical": 116,
+    "changed_existing_code_files": [
+      "RUN.cmd",
+      "evidence/experiment_02/analyse_external_cases.py",
+      "evidence/experiment_02/run_experiment.py",
+      "evidence/experiment_02/verify_experiment.py",
+      "evidence/experiment_03/run_tuning.py",
+      "evidence/experiment_03/verify_tuning.py",
+      "evidence/experiment_04/prepare_external.py",
+      "evidence/experiment_04/run_comparison.py",
+      "evidence/experiment_04/verify_comparison.py",
+      "evidence/experiment_05/run_finetuning.py",
+      "evidence/experiment_05/verify_finetuning.py",
+      "evidence/train_classifier.py",
+      "verify_app.py",
+      "evidence/experiment_02/verify_application_75.py",
+      "evidence/experiment_05/verify_candidate_app.py",
+      ".gitignore"
+    ],
+    "combined_summary_removed": "The optional combined summary was removed; individual experiment predictions, models and results are retained."
+  },
+  "cleanup_verification": {
+    "status": "passed",
+    "application_checks": "Default application, eight requirements and both saved candidate interfaces passed.",
+    "retraining": "Baseline and experiments 02, 03 and 04 rerun; scientific CSV outputs match the saved results byte-for-byte.",
+    "experiment_05": "Saved weights, all validation/test predictions, metrics and epoch selection rechecked; full fine-tuning was not repeated during layout cleanup.",
+    "feature_arrays": "All five recomputed experiment 04 arrays match the saved arrays byte-for-byte.",
+    "checks": [
+      {
+        "check": "fixed_files_before",
+        "exit_code": 0,
+        "seconds": 0.38
+      },
+      {
+        "check": "application",
+        "exit_code": 0,
+        "seconds": 7.53
+      },
+      {
+        "check": "application_requirements",
+        "exit_code": 0,
+        "seconds": 2.25
+      },
+      {
+        "check": "baseline_retraining",
+        "exit_code": 0,
+        "seconds": 1.69
+      },
+      {
+        "check": "baseline_split_predictions_and_metrics_identical",
+        "status": "passed"
+      },
+      {
+        "check": "experiment02_saved",
+        "exit_code": 0,
+        "seconds": 2.11
+      },
+      {
+        "check": "experiment02_retrain",
+        "exit_code": 0,
+        "seconds": 3.34
+      },
+      {
+        "check": "experiment02_repeat_verify",
+        "exit_code": 0,
+        "seconds": 2.24
+      },
+      {
+        "check": "experiment_02_rerun_csv_comparison",
+        "status": "passed",
+        "files": [
+          "conflicting_label_records.csv",
+          "confusion_matrices.csv",
+          "constant_label_baselines.csv",
+          "cv_fold_membership.csv",
+          "cv_scores.csv",
+          "excluded_records.csv",
+          "model_comparison.csv",
+          "near_match_candidates.csv",
+          "per_class_metrics.csv",
+          "predictions_original_test.csv",
+          "predictions_secreq_combined.csv",
+          "SecReq_FR_NFR_prepared.csv",
+          "selected_model_disagreements.csv"
+        ]
+      },
+      {
+        "check": "case_review",
+        "exit_code": 0,
+        "seconds": 2.56
+      },
+      {
+        "check": "experiment03_saved",
+        "exit_code": 0,
+        "seconds": 3.06
+      },
+      {
+        "check": "experiment03_retrain",
+        "exit_code": 0,
+        "seconds": 15.2
+      },
+      {
+        "check": "experiment03_repeat_verify",
+        "exit_code": 0,
+        "seconds": 2.81
+      },
+      {
+        "check": "experiment_03_rerun_csv_comparison",
+        "status": "passed",
+        "files": [
+          "cv_predictions.csv",
+          "cv_scores.csv",
+          "model_comparison.csv",
+          "predictions.csv"
+        ]
+      },
+      {
+        "check": "promise_preparation",
+        "exit_code": 0,
+        "seconds": 0.38
+      },
+      {
+        "check": "experiment04_saved",
+        "exit_code": 0,
+        "seconds": 8.76
+      },
+      {
+        "check": "experiment04_retrain",
+        "exit_code": 0,
+        "seconds": 44.3
+      },
+      {
+        "check": "experiment04_repeat_verify",
+        "exit_code": 0,
+        "seconds": 4.19
+      },
+      {
+        "check": "experiment_04_rerun_csv_comparison",
+        "status": "passed",
+        "files": [
+          "cv_predictions.csv",
+          "cv_scores.csv",
+          "model_comparison.csv",
+          "per_class_metrics.csv",
+          "per_project_metrics.csv",
+          "predictions.csv"
+        ]
+      },
+      {
+        "check": "all_five_recomputed_embedding_arrays_byte_identical",
+        "status": "passed"
+      },
+      {
+        "check": "experiment05_saved",
+        "exit_code": 0,
+        "seconds": 29.44
+      },
+      {
+        "check": "candidate_applications",
+        "exit_code": 0,
+        "seconds": 10.48
+      },
+      {
+        "check": "fixed_files_after",
+        "exit_code": 0,
+        "seconds": 0.3
+      }
+    ],
+    "temporary_outputs_removed": true,
+    "current_fixed_file_count": 128
+  },
+  "final_verification": {
+    "completed_at_utc": "2026-10-29T19:46:03.153781+00:00",
+    "status": "passed",
+    "scope": "Full training reruns for experiments 01-05, raw preparation checks, saved-model inference, independent metrics and actual local launchers.",
+    "thesis_pdf_sha256": "fee54735004252b3556c18382acb3e40213ddbcf73a1be8179342a792b343b24",
+    "original_project_files_unchanged_before_recording_report": 131,
+    "recorded_files_checked": 128,
+    "checks": [
+      {
+        "check": "recorded_file_integrity_before",
+        "exit_code": 0,
+        "seconds": 0.31
+      },
+      {
+        "check": "default_app_http",
+        "exit_code": 0,
+        "seconds": 2.41
+      },
+      {
+        "check": "application_requirements",
+        "exit_code": 0,
+        "seconds": 2.33
+      },
+      {
+        "check": "baseline_full_training",
+        "exit_code": 0,
+        "seconds": 1.78
+      },
+      {
+        "check": "baseline_all_split_predictions_and_metrics_identical",
+        "status": "passed"
+      },
+      {
+        "check": "experiment02_full_training",
+        "exit_code": 0,
+        "seconds": 3.72
+      },
+      {
+        "check": "experiment02_new_results_verified",
+        "exit_code": 0,
+        "seconds": 3.11
+      },
+      {
+        "check": "experiment_02_csvs_identical",
+        "status": "passed",
+        "files": [
+          "conflicting_label_records.csv",
+          "confusion_matrices.csv",
+          "constant_label_baselines.csv",
+          "cv_fold_membership.csv",
+          "cv_scores.csv",
+          "excluded_records.csv",
+          "model_comparison.csv",
+          "near_match_candidates.csv",
+          "per_class_metrics.csv",
+          "predictions_original_test.csv",
+          "predictions_secreq_combined.csv",
+          "SecReq_FR_NFR_prepared.csv",
+          "selected_model_disagreements.csv"
+        ]
+      },
+      {
+        "check": "case_diagnostics",
+        "exit_code": 0,
+        "seconds": 2.73
+      },
+      {
+        "check": "experiment03_full_training",
+        "exit_code": 0,
+        "seconds": 21.41
+      },
+      {
+        "check": "experiment03_new_results_verified",
+        "exit_code": 0,
+        "seconds": 3.88
+      },
+      {
+        "check": "experiment_03_csvs_identical",
+        "status": "passed",
+        "files": [
+          "cv_predictions.csv",
+          "cv_scores.csv",
+          "model_comparison.csv",
+          "predictions.csv"
+        ]
+      },
+      {
+        "check": "promise_full_preparation",
+        "exit_code": 0,
+        "seconds": 0.55
+      },
+      {
+        "check": "experiment04_full_encoding_training",
+        "exit_code": 0,
+        "seconds": 59.52
+      },
+      {
+        "check": "experiment04_new_results_verified",
+        "exit_code": 0,
+        "seconds": 5.28
+      },
+      {
+        "check": "experiment_04_csvs_identical",
+        "status": "passed",
+        "files": [
+          "cv_predictions.csv",
+          "cv_scores.csv",
+          "model_comparison.csv",
+          "per_class_metrics.csv",
+          "per_project_metrics.csv",
+          "predictions.csv"
+        ]
+      },
+      {
+        "check": "experiment04_all_five_feature_arrays_identical",
+        "status": "passed"
+      },
+      {
+        "check": "classical_and_frozen_workflow",
+        "status": "passed"
+      },
+      {
+        "check": "experiment05_full_finetuning",
+        "exit_code": 0,
+        "seconds": 1024.22
+      },
+      {
+        "check": "experiment05_new_results_verified",
+        "exit_code": 0,
+        "seconds": 29.33
+      },
+      {
+        "check": "experiment_05_csvs_identical",
+        "status": "passed",
+        "files": [
+          "augmented_validation_predictions.csv",
+          "model_comparison.csv",
+          "original_only_validation_predictions.csv",
+          "per_project_metrics.csv",
+          "predictions.csv",
+          "training_validation_membership.csv"
+        ]
+      },
+      {
+        "check": "experiment05_both_retrained_weights_histories_and_epoch_selection_identical",
+        "status": "passed"
+      },
+      {
+        "check": "new_candidate_applications",
+        "exit_code": 0,
+        "seconds": 10.38
+      },
+      {
+        "check": "full_finetuning_workflow",
+        "status": "passed"
+      },
+      {
+        "check": "recorded_file_integrity_after",
+        "exit_code": 0,
+        "seconds": 0.3
+      },
+      {
+        "check": "all_original_project_files_unchanged",
+        "status": "passed",
+        "files": 131
+      }
+    ],
+    "actual_application_launchers": [
+      {
+        "launcher": "default",
+        "status": "passed",
+        "GET_form": 200,
+        "POST_cases": [
+          {
+            "input": "",
+            "status": 400
+          },
+          {
+            "input": "   ",
+            "status": 400
+          },
+          {
+            "input": "The system shall allow users to reset their passwords.",
+            "status": 200
+          },
+          {
+            "input": "The system shall respond to user requests within two seconds.",
+            "status": 200
+          },
+          {
+            "input": "<b>The system shall display text.</b>",
+            "status": 200
+          }
+        ]
+      },
+      {
+        "launcher": "original_only",
+        "status": "passed",
+        "GET_form": 200,
+        "POST_cases": [
+          {
+            "input": "",
+            "status": 400
+          },
+          {
+            "input": "   ",
+            "status": 400
+          },
+          {
+            "input": "The system shall allow users to reset their passwords.",
+            "status": 200
+          },
+          {
+            "input": "The system shall respond to user requests within two seconds.",
+            "status": 200
+          },
+          {
+            "input": "<b>The system shall display text.</b>",
+            "status": 200
+          }
+        ]
+      },
+      {
+        "launcher": "augmented",
+        "status": "passed",
+        "GET_form": 200,
+        "POST_cases": [
+          {
+            "input": "",
+            "status": 400
+          },
+          {
+            "input": "   ",
+            "status": 400
+          },
+          {
+            "input": "The system shall allow users to reset their passwords.",
+            "status": 200
+          },
+          {
+            "input": "The system shall respond to user requests within two seconds.",
+            "status": 200
+          },
+          {
+            "input": "<b>The system shall display text.</b>",
+            "status": 200
+          }
+        ]
+      }
+    ],
+    "retrained_finetuned_weights_sha256": {
+      "original_only": "9d4c554d5d3e89ff752f57ff71300fef1228c1f3d760f51447513578a67395db",
+      "augmented": "03c61173adc5f351e2b4a22590e6ecc04f375897594ee75cee03c82e09e4e8a8"
+    },
+    "original_preparation_reconstructed": {
+      "raw_records": 6117,
+      "retained_records": 5936,
+      "invalid_labels": 31,
+      "same_label_duplicate_copies": 100,
+      "conflicting_label_records": 50,
+      "conflicting_label_groups": 25,
+      "matches_prepared_csv_exactly": true
+    },
+    "pdf_comparison": {
+      "main_score_table_cells_matched": 117,
+      "recall_figure_labels_matched": 21,
+      "independently_recomputed_metrics": 149,
+      "counts_splits_formulas_validation_and_epoch_selection_match": true,
+      "interpretation_correction": {
+        "pdf_page": 45,
+        "section": "3.3",
+        "current_sentence": "The low SecReq performance therefore cannot be explained entirely by possible reference-label problems.",
+        "supported_replacement": "The available evidence does not justify attributing the low SecReq performance entirely to possible reference-label problems.",
+        "reason": "The provisional review does not independently adjudicate reference labels or isolate the causes of the low score."
+      }
+    },
+    "temporary_rerun_outputs_removed": true
+  }
+}
