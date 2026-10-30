@@ -1,0 +1,29 @@
+[
+  {
+    "epoch": 1,
+    "mean_batch_weighted_loss": 0.47971165619213574,
+    "fitting_records": 4748,
+    "training_class_weights_FR_NFR": [
+      0.7611414194107056,
+      1.4573358297348022
+    ]
+  },
+  {
+    "epoch": 2,
+    "mean_batch_weighted_loss": 0.3226430671734842,
+    "fitting_records": 4748,
+    "training_class_weights_FR_NFR": [
+      0.7611414194107056,
+      1.4573358297348022
+    ]
+  },
+  {
+    "epoch": 3,
+    "mean_batch_weighted_loss": 0.2779995184956175,
+    "fitting_records": 4748,
+    "training_class_weights_FR_NFR": [
+      0.7611414194107056,
+      1.4573358297348022
+    ]
+  }
+]

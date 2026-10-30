@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "protected_existing_files_unchanged": 121,
+  "validation_predictions_checked": 6882,
+  "test_predictions_recomputed_from_saved_weights": 4486,
+  "test_metric_groups_recomputed": 6,
+  "maximum_reloaded_logit_difference": 0.0,
+  "epoch_selection_recomputed_from_validation_only": true,
+  "all_test_ids_excluded_from_fitting_validation_and_refit": true,
+  "auxiliary_validation_and_test_project_ids_disjoint": true,
+  "saved_weights_sha256_verified": true,
+  "app_model_replaced": false,
+  "qualification": "These integrity checks do not independently validate reference labels or make inspected test sets untouched again."
+}
