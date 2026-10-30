@@ -1,0 +1,41 @@
+source_line,project_id,requirement_text,source_label,label,subset
+2837,73,"Minimum flows on the upper Peace River - The MFL is met when the MFL s are at or above the established MFL for three consecutive years. Once the MFL has been considered met, if it is followed by two years where the MFL is not met within a rolling ten-year period, then the AFL shall be considered below the MFL. A determination of whether AFL s are meeting the established MFL is made at each one of the established minimums (Bartow, Ft. Meade and Zolfo Springs). ",F,FR,additional_training
+1764,62,"Systems supporting OM must have the capability to capture data about organizations (e.g., a local health department, a university, a professional association) involved in an OM investigation, including: organization name, location, and contact information. ",F,FR,external_test
+2230,68,When a train has received an emergency stop ETCS shall command the emergency brake. ,F,FR,additional_training
+2447,70,The DUAP Computational Services shall be able to derive pothole severity from probe vehicle data. ,F,FR,additional_training
+3426,82,The VCD system MUST provide a functionality that initiates a conflict resolution process between economic operator and contracting authority if errors occur or when certain attestation or a translation cannot be delivered on demand.,F,FR,additional_training
+2403,68,"At Start Up, the on board equipment shall perform an automatic self-test. ",F,FR,additional_training
+1785,62,"Chain of custody information for forensic and select agent samples must be captured, including the person who collected the sample, the location of collection, all people who came into contact with the sample during the preparation for shipment to the laboratory, and the acceptance of the package by the shipper. ",F,FR,external_test
+509,10,When the hit results in sinking a ship  the product shall notify the players that the ship was sunk.,F,FR,additional_training
+756,33,The system should require the user to state time when should the doughnut be delivered.,F,FR,external_test
+1687,62,"Systems supporting OM should be able to create new contacts from existing case records, and should also identify the contact type. ",F,FR,external_test
+2726,72,"Actors in the capacity of course administrator or professor should be able to enable multiple file uploads on a page of his or her choosing. For collaborative projects, it becomes important for actors to be able to upload more than one file to a given page, especially in the case of an assignment submission where the assignment might include multiple parts. Such a construct should be offered to the actor during a page’s creation and editing stages.",F,FR,external_test
+3666,89,"The system requires that a user have logged in before modifications can be made. The following user account information is modifiable by all user types: Password, Email Address Priority, Name",F,FR,external_test
+3367,82,The VCD system MUST have an interface to submit/upload evidence that have to be provided manually by the economic operator. ,F,FR,additional_training
+659,18,The meeting scheduler system shall cancel a meeting due to canceling of an important participant.,F,FR,external_test
+1381,57,The HATS-GUI shall provide the function to fully expand a sub-tree regardless of the node expansion level in the application configuration.,F,FR,additional_training
+2729,72,The system must allow actors to organize their voice clips into a portfolio. ,F,FR,external_test
+1766,62,"Systems supporting OM must have the capability to capture demographic data about persons involved in an OM investigation, including: Subject ID, name, address, date of birth, gender, phone number, race, ethnicity, and country of citizenship. ",F,FR,external_test
+3637,89,"A piece of content may take the following forms: Text, Image, Audio, Video",F,FR,external_test
+2750,72,The system must be able to use search functionality as a way to navigate Moodle pages instead of using hierarchical links. ,F,FR,external_test
+503,10,The product shall maintain the status of each player for a turn  either offensive or defensive.,F,FR,additional_training
+3276,82,"It MUST be assured that business document instances are consistent and correct during transportation, validation or transformation operations.  ",L,NFR,additional_training
+1197,52,"The syntax of control flow commands is to be consistent across the system, whether accessing workstation software or IOC software.",PO,NFR,additional_training
+2607,71,The System shall be capable of protecting the integrity of NDE data in the event of a natural disaster. ,SE,NFR,additional_training
+3424,82,A formal procedure to make changes to the system MUST be defined.,MN,NFR,additional_training
+2026,65,The online help system should be compiled utilizing as much of non-technical terms as possible. Care SHOULD be taken not to produce an exhaustive user documentation as that would defeat the main purpose of the system as expressed in the introduction to section 2. A comprehensive Developer’s Guide MAY be compiled to facilitate 3rd party ZNIX-aware applications.,FT,NFR,additional_training
+964,48,The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.,MN,NFR,external_test
+3643,89,The system allows only valid users to log into the system. A valid user is one which has not been disabled or deleted and exists on the system. ,SE,NFR,external_test
+3168,80,Management Processes shall produce standards-compliant HTML. ,SC,NFR,external_test
+2929,76,Web conferencing feature enables the user to interact with multiple users within a given class. Each user can chat with one another while the session is open.,US,NFR,external_test
+535,10,The product shall able to handle a large number of games simultaneously.,PE,NFR,additional_training
+486,9,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,PE,NFR,additional_training
+685,24,The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.,MN,NFR,external_test
+3385,82,Legitimacy of mapping between national attestations and common criteria for qualitative selection and exclusion MUST be ensured.  ,L,NFR,additional_training
+3291,82,The mapping between evidences via requirements MUST have set a primary focus on the mandatory requirements and evidences of a VCD. ,L,NFR,additional_training
+3308,82,"The responsibility and the related processes of the National Service Provider MUST be defined (e.g. mapping activity, compilation of VCD package). ",L,NFR,additional_training
+2074,66,"The system will use, where appropriate, the standard software resources provided by the ARS OCIO. This includes, but is not limited to, MS ASP/Java Scripts, C++/C# , MS SQL server and IIS, or the use of PHP/Perl, JB scripts, C++/C#, MySQL server, and Apache server. ",L,NFR,external_test
+2891,75,"This section describes the logical characteristics of each interface between the intended software product and the users. For user interface design, common GUI standards will be followed along with the presence of keyboard shortcuts, error message display standards etc., and standard buttons and functions (i.e. help) will appear on every screen. Details of the user interface design are intended to be documented in a separate user interface specification. ",US,NFR,additional_training
+3436,83,Sending the hyperlink to the default browser will take less than 1 second. ,PE,NFR,external_test
+2100,66,"Implement a web-based browse-and-query tool for searching STEWARDS metadata. Queries by location, theme, and keyword will be supported. A likely scenario involves a web-based wizard which allows users to specify particular querying parameters and then save them for reference later such that time-based comparisons are facilitated with minimal user training. ",L,NFR,external_test
+531,10,When a shot is marked as a miss  the product shall simulate the sound of a shot missing its target.,LF,NFR,additional_training

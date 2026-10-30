@@ -1,0 +1,79 @@
+{
+  "semantic_head_selected": "semantic_svm_C1.0_unweighted",
+  "selected_configuration": {
+    "name": "semantic_svm_C1.0_unweighted",
+    "C": 1.0,
+    "class_weight": null
+  },
+  "cross_validation": {
+    "semantic_svm_C0.1_unweighted": {
+      "fold_macro_f1": [
+        0.8312434691745036,
+        0.8244732897530915,
+        0.802969968475195,
+        0.8335055738040813,
+        0.816977317483079
+      ],
+      "mean_macro_f1": 0.8218339237379901,
+      "std_macro_f1_population": 0.011055936378441671
+    },
+    "semantic_svm_C0.1_balanced": {
+      "fold_macro_f1": [
+        0.8383913990201415,
+        0.8215910896667293,
+        0.8234192218375989,
+        0.8348081214788458,
+        0.8335323372250993
+      ],
+      "mean_macro_f1": 0.830348433845683,
+      "std_macro_f1_population": 0.006624506010775848
+    },
+    "semantic_svm_C1.0_unweighted": {
+      "fold_macro_f1": [
+        0.8494180517186722,
+        0.8382259499301055,
+        0.8255161551660805,
+        0.8474491128659554,
+        0.8432278760636969
+      ],
+      "mean_macro_f1": 0.840767429148902,
+      "std_macro_f1_population": 0.00853923230599264
+    },
+    "semantic_svm_C1.0_balanced": {
+      "fold_macro_f1": [
+        0.8451044237105825,
+        0.8328109932497589,
+        0.8193809179542513,
+        0.8317037164850123,
+        0.8330897292052036
+      ],
+      "mean_macro_f1": 0.8324179561209617,
+      "std_macro_f1_population": 0.008148947411557507
+    },
+    "semantic_svm_C10.0_unweighted": {
+      "fold_macro_f1": [
+        0.8448275647092123,
+        0.8258027891648582,
+        0.8308514853471495,
+        0.8439284753162097,
+        0.8403078530878303
+      ],
+      "mean_macro_f1": 0.8371436335250522,
+      "std_macro_f1_population": 0.0075272178327751675
+    },
+    "semantic_svm_C10.0_balanced": {
+      "fold_macro_f1": [
+        0.843008787619566,
+        0.8321481646424405,
+        0.8223889976467296,
+        0.8286071392262748,
+        0.8267489411421061
+      ],
+      "mean_macro_f1": 0.8305804060554234,
+      "std_macro_f1_population": 0.00696556691691502
+    }
+  },
+  "selection_data": "Original training folds only",
+  "external_data_used_for_selection": false,
+  "selection_is_not_a_deployment_decision": true
+}

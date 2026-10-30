@@ -1,0 +1,58 @@
+[
+  {
+    "stage": "Protocol and source hashes verified before fitting",
+    "completed_at_utc": "2026-10-22T12:43:13.096144+00:00"
+  },
+  {
+    "stage": "Original training vectors encoded with fixed public model",
+    "completed_at_utc": "2026-10-22T12:43:34.730591+00:00"
+  },
+  {
+    "stage": "Training-only semantic-head validation complete: semantic_svm_C0.1_unweighted",
+    "completed_at_utc": "2026-10-22T12:43:35.663584+00:00"
+  },
+  {
+    "stage": "Training-only semantic-head validation complete: semantic_svm_C0.1_balanced",
+    "completed_at_utc": "2026-10-22T12:43:36.551634+00:00"
+  },
+  {
+    "stage": "Training-only semantic-head validation complete: semantic_svm_C1.0_unweighted",
+    "completed_at_utc": "2026-10-22T12:43:37.856420+00:00"
+  },
+  {
+    "stage": "Training-only semantic-head validation complete: semantic_svm_C1.0_balanced",
+    "completed_at_utc": "2026-10-22T12:43:39.289460+00:00"
+  },
+  {
+    "stage": "Training-only semantic-head validation complete: semantic_svm_C10.0_unweighted",
+    "completed_at_utc": "2026-10-22T12:43:41.336768+00:00"
+  },
+  {
+    "stage": "Training-only semantic-head validation complete: semantic_svm_C10.0_balanced",
+    "completed_at_utc": "2026-10-22T12:43:43.765070+00:00"
+  },
+  {
+    "stage": "Semantic configuration recorded before any test prediction: semantic_svm_C1.0_unweighted",
+    "completed_at_utc": "2026-10-22T12:43:43.847755+00:00"
+  },
+  {
+    "stage": "All original-only and augmented candidates fitted before test evaluation",
+    "completed_at_utc": "2026-10-22T12:44:03.022681+00:00"
+  },
+  {
+    "stage": "Fixed test predictions recorded for all five models: original_test",
+    "completed_at_utc": "2026-10-22T12:44:07.653188+00:00"
+  },
+  {
+    "stage": "Fixed test predictions recorded for all five models: secreq",
+    "completed_at_utc": "2026-10-22T12:44:09.944569+00:00"
+  },
+  {
+    "stage": "Fixed test predictions recorded for all five models: promise_plus_heldout_projects",
+    "completed_at_utc": "2026-10-22T12:44:19.562663+00:00"
+  },
+  {
+    "stage": "Previous project files preserved; all recorded comparisons complete",
+    "completed_at_utc": "2026-10-22T12:44:19.728337+00:00"
+  }
+]

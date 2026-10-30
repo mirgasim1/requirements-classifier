@@ -1,0 +1,71 @@
+{
+  "accessed": "2026-10-22",
+  "external_data": {
+    "title": "Promise+: A dataset of labeled software requirements",
+    "doi": "10.5281/zenodo.12805484",
+    "url": "https://zenodo.org/records/12805484",
+    "date": "2024-07-24",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "creators": [
+      {
+        "name": "CARVALHO DA SILVA, BRUNO",
+        "affiliation": "Universidade Federal do Maranhão",
+        "orcid": "0009-0008-6188-7537"
+      },
+      {
+        "name": "Nascimento, Rodrigo",
+        "affiliation": "Universidade Federal do Maranhão",
+        "orcid": "0009-0007-5676-2396"
+      },
+      {
+        "name": "Braz Junior, Geraldo",
+        "affiliation": "Federal University of Maranhão",
+        "orcid": "0000-0003-3731-6431"
+      },
+      {
+        "name": "Rivero, Luis",
+        "affiliation": "Universidade Federal do Maranhão",
+        "orcid": "0000-0001-6008-6537"
+      },
+      {
+        "name": "Martins, Luiz Eduardo Galvão",
+        "affiliation": "Universidade Federal de São Paulo",
+        "orcid": "0000-0002-7266-5840"
+      },
+      {
+        "name": "PEREIRA DOS SANTOS, RODRIGO",
+        "affiliation": "Universidade Federal do Estado do Rio de Janeiro",
+        "orcid": "0000-0003-4749-2551"
+      },
+      {
+        "name": "Viana, Davi",
+        "affiliation": "Universidade Federal do Maranhão",
+        "orcid": "0000-0003-0470-549X"
+      }
+    ],
+    "raw_sha256": "9772c11732b93a3b03d96f07bfacaaa552992ea492cb020c98284c930dbf510a"
+  },
+  "model": {
+    "name": "Snowflake/snowflake-arctic-embed-xs",
+    "revision": "d8c86521100d3556476a063fc2342036d45c106f",
+    "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs",
+    "release": "2024-04-16",
+    "license": "Apache 2.0, declared in the model card",
+    "files_sha256": {
+      "1_Pooling/config.json": "83eeb6d0c128b377a452f121f8c5a19bbbf9322092a87b856ef782f4ad2326b9",
+      "config.json": "d7d071046ab952af96b7abad788db7ab3fc997b465e1b9914ff39707092254ec",
+      "onnx/model.onnx": "cf2698d30ff05da02c70a088313bad56e5c2f401d734cb24a8390d446111936c",
+      "README.md": "6bfaf51250f5360e505272dde4a9ffcdc41bf66b090d68e8f9ecc4807ab80507",
+      "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "tokenizer.json": "91f1def9b9391fdabe028cd3f3fcc4efd34e5d1f08c3bf2de513ebb5911a1854",
+      "tokenizer_config.json": "9ca59277519f6e3692c8685e26b94d4afca2d5438deff66483db495e48735810"
+    },
+    "technical_report": "https://arxiv.org/abs/2405.05374"
+  },
+  "other_candidates": {
+    "hierarchical_2026_release": "Not selected as a binary external benchmark: mixes the original corpus and has multi-label hierarchical annotations. Its separately supplied PROMISE_exp input was audited without scoring, but the original 2024 PROMISE+ release with explicit licence was preferred.",
+    "dataset_search_archive": "The 2026 ZIP is retained outside the active project as a research source, not a new 100%-independent test set."
+  }
+}

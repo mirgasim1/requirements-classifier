@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "protected_existing_files_unchanged": 83,
+  "training_validation_predictions_checked": 28488,
+  "saved_test_predictions_recomputed": 11215,
+  "pooled_model_metric_groups_recomputed": 15,
+  "baseline_metric_groups_recomputed": 6,
+  "per_project_metric_rows_checked": 170,
+  "heldout_project_ids_disjoint_from_additional_training": true,
+  "retained_source_text_and_labels_unchanged": true,
+  "previous_original_and_secreq_results_reproduced": true,
+  "fresh_encoder_alignment_records": 12,
+  "maximum_fresh_embedding_difference": 0.0,
+  "encoder_weights_pinned_and_unchanged": true,
+  "cv_means_recomputed": {
+    "semantic_svm_C0.1_unweighted": 0.8218339237379901,
+    "semantic_svm_C0.1_balanced": 0.830348433845683,
+    "semantic_svm_C1.0_unweighted": 0.840767429148902,
+    "semantic_svm_C1.0_balanced": 0.8324179561209617,
+    "semantic_svm_C10.0_unweighted": 0.8371436335250522,
+    "semantic_svm_C10.0_balanced": 0.8305804060554234
+  },
+  "app_model_replaced": false,
+  "reference_labels_independently_reannotated": false
+}

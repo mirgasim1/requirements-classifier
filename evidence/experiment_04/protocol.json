@@ -1,0 +1,167 @@
+{
+  "created_at_utc": "2026-10-22T12:40:37.541974+00:00",
+  "recorded_before_new_encoder_or_classifier_predictions": true,
+  "purpose": "Compare a frozen 2024 pretrained text encoder with the tuned TF-IDF SVM, and measure the effect of additional training requirements on fixed held-out projects.",
+  "status": "Exploratory development after original and SecReq outcomes were inspected. PROMISE+ eligibility and project partition fixed before any classifier prediction on PROMISE+.",
+  "primary_original_training": 4748,
+  "original_test": 1188,
+  "secreq_test": 253,
+  "additional_training": {
+    "records": 1496,
+    "label_counts": {
+      "FR": 1054,
+      "NFR": 442
+    },
+    "project_ids": [
+      "9",
+      "10",
+      "13",
+      "14",
+      "15",
+      "16",
+      "20",
+      "21",
+      "22",
+      "23",
+      "25",
+      "37",
+      "40",
+      "42",
+      "52",
+      "57",
+      "61",
+      "64",
+      "65",
+      "68",
+      "70",
+      "71",
+      "73",
+      "75",
+      "77",
+      "78",
+      "82",
+      "84",
+      "86",
+      "87",
+      "88"
+    ]
+  },
+  "promise_plus_test": {
+    "records": 802,
+    "label_counts": {
+      "FR": 451,
+      "NFR": 351
+    },
+    "project_ids": [
+      "7",
+      "11",
+      "12",
+      "17",
+      "18",
+      "19",
+      "24",
+      "26",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "35",
+      "47",
+      "48",
+      "51",
+      "55",
+      "62",
+      "66",
+      "69",
+      "72",
+      "74",
+      "76",
+      "79",
+      "80",
+      "81",
+      "83",
+      "85",
+      "89",
+      "90"
+    ]
+  },
+  "data_preparation": "Use the copied audit's project exclusions and seed-42 half-project partition. Additionally remove auxiliary training statements flagged by the same near-match screen against either fixed test corpus. Do not modify labels or inspect model performance to alter membership.",
+  "additional_training_removed_near_test": 0,
+  "binary_mapping": "Published F maps to FR; all eleven named NFR quality classes map to NFR. Retain source labels in output. This is a binary reduction, not native FR/NFR string labels.",
+  "encoder": {
+    "model": "Snowflake/snowflake-arctic-embed-xs",
+    "revision": "d8c86521100d3556476a063fc2342036d45c106f",
+    "backend": "Official unquantized ONNX file, CPU",
+    "fitting": "Frozen; no encoder training or adaptation on any requirement data",
+    "pooling": "First CLS token, L2 normalised, no retrieval query prefix",
+    "max_tokens": 512,
+    "batch_size": 32
+  },
+  "head_candidates": [
+    {
+      "name": "semantic_svm_C0.1_unweighted",
+      "C": 0.1,
+      "class_weight": null
+    },
+    {
+      "name": "semantic_svm_C0.1_balanced",
+      "C": 0.1,
+      "class_weight": "balanced"
+    },
+    {
+      "name": "semantic_svm_C1.0_unweighted",
+      "C": 1.0,
+      "class_weight": null
+    },
+    {
+      "name": "semantic_svm_C1.0_balanced",
+      "C": 1.0,
+      "class_weight": "balanced"
+    },
+    {
+      "name": "semantic_svm_C10.0_unweighted",
+      "C": 10.0,
+      "class_weight": null
+    },
+    {
+      "name": "semantic_svm_C10.0_balanced",
+      "C": 10.0,
+      "class_weight": "balanced"
+    }
+  ],
+  "selection": "Highest mean macro F1 on exactly the same five original-training folds. No external result, external embedding or auxiliary label is used to select the semantic head. First listed candidate wins an exact tie.",
+  "comparisons": [
+    "Original application TF-IDF unigram SVM",
+    "Original-trained tuned TF-IDF unigram+bigram balanced SVM from experiment 03",
+    "Original-trained frozen-encoder SVM selected using original training folds",
+    "Fixed experiment-03 word settings refitted on original training plus auxiliary projects",
+    "Selected semantic-head settings refitted on original training plus auxiliary projects"
+  ],
+  "augmentation_selection": "No additional search or resampling. Reuse the selected settings; report both original-only and augmented conditions regardless of outcome. An augmented model has seen other PROMISE+ projects and cannot be described as source-unseen on PROMISE+.",
+  "evaluation": "All five models on the same original holdout, unchanged SecReq and the 802-record PROMISE+ test. Accuracy, macro precision/recall/F1, per-class metrics, confusion matrices, per-project results and both constant-label baselines. No model is selected or deployed using test scores.",
+  "stopping_rule": "Complete the recorded comparisons and independent verification once. Do not alter data, labels, random seed or search in response to missing 80-90%.",
+  "limitations": [
+    "Existing original and SecReq test outcomes were already known; follow-up evidence is exploratory.",
+    "Whole-project exclusions reduce observed overlap but original source IDs are absent; unseen underlying projects or semantic overlap cannot be fully proved.",
+    "Source labels include arguable mixed functional/security/business-rule cases. No independent gold-label reannotation is claimed.",
+    "PROMISE+ includes older requirements; 2024 is the release date. Some text contains source encoding artefacts or context dependence, retained unchanged.",
+    "The additional-training condition measures transfer to held-out project IDs within a source already represented in training, not unseen-source performance.",
+    "Higher scores on PROMISE+ do not erase the SecReq result or establish performance on every new project.",
+    "No guaranteed 80-90% score and no inferred time savings or human-accuracy improvement."
+  ],
+  "app_deployment": "No automatic replacement of the application's existing model. Save all candidate heads and fitted word pipelines separately.",
+  "input_sha256": {
+    "inputs/promise_plus_metadata.json": "9d69b44a43e6a3196ae98c74fca5b25062fb2dd749f017e36bdd033acc2a7b17",
+    "inputs/Promise_plus_original.arff": "9772c11732b93a3b03d96f07bfacaaa552992ea492cb020c98284c930dbf510a",
+    "prepared/additional_training_overlap_exclusions.csv": "82792147d97777878f8893deb8839c19347245abaf5afa2e1ded765a27a61184",
+    "prepared/Promise_plus_audit.json": "f4229c85a2c629c6399c785c59835d776277736f08c84fca6f70f58b1177d1f4",
+    "prepared/Promise_plus_exclusions.csv": "fa82837d5cb97858c6542f9c6e1724d41e4738c7438002099983df31375ae1bd",
+    "prepared/Promise_plus_near_matches.csv": "c1e3daed906fcfe47d8b5c580dbf55782884f1fceb18358b133df7e6f059d89d",
+    "prepared/Promise_plus_parsed.csv": "4c23c370c9c093ccc6b32679b673ee2d876b52260a79f1ec9bd9230355d6588c",
+    "prepared/Promise_plus_partition.csv": "3598df794e7b41dbd36a35c2b32a8e332887eeb9297ee5b902dbabee66914526",
+    "prepared/Promise_plus_pre_prediction_review.csv": "1879f9c1c89f4f677ea454e95eec61e0b9012362cf8e97445cebae5fe0f17be7",
+    "prepared/Promise_plus_unparsed.csv": "5653b2fc1666d135fa08a567929ebc280180cf6b2d785471f5f72cdc8f8882b8"
+  }
+}
