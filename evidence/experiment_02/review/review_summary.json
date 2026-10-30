@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-22",
+  "selection_id": "2026-10-22-secreq-review-v1",
+  "sample_records": 40,
+  "strata": [
+    {
+      "project": "CPN",
+      "reference_label": "FR",
+      "matches_reference": 0,
+      "available": 45,
+      "selected_workbook_rows": [
+        3339,
+        3204,
+        3212,
+        3219,
+        3195
+      ]
+    },
+    {
+      "project": "CPN",
+      "reference_label": "FR",
+      "matches_reference": 1,
+      "available": 31,
+      "selected_workbook_rows": [
+        3276,
+        3271,
+        3192,
+        3281,
+        3253
+      ]
+    },
+    {
+      "project": "CPN",
+      "reference_label": "NFR",
+      "matches_reference": 0,
+      "available": 24,
+      "selected_workbook_rows": [
+        3172,
+        3157,
+        3166,
+        3168,
+        3247
+      ]
+    },
+    {
+      "project": "CPN",
+      "reference_label": "NFR",
+      "matches_reference": 1,
+      "available": 29,
+      "selected_workbook_rows": [
+        3151,
+        3179,
+        3156,
+        3346,
+        3180
+      ]
+    },
+    {
+      "project": "ePurse",
+      "reference_label": "FR",
+      "matches_reference": 0,
+      "available": 8,
+      "selected_workbook_rows": [
+        3474,
+        3478,
+        3456,
+        3453,
+        3450
+      ]
+    },
+    {
+      "project": "ePurse",
+      "reference_label": "FR",
+      "matches_reference": 1,
+      "available": 22,
+      "selected_workbook_rows": [
+        3397,
+        3427,
+        3452,
+        3415,
+        3448
+      ]
+    },
+    {
+      "project": "ePurse",
+      "reference_label": "NFR",
+      "matches_reference": 0,
+      "available": 68,
+      "selected_workbook_rows": [
+        3392,
+        3428,
+        3362,
+        3441,
+        3400
+      ]
+    },
+    {
+      "project": "ePurse",
+      "reference_label": "NFR",
+      "matches_reference": 1,
+      "available": 26,
+      "selected_workbook_rows": [
+        3467,
+        3381,
+        3398,
+        3438,
+        3374
+      ]
+    }
+  ],
+  "selection_method": "Select five records by SHA-256 rank within each project x published label x SVM-match-status stratum. Twenty match and twenty disagree by design.",
+  "sampling_limitation": "Outcome-stratified post-hoc diagnostic sample. Interpretation counts are not estimates of external error prevalence, dataset label-error rates or corrected accuracy.",
+  "review_status": "Provisional interpretive case analysis; independent human adjudication has not been performed.",
+  "definition_basis": "Sections 1 and 1.1 of the approved 50% report distinguish required software behaviour from quality attributes and constraints. Security mechanisms and business rules can make this boundary ambiguous. The notes do not establish replacement gold labels.",
+  "interpretation_counts": {
+    "security_quality_constraint": 3,
+    "security_mechanism_boundary": 12,
+    "functional_behavior": 15,
+    "mixed_behavior_quality": 4,
+    "context_dependent": 4,
+    "functional_business_rule": 2
+  },
+  "reference_alignment_counts": {
+    "plausible": 19,
+    "boundary_or_mixed": 16,
+    "functional_reading_conflicts_with_NFR_reference": 1,
+    "context_needed": 4
+  },
+  "plausible_reference_disagreements_in_sample": 9,
+  "near_conflicting_pairs_at_0_90": 1,
+  "vocabulary_diagnostics": [
+    {
+      "dataset": "original_test",
+      "records": 1188,
+      "training_vocabulary_terms": 4969,
+      "total_tokens": 17069,
+      "unseen_tokens": 454,
+      "pooled_unseen_token_fraction": 0.02659792606479583,
+      "mean_record_unseen_token_fraction": 0.0244870677494232,
+      "mean_tokens_per_record": 14.367845117845118,
+      "zero_feature_records": 0,
+      "encoding_artifact_marker_records": 0
+    },
+    {
+      "dataset": "secreq_combined",
+      "records": 253,
+      "training_vocabulary_terms": 4969,
+      "total_tokens": 6406,
+      "unseen_tokens": 801,
+      "pooled_unseen_token_fraction": 0.12503902591320637,
+      "mean_record_unseen_token_fraction": 0.13345119150263407,
+      "mean_tokens_per_record": 25.320158102766797,
+      "zero_feature_records": 0,
+      "encoding_artifact_marker_records": 12
+    },
+    {
+      "dataset": "secreq_CPN",
+      "records": 129,
+      "training_vocabulary_terms": 4969,
+      "total_tokens": 2925,
+      "unseen_tokens": 470,
+      "pooled_unseen_token_fraction": 0.1606837606837607,
+      "mean_record_unseen_token_fraction": 0.16939837763445798,
+      "mean_tokens_per_record": 22.674418604651162,
+      "zero_feature_records": 0,
+      "encoding_artifact_marker_records": 0
+    },
+    {
+      "dataset": "secreq_ePurse",
+      "records": 124,
+      "training_vocabulary_terms": 4969,
+      "total_tokens": 3481,
+      "unseen_tokens": 331,
+      "pooled_unseen_token_fraction": 0.0950876185004309,
+      "mean_record_unseen_token_fraction": 0.09605452205904307,
+      "mean_tokens_per_record": 28.072580645161292,
+      "zero_feature_records": 0,
+      "encoding_artifact_marker_records": 12
+    }
+  ],
+  "coefficient_reconstruction_max_error": 2.220446049250313e-16,
+  "score_note": "The signed linear-SVM score is not a calibrated probability. Term contributions explain the fitted linear score, not the causal reason for generalisation failure.",
+  "inputs_sha256": {
+    "predictions_external": "66bf99ede888efced47a003fb8d5f30adf8baa3c622f191acd3ff3354effc4ae",
+    "predictions_original": "ca2922f8af8acb50613448daeef9a794785a2fc9f811c887705d8eb1353b9903",
+    "svm_model": "5cf605a06e6084aaf970c310941b80d74f59d2002ae79aec9a3854012a9ef3bc"
+  },
+  "reference_sources": {
+    "report_definition": "50% report, Sections 1 and 1.1, printed pages 7-8",
+    "dataset": "https://doi.org/10.5281/zenodo.15082900",
+    "linear_score_method": "https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html"
+  },
+  "no_training_or_relabelling": true
+}

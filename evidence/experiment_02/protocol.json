@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-22",
+  "recorded_before_new_model_fitting_and_predictions": true,
+  "question": "How does a classifier selected on the original training data perform on the supplied FR/NFR labels of the CPN and ePurse sections?",
+  "external_selection": "All eligible CPN and ePurse records after documented duplicate and overlap checks. No selection by predictions or model performance.",
+  "selected_raw_records": 334,
+  "prepared_records_after_inspected_rules": 253,
+  "prepared_label_counts": {
+    "FR": 106,
+    "NFR": 147
+  },
+  "retained_label_rule": "Use the published Type value without manual relabelling.",
+  "training": "Keep the original stratified 80/20 split (random_state=42). Fit only on its 4748 training rows.",
+  "validation": "Five identical stratified folds inside the training data; shuffle=True, random_state=42. Fit TF-IDF separately in every fold.",
+  "model_selection": "Highest mean training-only macro F1 across three fixed configurations. Test sets do not decide the selected model.",
+  "models": {
+    "linear_svm": {
+      "C": 1.0,
+      "class_weight": null,
+      "random_state": 42,
+      "max_iter": 10000
+    },
+    "logistic_regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "solver": "liblinear",
+      "random_state": 42,
+      "max_iter": 10000
+    },
+    "multinomial_naive_bayes": {
+      "alpha": 1.0,
+      "fit_prior": true
+    }
+  },
+  "features": "Default TF-IDF word unigrams, lowercase=True, no stop words, L2 normalization, smoothed IDF. Only the requirement text is a feature.",
+  "evaluation": "Accuracy, macro precision, macro recall, macro F1, class metrics and confusion matrices on the original holdout and pooled external data. Report the two external projects separately as well.",
+  "scope": "A limited two-specification external case study with many security requirements. No universal generalisation or time-saving claim.",
+  "input_sha256": {
+    "dcai24_src_dataset.xlsx": "216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec",
+    "original_prepared.csv": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+    "original_results.json": "74e061a3a44975e41ac1d0081550a7556640eb8f22a2ad3aedff1bfb48092cb4",
+    "original_saved_classifier.joblib": "0695ca262f5f5824810499e8537a789204d95ade6cd2ea9e9b6f3d801c3445ce",
+    "original_split_membership.csv": "45025653672573e6512ebb315438e0d081864bff0ca28732d26f6ebe45078af7",
+    "original_test_predictions.csv": "c67d1aaa24dd5be6e8d9c0c93b231ebe74fcd4231b2145bcdd4de1890e0f0b26"
+  }
+}

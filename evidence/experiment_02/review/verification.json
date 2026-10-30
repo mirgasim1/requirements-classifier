@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-22",
+  "status": "passed",
+  "review_records": 40,
+  "balanced_strata": 8,
+  "records_per_stratum": 5,
+  "review_text_and_published_labels_match_saved_predictions": true,
+  "vocabulary_diagnostic_records": 1441,
+  "vocabulary_totals_checked": true,
+  "near_conflicting_pair_checked": true,
+  "application_requirement_checks": 8,
+  "existing_experiment_files_unchanged": {
+    "inputs/dcai24_src_dataset.xlsx": "216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec",
+    "inputs/original_prepared.csv": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+    "inputs/original_results.json": "74e061a3a44975e41ac1d0081550a7556640eb8f22a2ad3aedff1bfb48092cb4",
+    "inputs/original_saved_classifier.joblib": "0695ca262f5f5824810499e8537a789204d95ade6cd2ea9e9b6f3d801c3445ce",
+    "inputs/original_split_membership.csv": "45025653672573e6512ebb315438e0d081864bff0ca28732d26f6ebe45078af7",
+    "inputs/original_test_predictions.csv": "c67d1aaa24dd5be6e8d9c0c93b231ebe74fcd4231b2145bcdd4de1890e0f0b26",
+    "original_files_unchanged.json": "efa90d6be7a43c992c3a35e3a143e7fe55ff6dff1938aa3dd2c124895f16483f",
+    "protocol.json": "d7d638f1f35ce56614975dea69dcac36976c58aa91710d394818ae314838a7f5",
+    "requirements.txt": "048613c013a65b61db96d855e2a2600f834bef395d29a9718c7f8c840b509394",
+    "results/conflicting_label_records.csv": "ce9f6060e02f9d112e1caac651c12181b02eea4280428bdc53ce865f0c1ac394",
+    "results/confusion_matrices.csv": "6bbe3d35e620d3b245b04ca091018cc3a0ab5c42043a5f8150cf4d1fa181e69d",
+    "results/constant_label_baselines.csv": "d34dfcd8b4a9741c17e1a05b002a23a3996dd633c8e7a3cef73fcb1cb6686b5f",
+    "results/cv_fold_membership.csv": "3c1835fe8f8ddf4b781137badee270b748e8f71322498ed992870130b6452a4f",
+    "results/cv_scores.csv": "80d36c3033a34d1831a37dad4068b0621b5c5817870d8fe1d779d2be15d8a0f7",
+    "results/excluded_records.csv": "a07547bce24df15a9e224b5c6035038d5525f0ec010bcab72cfa509c3e29b5b9",
+    "results/execution_order.json": "13deef1fdd39221e631dac156332d2b30864686a3a8554620e51138d2a41a0a5",
+    "results/model_comparison.csv": "26bc0f43031329ed94a86c6f664ed9503ac053a23c0b6806e61ee43e74d97156",
+    "results/model_selection.json": "937b8eb1d605946ad3ce70d3261d38b21176d0b49bd973928f5ec6427d10aa37",
+    "results/models/linear_svm.joblib": "5cf605a06e6084aaf970c310941b80d74f59d2002ae79aec9a3854012a9ef3bc",
+    "results/models/logistic_regression.joblib": "1b4601f3e92f9947972e6ea68bac3760702c1783bbec137f4bf1a2f3180099b8",
+    "results/models/multinomial_naive_bayes.joblib": "c6d796597ad0e4939f1e5ca650564a87a7ea9d0d651c572255fae1ebca556b44",
+    "results/near_match_candidates.csv": "52e81168516d46bd1a81c8f460caab31a04ab6febd112f5cb803ca41f95965db",
+    "results/per_class_metrics.csv": "d379872c15176d27121ec0459d87fb6e67f1b5a9071fc30dd03cb027a6d4cf13",
+    "results/predictions_original_test.csv": "ca2922f8af8acb50613448daeef9a794785a2fc9f811c887705d8eb1353b9903",
+    "results/predictions_secreq_combined.csv": "66bf99ede888efced47a003fb8d5f30adf8baa3c622f191acd3ff3354effc4ae",
+    "results/preparation_summary.json": "edf2cdb6e9501b02fd2188b147f65f51c3eabd0109362a0d32e4fa24847bd252",
+    "results/results.json": "7bd504903fdee6bf02fc9f2f28344f9388985ac9acabff1fa25584bd0a831d67",
+    "results/SecReq_FR_NFR_prepared.csv": "2f2c3ae1a00fe3cc14dee71f8d75f5c8fb963570d5dcfafb0ac01475344f7ad8",
+    "results/selected_model_disagreements.csv": "770f57d2c3001028044383e14b89a9cc37aad0783090d11e75ccc3c57d6d8354",
+    "results/verification.json": "ea44f27dbb0b2c99ab358cf7028611e0665a4e542e78214410937a5c8715cfeb",
+    "run_experiment.py": "55cffc5834eec1c43012f037b644d87dd307cfdbaa8eee568c081428becb65cd",
+    "sources.json": "09b8b067121beaa2b90cc7bf15567669cee116b60a498f30a11aea70fab061c3",
+    "verify_experiment.py": "bc44038b4db75b22a82ccb1e0a148c7494d565b76971629199bb4a9dfc932a1d"
+  },
+  "interpretation_status": "Provisional post-hoc notes, not an independently adjudicated replacement dataset.",
+  "report_definition_source": {
+    "title": "50% progress report",
+    "sections": [
+      "1",
+      "1.1"
+    ],
+    "printed_pages": [
+      7,
+      8
+    ],
+    "sha256": "59695088b56d7d48c09232ea44bbe88fcfcf28aa0359f6463e0ae1a40dd0fd91"
+  }
+}

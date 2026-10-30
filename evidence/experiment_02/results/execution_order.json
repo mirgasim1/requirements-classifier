@@ -1,0 +1,38 @@
+[
+  {
+    "stage": "Preparation finished before training and evaluation",
+    "completed_at_utc": "2026-10-22T11:18:35.244739+00:00"
+  },
+  {
+    "stage": "Training-only cross-validation finished: linear_svm",
+    "completed_at_utc": "2026-10-22T11:18:35.537078+00:00"
+  },
+  {
+    "stage": "Training-only cross-validation finished: logistic_regression",
+    "completed_at_utc": "2026-10-22T11:18:35.814207+00:00"
+  },
+  {
+    "stage": "Training-only cross-validation finished: multinomial_naive_bayes",
+    "completed_at_utc": "2026-10-22T11:18:36.058920+00:00"
+  },
+  {
+    "stage": "Model selected before either test set was evaluated: linear_svm",
+    "completed_at_utc": "2026-10-22T11:18:36.059926+00:00"
+  },
+  {
+    "stage": "Fitting and test evaluation finished: linear_svm",
+    "completed_at_utc": "2026-10-22T11:18:36.195211+00:00"
+  },
+  {
+    "stage": "Fitting and test evaluation finished: logistic_regression",
+    "completed_at_utc": "2026-10-22T11:18:36.306943+00:00"
+  },
+  {
+    "stage": "Fitting and test evaluation finished: multinomial_naive_bayes",
+    "completed_at_utc": "2026-10-22T11:18:36.415549+00:00"
+  },
+  {
+    "stage": "All prediction and metric files written",
+    "completed_at_utc": "2026-10-22T11:18:36.452538+00:00"
+  }
+]

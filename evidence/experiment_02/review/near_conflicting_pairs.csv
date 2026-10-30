@@ -1,0 +1,2 @@
+first_workbook_row,second_workbook_row,first_reference_label,second_reference_label,first_specific_type,second_specific_type,normalized_sequence_similarity,first_text,second_text,first_prediction,second_prediction
+3244,3339,NFR,FR,PE,NONSE,0.9809523809523809,The CNG shall be able to classify intra-LAN traffic that is simply bridged by the CNG itself within the CPN.,CNG shall be able to classify intra-LAN traffic that is simply bridged by the CNG itself within the CPN.,NFR,NFR

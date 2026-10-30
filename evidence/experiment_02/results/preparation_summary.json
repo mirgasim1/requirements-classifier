@@ -1,0 +1,45 @@
+{
+  "raw_workbook_records": 3482,
+  "selected_project_records_before_cleaning": 334,
+  "raw_project_label_counts": {
+    "CPN": {
+      "NFR": 88,
+      "FR": 122
+    },
+    "ePurse": {
+      "NFR": 94,
+      "FR": 30
+    }
+  },
+  "excluded_counts": {
+    "outside_selected_projects": 3148,
+    "conflicting_binary_label_group": 34,
+    "additional_same_label_duplicate": 47
+  },
+  "prepared_records": 253,
+  "prepared_label_counts": {
+    "NFR": 147,
+    "FR": 106
+  },
+  "prepared_project_label_counts": {
+    "CPN": {
+      "NFR": 53,
+      "FR": 76
+    },
+    "ePurse": {
+      "NFR": 94,
+      "FR": 30
+    }
+  },
+  "selected_conflicting_groups": 17,
+  "remaining_normalized_matches_with_original": 0,
+  "near_match_candidates": 0,
+  "source_sha256": "216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec",
+  "prepared_sha256": "2f2c3ae1a00fe3cc14dee71f8d75f5c8fb963570d5dcfafb0ac01475344f7ad8",
+  "matching_rule": "NFKC normalization, casefold and Unicode word tokens. Used only for matching.",
+  "duplicate_rule": "Conflicting FR/NFR groups are identified across the whole workbook. Within the selected projects, keep the first remaining same-label occurrence in workbook order.",
+  "near_match_rule": "Use shared word trigrams to find ten candidate original records per external statement. Check candidates with trigram Jaccard >= 0.30; flag sequence similarity >= 0.80 or trigram Jaccard >= 0.70. This is not an exhaustive semantic-overlap test.",
+  "input_text": "The Requirement cell only. Text and supplied Type labels of retained records are unchanged. IDs, source names and category fields are not classifier inputs.",
+  "label_review": "No independent relabelling of the retained requirements. Disagreements measure differences from the published reference labels, not necessarily proven model mistakes.",
+  "scope": "The CPN and ePurse sections only. These are two security-heavy specifications, not the whole merged dataset or a representative sample of all software domains."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "input_hashes_match": true,
+  "original_input_copies_match_main_project": true,
+  "raw_text_and_labels_preserved": true,
+  "all_source_rows_accounted_for": true,
+  "prepared_records": 253,
+  "prepared_label_counts": {
+    "NFR": 147,
+    "FR": 106
+  },
+  "normalized_overlap_with_original": 0,
+  "original_split_preserved": true,
+  "training_only_model_selection_checked": true,
+  "saved_predictions_recomputed": 4323,
+  "metric_groups_independently_recomputed": 12,
+  "selected_model_disagreements": 145,
+  "saved_application_predictions_match_svm": true,
+  "constant_label_baselines_calculated": 8,
+  "scope": "Structural, prediction and numerical checks. This does not independently establish semantic label correctness, independence of all underlying projects or generalisation to all domains."
+}

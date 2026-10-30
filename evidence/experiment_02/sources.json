@@ -1,0 +1,60 @@
+{
+  "accessed_date": "2026-10-22",
+  "external_dataset": {
+    "title": "Software Requirements Classification: From Bag-of-Words to Transformer [Dataset]",
+    "authors": [
+      "Xanthopoulou, G.",
+      "Siavvas, M.",
+      "Kalouptsoglou, I.",
+      "Kehagias, D.",
+      "Tzovaras, D."
+    ],
+    "version": "1.0",
+    "published": "2025-03-11",
+    "landing_page": "https://zenodo.org/records/15082900",
+    "doi": "https://doi.org/10.5281/zenodo.15082900",
+    "download": "https://zenodo.org/records/15082900/files/dcai24_src_dataset.xlsx?download=1",
+    "original_filename": "dcai24_src_dataset.xlsx",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "selected_source_sections": [
+      "SecReq Customer Premises Network (CPN)'",
+      "SecReq Common Electronic Purse (ePurse)'"
+    ],
+    "label_provenance": "The curated workbook already supplies FR/NFR in its Type column. The dataset description reports manual FR/NFR labelling by the authors where labels were missing. This experiment does not map security/non-security categories to FR/NFR.",
+    "adaptation": "Select the CPN and ePurse sections. Remove conflicting FR/NFR duplicate groups, extra same-label copies and any normalized matches with the original corpus. Retained text and Type labels are unchanged.",
+    "age_note": "The 2025 release is a curated compilation of older source specifications, not newly collected 2025 requirements."
+  },
+  "related_publication": {
+    "title": "Software Requirements Classification: From Bag-of-Words to Transformer",
+    "year": 2025,
+    "conference": "DCAI 2024",
+    "series": "Lecture Notes in Networks and Systems",
+    "volume": 1198,
+    "doi": "https://doi.org/10.1007/978-3-031-76459-2_35"
+  },
+  "original_dataset": {
+    "title": "FR_NFR_dataset",
+    "authors": [
+      "Sonali, Sonali",
+      "Thamada, Srinivasarao"
+    ],
+    "version": 1,
+    "published": "2024-06-07",
+    "landing_page": "https://data.mendeley.com/datasets/4ysx9fyzv4/1",
+    "doi": "https://doi.org/10.17632/4ysx9fyzv4.1",
+    "licence": "CC BY 4.0",
+    "prepared_records": 5936,
+    "training_records": 4748,
+    "original_test_records": 1188,
+    "original_experiment_in_repository": "../experiment_01/"
+  },
+  "input_sha256": {
+    "dcai24_src_dataset.xlsx": "216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec",
+    "original_prepared.csv": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+    "original_results.json": "74e061a3a44975e41ac1d0081550a7556640eb8f22a2ad3aedff1bfb48092cb4",
+    "original_saved_classifier.joblib": "0695ca262f5f5824810499e8537a789204d95ade6cd2ea9e9b6f3d801c3445ce",
+    "original_split_membership.csv": "45025653672573e6512ebb315438e0d081864bff0ca28732d26f6ebe45078af7",
+    "original_test_predictions.csv": "c67d1aaa24dd5be6e8d9c0c93b231ebe74fcd4231b2145bcdd4de1890e0f0b26"
+  }
+}

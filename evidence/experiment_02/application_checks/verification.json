@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-22",
+  "status": "passed",
+  "requirements_checked": 8,
+  "requirement_source": "50% report, Section 2.1, printed page 16",
+  "checks": [
+    {
+      "requirement": "FR1",
+      "status": "passed",
+      "evidence": "GET / returns one textarea for one submitted requirement statement."
+    },
+    {
+      "requirement": "FR2",
+      "status": "passed",
+      "evidence": "The form has a submit button and posts to /classify; actual POST requests were checked below."
+    },
+    {
+      "requirement": "FR3",
+      "status": "passed",
+      "evidence": "Three valid POST submissions display the saved model's Functional/Non-functional category and retain the input. This verifies model integration, not semantic classification accuracy."
+    },
+    {
+      "requirement": "FR4",
+      "status": "passed",
+      "evidence": "Empty, spaces-only and newline/tab-only submissions return 400 and an input message. The model and vectorizer are not called."
+    },
+    {
+      "requirement": "FR5",
+      "status": "passed",
+      "evidence": "An edited second submission is processed and displayed with the new text; the old submitted text is not returned in its place."
+    },
+    {
+      "requirement": "FR6",
+      "status": "passed",
+      "evidence": "A simulated prediction failure returns 500 and an error message without a predicted category."
+    },
+    {
+      "requirement": "NFR1",
+      "status": "passed",
+      "evidence": "Returned HTML contains an associated Requirement statement label, Classify button and Predicted category heading.",
+      "scope": "HTML-label presence. Visual usability and user comprehension are not measured by this check."
+    },
+    {
+      "requirement": "NFR2",
+      "status": "passed",
+      "evidence": "Every successful request calls the fitted TF-IDF transform. Fit methods were guarded against use; vocabulary and IDF values remained unchanged."
+    }
+  ],
+  "prediction_observations": [
+    {
+      "statement": "The system shall allow users to reset their passwords.",
+      "displayed_category": "Functional",
+      "matches_saved_model": true,
+      "submitted_text_preserved": true
+    },
+    {
+      "statement": "The system shall respond to user requests within two seconds.",
+      "displayed_category": "Non-functional",
+      "matches_saved_model": true,
+      "submitted_text_preserved": true
+    },
+    {
+      "statement": "</textarea><script>alert(\"test\")</script> The system shall display text.",
+      "displayed_category": "Functional",
+      "matches_saved_model": true,
+      "submitted_text_preserved": true
+    }
+  ],
+  "additional_checks": [
+    "Submitted HTML is escaped before display",
+    "Unknown GET route returns 404",
+    "Model file hash is unchanged"
+  ],
+  "model_sha256": "0695ca262f5f5824810499e8537a789204d95ade6cd2ea9e9b6f3d801c3445ce",
+  "limitations": "Local HTTP and HTML checks. No concurrent-use, browser automation, usability study or classification-accuracy claim is made here."
+}

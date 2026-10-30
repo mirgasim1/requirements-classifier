@@ -1,0 +1,41 @@
+{
+  "criterion": "Highest mean five-fold macro F1 within the original training data only",
+  "tie_rule": "First model in the recorded classifier order if means are exactly equal",
+  "selected_model": "linear_svm",
+  "cross_validation": {
+    "linear_svm": {
+      "fold_macro_f1": [
+        0.8326216107619044,
+        0.8313960754905637,
+        0.8551431071116111,
+        0.8740749086174954,
+        0.8576699262103306
+      ],
+      "mean_macro_f1": 0.850181125638381,
+      "std_macro_f1_population": 0.016203894167473067
+    },
+    "logistic_regression": {
+      "fold_macro_f1": [
+        0.8167022149302707,
+        0.8283448701699652,
+        0.8409951072423453,
+        0.8605836142640646,
+        0.8370671356030966
+      ],
+      "mean_macro_f1": 0.8367385884419486,
+      "std_macro_f1_population": 0.014551439254736988
+    },
+    "multinomial_naive_bayes": {
+      "fold_macro_f1": [
+        0.8133148675691898,
+        0.8001942462909006,
+        0.8070090232867257,
+        0.8540431824903875,
+        0.8105584030213111
+      ],
+      "mean_macro_f1": 0.817023944531703,
+      "std_macro_f1_population": 0.019023784315417975
+    }
+  },
+  "external_data_used_for_selection": false
+}

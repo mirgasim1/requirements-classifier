@@ -1,0 +1,1442 @@
+dataset,source_row,workbook_row,source_project,reference_label,predicted_label,matches_reference,tokens,unseen_tokens,unseen_token_fraction,nonzero_tfidf_features,encoding_artifact_marker,unseen_terms
+original_test,3341,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,4937,,,FR,FR,1,16,0,0.0,16,0,
+original_test,949,,,FR,FR,1,20,0,0.0,18,0,
+original_test,3251,,,FR,FR,1,13,0,0.0,13,0,
+original_test,2409,,,FR,FR,1,24,2,0.08333333333333333,18,0,chatting; emailing
+original_test,2252,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2060,,,FR,NFR,0,13,0,0.0,13,0,
+original_test,2142,,,FR,FR,1,18,0,0.0,18,0,
+original_test,2670,,,FR,FR,1,15,0,0.0,13,0,
+original_test,4689,,,FR,FR,1,17,0,0.0,17,0,
+original_test,3363,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,270,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2885,,,FR,FR,1,12,0,0.0,11,0,
+original_test,1783,,,FR,FR,1,20,1,0.05,18,0,forgets
+original_test,5630,,,NFR,NFR,1,22,0,0.0,21,0,
+original_test,1135,,,FR,FR,1,19,0,0.0,19,0,
+original_test,3252,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,5463,,,FR,FR,1,15,1,0.06666666666666667,14,0,practice
+original_test,2315,,,FR,FR,1,17,0,0.0,15,0,
+original_test,3313,,,FR,FR,1,11,0,0.0,11,0,
+original_test,588,,,NFR,FR,0,11,0,0.0,11,0,
+original_test,453,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,3745,,,FR,FR,1,14,3,0.21428571428571427,11,0,certified; masters; practitioners
+original_test,1816,,,FR,FR,1,14,0,0.0,13,0,
+original_test,4585,,,FR,FR,1,8,1,0.125,7,0,revise
+original_test,599,,,NFR,FR,0,21,0,0.0,20,0,
+original_test,3439,,,FR,FR,1,14,0,0.0,14,0,
+original_test,4765,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4459,,,FR,FR,1,7,0,0.0,7,0,
+original_test,2710,,,NFR,NFR,1,19,0,0.0,18,0,
+original_test,5422,,,FR,FR,1,13,0,0.0,13,0,
+original_test,3186,,,FR,FR,1,14,0,0.0,14,0,
+original_test,4261,,,FR,FR,1,10,0,0.0,10,0,
+original_test,2386,,,NFR,NFR,1,11,1,0.09090909090909091,10,0,earning
+original_test,3720,,,FR,FR,1,9,0,0.0,9,0,
+original_test,6021,,,NFR,NFR,1,20,0,0.0,18,0,
+original_test,4070,,,FR,FR,1,10,0,0.0,10,0,
+original_test,3143,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,2043,,,FR,FR,1,10,1,0.1,9,0,interconnectivity
+original_test,2468,,,FR,FR,1,16,0,0.0,15,0,
+original_test,3972,,,FR,FR,1,13,0,0.0,13,0,
+original_test,4638,,,FR,FR,1,23,1,0.043478260869565216,18,0,owned
+original_test,1054,,,NFR,NFR,1,23,1,0.043478260869565216,22,0,feet
+original_test,1062,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,5565,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,2641,,,FR,FR,1,11,0,0.0,11,0,
+original_test,5402,,,FR,FR,1,21,1,0.047619047619047616,17,0,experts
+original_test,1509,,,NFR,NFR,1,13,2,0.15384615384615385,11,0,aggregation; anonymization
+original_test,3701,,,FR,FR,1,20,4,0.2,15,0,certified; csp; cst
+original_test,5544,,,FR,FR,1,23,1,0.043478260869565216,20,0,unsupported
+original_test,5242,,,FR,FR,1,12,0,0.0,11,0,
+original_test,6050,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,4045,,,FR,FR,1,13,0,0.0,13,0,
+original_test,2648,,,FR,FR,1,13,0,0.0,12,0,
+original_test,987,,,FR,FR,1,30,2,0.06666666666666667,26,0,predelivery; renewals
+original_test,4268,,,FR,FR,1,11,0,0.0,10,0,
+original_test,1583,,,NFR,NFR,1,14,1,0.07142857142857142,13,0,intrusion
+original_test,5100,,,NFR,FR,0,12,1,0.08333333333333333,11,0,productive
+original_test,734,,,FR,FR,1,20,0,0.0,18,0,
+original_test,981,,,FR,FR,1,17,0,0.0,15,0,
+original_test,3118,,,FR,FR,1,9,0,0.0,8,0,
+original_test,5961,,,FR,FR,1,16,0,0.0,14,0,
+original_test,2187,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,259,,,FR,FR,1,10,0,0.0,10,0,
+original_test,6087,,,FR,FR,1,9,0,0.0,8,0,
+original_test,5230,,,FR,FR,1,31,4,0.12903225806451613,23,0,accommodations; costs; destinations; tours
+original_test,6074,,,FR,FR,1,22,1,0.045454545454545456,20,0,policy
+original_test,4121,,,FR,FR,1,18,0,0.0,17,0,
+original_test,1264,,,NFR,FR,0,14,1,0.07142857142857142,11,0,claim
+original_test,1580,,,FR,FR,1,23,3,0.13043478260869565,18,0,aaaa9999a; ending; letters
+original_test,3713,,,FR,FR,1,12,0,0.0,12,0,
+original_test,1848,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4520,,,FR,FR,1,11,1,0.09090909090909091,9,0,complainants
+original_test,3943,,,FR,FR,1,13,0,0.0,13,0,
+original_test,346,,,FR,FR,1,18,0,0.0,16,0,
+original_test,4329,,,FR,FR,1,18,2,0.1111111111111111,14,0,attachment; disciplines
+original_test,4151,,,FR,FR,1,16,2,0.125,13,0,entice; presenters
+original_test,5140,,,FR,FR,1,13,0,0.0,13,0,
+original_test,5180,,,NFR,FR,0,19,1,0.05263157894736842,16,0,grade
+original_test,2644,,,FR,FR,1,16,0,0.0,15,0,
+original_test,2651,,,FR,FR,1,12,0,0.0,12,0,
+original_test,3123,,,FR,FR,1,16,0,0.0,15,0,
+original_test,3636,,,FR,FR,1,14,0,0.0,14,0,
+original_test,2738,,,NFR,FR,0,11,0,0.0,11,0,
+original_test,1270,,,FR,FR,1,16,0,0.0,15,0,
+original_test,5661,,,FR,NFR,0,6,0,0.0,6,0,
+original_test,2049,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,1261,,,NFR,FR,0,11,0,0.0,11,0,
+original_test,431,,,NFR,NFR,1,20,1,0.05,16,0,plugged
+original_test,1419,,,FR,FR,1,9,1,0.1111111111111111,8,0,shift
+original_test,5034,,,NFR,NFR,1,8,1,0.125,7,0,censured
+original_test,3264,,,FR,NFR,0,16,2,0.125,14,0,borders; worksheets
+original_test,1699,,,NFR,FR,0,16,0,0.0,16,0,
+original_test,782,,,FR,FR,1,16,0,0.0,15,0,
+original_test,1738,,,FR,FR,1,18,0,0.0,18,0,
+original_test,1687,,,NFR,NFR,1,15,1,0.06666666666666667,14,0,recipes
+original_test,3416,,,NFR,NFR,1,21,2,0.09523809523809523,17,0,symbol; uppercase
+original_test,4473,,,NFR,NFR,1,10,1,0.1,9,0,preserve
+original_test,4316,,,FR,FR,1,14,1,0.07142857142857142,12,0,opus
+original_test,701,,,FR,FR,1,23,0,0.0,18,0,
+original_test,5969,,,FR,FR,1,19,1,0.05263157894736842,17,0,profession
+original_test,1251,,,NFR,NFR,1,18,0,0.0,14,0,
+original_test,5178,,,NFR,FR,0,19,0,0.0,18,0,
+original_test,9,,,NFR,FR,0,11,2,0.18181818181818182,8,0,eindhoven; station
+original_test,1407,,,FR,FR,1,11,0,0.0,9,0,
+original_test,1579,,,FR,FR,1,22,0,0.0,21,0,
+original_test,1044,,,FR,FR,1,10,0,0.0,10,0,
+original_test,960,,,FR,FR,1,25,1,0.04,17,0,weeks
+original_test,1869,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,4369,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5582,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1128,,,NFR,NFR,1,13,1,0.07692307692307693,10,0,policy
+original_test,3822,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,3250,,,FR,FR,1,19,2,0.10526315789473684,16,0,ppt; pptx
+original_test,2462,,,FR,FR,1,14,0,0.0,12,0,
+original_test,4000,,,NFR,NFR,1,11,0,0.0,10,0,
+original_test,849,,,NFR,NFR,1,17,0,0.0,17,0,
+original_test,1441,,,FR,FR,1,18,0,0.0,17,0,
+original_test,979,,,FR,FR,1,28,0,0.0,23,0,
+original_test,4299,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,5262,,,FR,FR,1,15,0,0.0,15,0,
+original_test,213,,,FR,FR,1,18,0,0.0,17,0,
+original_test,370,,,FR,FR,1,15,0,0.0,14,0,
+original_test,5800,,,FR,FR,1,7,0,0.0,7,0,
+original_test,6071,,,FR,FR,1,8,0,0.0,8,0,
+original_test,5411,,,NFR,NFR,1,26,1,0.038461538461538464,18,0,reinitialized
+original_test,1335,,,FR,FR,1,9,0,0.0,9,0,
+original_test,4787,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5243,,,FR,NFR,0,11,0,0.0,10,0,
+original_test,4175,,,NFR,FR,0,11,0,0.0,11,0,
+original_test,854,,,NFR,NFR,1,13,0,0.0,12,0,
+original_test,4804,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1814,,,FR,NFR,0,12,0,0.0,12,0,
+original_test,1535,,,FR,FR,1,14,0,0.0,14,0,
+original_test,1690,,,NFR,FR,0,12,0,0.0,12,0,
+original_test,4141,,,FR,FR,1,16,0,0.0,15,0,
+original_test,4379,,,FR,FR,1,12,0,0.0,12,0,
+original_test,1120,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,4465,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5913,,,FR,FR,1,16,0,0.0,16,0,
+original_test,5374,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,4751,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,3262,,,FR,FR,1,17,1,0.058823529411764705,16,0,vlookup
+original_test,568,,,FR,FR,1,18,1,0.05555555555555555,16,0,nits
+original_test,5648,,,FR,NFR,0,22,0,0.0,17,0,
+original_test,940,,,FR,FR,1,23,0,0.0,19,0,
+original_test,2713,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,2520,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4325,,,FR,FR,1,16,0,0.0,15,0,
+original_test,2859,,,FR,FR,1,14,0,0.0,10,0,
+original_test,1093,,,FR,FR,1,15,0,0.0,13,0,
+original_test,4414,,,FR,FR,1,16,0,0.0,16,0,
+original_test,5182,,,FR,FR,1,13,0,0.0,12,0,
+original_test,1283,,,FR,FR,1,21,0,0.0,19,0,
+original_test,4811,,,FR,FR,1,19,0,0.0,18,0,
+original_test,3485,,,NFR,NFR,1,14,1,0.07142857142857142,13,0,500kbps
+original_test,1556,,,FR,NFR,0,21,1,0.047619047619047616,19,0,orientations
+original_test,105,,,FR,FR,1,10,0,0.0,9,0,
+original_test,41,,,NFR,NFR,1,21,0,0.0,17,0,
+original_test,227,,,FR,FR,1,16,0,0.0,15,0,
+original_test,3672,,,FR,FR,1,11,0,0.0,11,0,
+original_test,977,,,FR,FR,1,24,1,0.041666666666666664,13,0,hanged
+original_test,990,,,FR,FR,1,29,1,0.034482758620689655,19,0,ember
+original_test,4381,,,FR,FR,1,14,0,0.0,14,0,
+original_test,4211,,,FR,FR,1,16,1,0.0625,14,0,captured
+original_test,1550,,,FR,FR,1,13,0,0.0,13,0,
+original_test,730,,,FR,FR,1,15,0,0.0,13,0,
+original_test,5423,,,FR,FR,1,15,0,0.0,14,0,
+original_test,5061,,,FR,FR,1,14,1,0.07142857142857142,11,0,tempo
+original_test,1812,,,FR,FR,1,8,0,0.0,8,0,
+original_test,5733,,,FR,FR,1,7,0,0.0,7,0,
+original_test,1895,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5167,,,FR,NFR,0,10,0,0.0,10,0,
+original_test,538,,,FR,FR,1,30,1,0.03333333333333333,22,0,ownership
+original_test,1804,,,NFR,NFR,1,12,2,0.16666666666666666,10,0,hundred; thousand
+original_test,4,,,NFR,NFR,1,10,0,0.0,9,0,
+original_test,3292,,,FR,FR,1,14,0,0.0,14,0,
+original_test,4909,,,FR,FR,1,10,1,0.1,9,0,exact
+original_test,2038,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,1924,,,NFR,NFR,1,15,0,0.0,14,0,
+original_test,1822,,,FR,FR,1,12,0,0.0,11,0,
+original_test,1716,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2906,,,FR,FR,1,15,0,0.0,14,0,
+original_test,4142,,,FR,FR,1,16,1,0.0625,14,0,outreach
+original_test,5319,,,NFR,FR,0,15,1,0.06666666666666667,13,0,kit
+original_test,3001,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,4586,,,FR,FR,1,8,0,0.0,8,0,
+original_test,1900,,,NFR,NFR,1,21,0,0.0,21,0,
+original_test,995,,,NFR,NFR,1,19,1,0.05263157894736842,18,0,thereafter
+original_test,2389,,,FR,NFR,0,18,0,0.0,17,0,
+original_test,1123,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,3873,,,FR,FR,1,13,0,0.0,13,0,
+original_test,3502,,,FR,FR,1,14,0,0.0,13,0,
+original_test,2797,,,NFR,NFR,1,6,0,0.0,6,0,
+original_test,1864,,,NFR,NFR,1,20,0,0.0,19,0,
+original_test,4041,,,FR,FR,1,11,1,0.09090909090909091,9,0,consumables
+original_test,5257,,,FR,FR,1,19,1,0.05263157894736842,15,0,weighing
+original_test,2650,,,FR,FR,1,14,0,0.0,14,0,
+original_test,3998,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,905,,,FR,FR,1,17,0,0.0,14,0,
+original_test,5103,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,4639,,,FR,FR,1,27,0,0.0,22,0,
+original_test,2614,,,NFR,FR,0,16,0,0.0,16,0,
+original_test,5861,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,3820,,,FR,FR,1,16,1,0.0625,13,0,inspectors
+original_test,197,,,FR,FR,1,20,0,0.0,18,0,
+original_test,1238,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,2040,,,FR,NFR,0,9,1,0.1111111111111111,8,0,workable
+original_test,1733,,,FR,FR,1,13,0,0.0,13,0,
+original_test,5021,,,FR,FR,1,13,1,0.07692307692307693,11,0,instagram
+original_test,634,,,FR,FR,1,27,0,0.0,22,0,
+original_test,5272,,,FR,FR,1,13,0,0.0,12,0,
+original_test,1169,,,FR,FR,1,24,0,0.0,21,0,
+original_test,4921,,,NFR,FR,0,12,1,0.08333333333333333,11,0,terabytes
+original_test,2940,,,FR,FR,1,12,0,0.0,12,0,
+original_test,2272,,,FR,FR,1,12,1,0.08333333333333333,10,0,letters
+original_test,1686,,,NFR,NFR,1,14,2,0.14285714285714285,11,0,recipe; swiftly
+original_test,717,,,NFR,NFR,1,15,2,0.13333333333333333,12,0,beacon; ibls
+original_test,2491,,,FR,FR,1,9,0,0.0,9,0,
+original_test,1680,,,NFR,NFR,1,15,1,0.06666666666666667,14,0,mitigated
+original_test,4018,,,NFR,NFR,1,17,2,0.11764705882352941,15,0,atomic; reconfigure
+original_test,819,,,FR,FR,1,13,0,0.0,12,0,
+original_test,5226,,,FR,FR,1,23,2,0.08695652173913043,20,0,buses
+original_test,888,,,NFR,NFR,1,16,2,0.125,14,0,debugging; simulation
+original_test,1401,,,FR,FR,1,14,0,0.0,14,0,
+original_test,5539,,,FR,FR,1,15,0,0.0,15,0,
+original_test,3661,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,2231,,,FR,FR,1,9,0,0.0,9,0,
+original_test,3361,,,NFR,NFR,1,17,1,0.058823529411764705,16,0,ebook
+original_test,5057,,,FR,FR,1,11,0,0.0,10,0,
+original_test,522,,,NFR,NFR,1,7,0,0.0,7,0,
+original_test,5153,,,NFR,NFR,1,33,5,0.15151515151515152,25,0,copyrights; governing; intellectual; licensing; trademarks
+original_test,1616,,,FR,FR,1,11,1,0.09090909090909091,10,0,instrument
+original_test,5731,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,5782,,,FR,FR,1,24,0,0.0,14,0,
+original_test,4892,,,NFR,FR,0,9,2,0.2222222222222222,7,0,28; glibc
+original_test,5705,,,FR,FR,1,16,0,0.0,15,0,
+original_test,5665,,,FR,FR,1,14,0,0.0,13,0,
+original_test,362,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,6118,,,NFR,NFR,1,21,1,0.047619047619047616,17,0,expansions
+original_test,3985,,,FR,FR,1,11,0,0.0,11,0,
+original_test,474,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,5479,,,FR,FR,1,15,0,0.0,14,0,
+original_test,4033,,,FR,FR,1,14,1,0.07142857142857142,13,0,bespoke
+original_test,852,,,NFR,NFR,1,17,0,0.0,17,0,
+original_test,2583,,,FR,FR,1,13,0,0.0,12,0,
+original_test,3426,,,FR,FR,1,12,0,0.0,12,0,
+original_test,430,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,158,,,FR,FR,1,7,0,0.0,7,0,
+original_test,1155,,,FR,FR,1,25,0,0.0,21,0,
+original_test,5588,,,FR,FR,1,13,0,0.0,12,0,
+original_test,6047,,,NFR,NFR,1,13,1,0.07692307692307693,12,0,commented
+original_test,4674,,,FR,FR,1,12,0,0.0,9,0,
+original_test,2023,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,5828,,,FR,FR,1,16,0,0.0,16,0,
+original_test,1891,,,NFR,NFR,1,13,1,0.07692307692307693,12,0,14
+original_test,5529,,,FR,FR,1,21,3,0.14285714285714285,15,0,declare; losing; winning
+original_test,5899,,,NFR,NFR,1,14,0,0.0,13,0,
+original_test,5799,,,FR,FR,1,8,1,0.125,7,0,examiner
+original_test,2279,,,FR,NFR,0,11,0,0.0,10,0,
+original_test,632,,,FR,FR,1,23,0,0.0,21,0,
+original_test,1776,,,FR,FR,1,13,1,0.07692307692307693,12,0,surname
+original_test,4671,,,FR,FR,1,13,1,0.07692307692307693,12,0,alarms
+original_test,5421,,,FR,FR,1,15,0,0.0,13,0,
+original_test,3819,,,FR,FR,1,11,0,0.0,10,0,
+original_test,2217,,,NFR,FR,0,16,2,0.125,14,0,explain; faq
+original_test,5689,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,4154,,,FR,FR,1,14,0,0.0,13,0,
+original_test,2658,,,FR,FR,1,17,0,0.0,17,0,
+original_test,496,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,3274,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,647,,,FR,FR,1,19,1,0.05263157894736842,14,0,rounds
+original_test,5204,,,NFR,FR,0,8,0,0.0,8,0,
+original_test,5956,,,NFR,NFR,1,29,1,0.034482758620689655,25,0,ecosystems
+original_test,2208,,,FR,FR,1,18,0,0.0,17,0,
+original_test,5386,,,FR,FR,1,14,0,0.0,12,0,
+original_test,627,,,FR,FR,1,20,0,0.0,18,0,
+original_test,284,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4575,,,FR,NFR,0,10,1,0.1,9,0,resist
+original_test,4966,,,NFR,NFR,1,16,0,0.0,13,0,
+original_test,3230,,,FR,FR,1,15,1,0.06666666666666667,14,0,breaks
+original_test,3400,,,FR,FR,1,8,0,0.0,8,0,
+original_test,3564,,,FR,NFR,0,11,0,0.0,11,0,
+original_test,2570,,,FR,FR,1,22,0,0.0,17,0,
+original_test,3582,,,FR,NFR,0,11,0,0.0,11,0,
+original_test,1211,,,FR,FR,1,15,1,0.06666666666666667,14,0,initiation
+original_test,4348,,,NFR,FR,0,22,1,0.045454545454545456,18,0,archives
+original_test,5520,,,NFR,FR,0,11,0,0.0,10,0,
+original_test,5011,,,FR,FR,1,22,0,0.0,20,0,
+original_test,2117,,,NFR,NFR,1,9,1,0.1111111111111111,8,0,recruited
+original_test,1121,,,NFR,FR,0,10,0,0.0,10,0,
+original_test,333,,,FR,FR,1,12,0,0.0,12,0,
+original_test,130,,,FR,FR,1,11,0,0.0,11,0,
+original_test,1608,,,FR,FR,1,16,0,0.0,16,0,
+original_test,1453,,,NFR,NFR,1,21,0,0.0,20,0,
+original_test,4255,,,FR,FR,1,8,0,0.0,8,0,
+original_test,5993,,,FR,FR,1,14,0,0.0,11,0,
+original_test,1425,,,FR,FR,1,11,0,0.0,11,0,
+original_test,3080,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,2626,,,FR,FR,1,16,0,0.0,14,0,
+original_test,2580,,,FR,FR,1,15,0,0.0,15,0,
+original_test,5151,,,NFR,NFR,1,21,1,0.047619047619047616,17,0,guides
+original_test,925,,,FR,FR,1,21,0,0.0,17,0,
+original_test,5065,,,FR,FR,1,14,3,0.21428571428571427,11,0,grammar; slurs; ties
+original_test,3130,,,NFR,NFR,1,13,1,0.07692307692307693,12,0,redistribution
+original_test,3270,,,FR,NFR,0,12,0,0.0,12,0,
+original_test,5266,,,FR,FR,1,16,0,0.0,13,0,
+original_test,5951,,,NFR,NFR,1,25,2,0.08,20,0,anonymization; masking
+original_test,4760,,,NFR,FR,0,11,2,0.18181818181818182,9,0,letters; operands
+original_test,882,,,NFR,NFR,1,23,0,0.0,19,0,
+original_test,3044,,,FR,FR,1,11,0,0.0,10,0,
+original_test,5360,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,5986,,,FR,FR,1,13,0,0.0,13,0,
+original_test,3259,,,FR,FR,1,16,0,0.0,16,0,
+original_test,4430,,,FR,FR,1,17,0,0.0,16,0,
+original_test,3463,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,4584,,,FR,FR,1,8,0,0.0,8,0,
+original_test,3938,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4592,,,FR,FR,1,12,0,0.0,10,0,
+original_test,2889,,,FR,FR,1,17,0,0.0,16,0,
+original_test,4487,,,FR,FR,1,6,1,0.16666666666666666,5,0,nudity
+original_test,1239,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,1534,,,FR,FR,1,20,0,0.0,18,0,
+original_test,4060,,,NFR,FR,0,15,0,0.0,14,0,
+original_test,95,,,FR,FR,1,7,0,0.0,6,0,
+original_test,4259,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4014,,,NFR,NFR,1,22,2,0.09090909090909091,17,0,inject; runtime
+original_test,33,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,2488,,,FR,FR,1,21,2,0.09523809523809523,18,0,rotations
+original_test,5161,,,FR,FR,1,15,0,0.0,15,0,
+original_test,3747,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,490,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,5241,,,FR,FR,1,23,0,0.0,21,0,
+original_test,1811,,,FR,FR,1,14,0,0.0,14,0,
+original_test,2960,,,NFR,NFR,1,15,0,0.0,13,0,
+original_test,4900,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,3929,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5760,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,4168,,,NFR,FR,0,8,0,0.0,8,0,
+original_test,1230,,,FR,FR,1,28,3,0.10714285714285714,22,0,aging; logon; systematic
+original_test,5934,,,FR,FR,1,22,2,0.09090909090909091,20,0,transcribe; translations
+original_test,4677,,,FR,FR,1,17,0,0.0,15,0,
+original_test,2119,,,NFR,FR,0,7,0,0.0,7,0,
+original_test,5922,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,1962,,,NFR,NFR,1,19,0,0.0,17,0,
+original_test,5669,,,FR,FR,1,9,0,0.0,9,0,
+original_test,2836,,,FR,FR,1,15,1,0.06666666666666667,13,0,mock
+original_test,5247,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,4762,,,FR,FR,1,17,0,0.0,16,0,
+original_test,1252,,,NFR,NFR,1,21,2,0.09523809523809523,15,0,1500
+original_test,1400,,,FR,FR,1,15,0,0.0,15,0,
+original_test,3566,,,FR,NFR,0,11,0,0.0,11,0,
+original_test,251,,,FR,FR,1,12,0,0.0,11,0,
+original_test,4869,,,FR,FR,1,29,6,0.20689655172413793,16,0,18; 22; centos; debian; rhel
+original_test,4205,,,NFR,NFR,1,11,0,0.0,10,0,
+original_test,638,,,FR,FR,1,9,0,0.0,8,0,
+original_test,391,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5958,,,FR,FR,1,27,0,0.0,23,0,
+original_test,1377,,,FR,FR,1,14,2,0.14285714285714285,12,0,preserve; revert
+original_test,4320,,,FR,FR,1,14,1,0.07142857142857142,12,0,remembered
+original_test,1299,,,FR,FR,1,11,0,0.0,10,0,
+original_test,2530,,,NFR,NFR,1,18,0,0.0,18,0,
+original_test,1165,,,FR,FR,1,13,0,0.0,11,0,
+original_test,2822,,,NFR,NFR,1,17,1,0.058823529411764705,16,0,equivalent
+original_test,1289,,,FR,FR,1,11,0,0.0,10,0,
+original_test,3978,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2899,,,FR,FR,1,18,1,0.05555555555555555,17,0,drafts
+original_test,2312,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,4492,,,FR,FR,1,6,0,0.0,6,0,
+original_test,2528,,,FR,FR,1,15,0,0.0,15,0,
+original_test,3521,,,FR,FR,1,13,0,0.0,13,0,
+original_test,4419,,,FR,FR,1,9,0,0.0,9,0,
+original_test,1674,,,FR,FR,1,17,0,0.0,15,0,
+original_test,2547,,,NFR,NFR,1,18,0,0.0,18,0,
+original_test,4289,,,NFR,FR,0,14,0,0.0,14,0,
+original_test,288,,,FR,FR,1,13,0,0.0,13,0,
+original_test,2921,,,NFR,NFR,1,16,0,0.0,15,0,
+original_test,929,,,NFR,FR,0,18,0,0.0,16,0,
+original_test,1003,,,FR,FR,1,16,1,0.0625,14,0,formulated
+original_test,2816,,,FR,FR,1,15,0,0.0,14,0,
+original_test,2106,,,NFR,NFR,1,19,1,0.05263157894736842,16,0,minimized
+original_test,4753,,,NFR,NFR,1,13,0,0.0,11,0,
+original_test,811,,,NFR,FR,0,23,0,0.0,20,0,
+original_test,2669,,,FR,FR,1,12,0,0.0,10,0,
+original_test,2817,,,FR,FR,1,24,0,0.0,20,0,
+original_test,4713,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,3237,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,2741,,,NFR,FR,0,18,1,0.05555555555555555,15,0,rents
+original_test,1734,,,FR,FR,1,11,0,0.0,10,0,
+original_test,909,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2618,,,NFR,FR,0,8,0,0.0,8,0,
+original_test,6036,,,FR,FR,1,8,0,0.0,8,0,
+original_test,1679,,,NFR,NFR,1,17,1,0.058823529411764705,16,0,continuing
+original_test,5573,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,140,,,FR,FR,1,24,2,0.08333333333333333,19,0,ucar211; ucar212
+original_test,4532,,,FR,FR,1,11,2,0.18181818181818182,8,0,accused; criminal
+original_test,2902,,,FR,FR,1,16,1,0.0625,15,0,star
+original_test,1431,,,FR,FR,1,7,0,0.0,7,0,
+original_test,2681,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,4988,,,NFR,NFR,1,16,3,0.1875,13,0,drives; modem; serviceable
+original_test,3289,,,FR,FR,1,13,0,0.0,12,0,
+original_test,5893,,,NFR,NFR,1,17,0,0.0,17,0,
+original_test,4156,,,FR,NFR,0,18,0,0.0,17,0,
+original_test,889,,,NFR,NFR,1,17,3,0.17647058823529413,14,0,debuggable; killable; restartable
+original_test,3007,,,FR,FR,1,11,0,0.0,11,0,
+original_test,4718,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,3906,,,FR,FR,1,12,1,0.08333333333333333,9,0,indication
+original_test,2696,,,FR,FR,1,10,0,0.0,10,0,
+original_test,2012,,,FR,FR,1,9,0,0.0,9,0,
+original_test,1798,,,FR,FR,1,11,0,0.0,11,0,
+original_test,3927,,,FR,FR,1,15,0,0.0,14,0,
+original_test,3027,,,FR,FR,1,13,1,0.07692307692307693,12,0,voter
+original_test,5080,,,FR,NFR,0,20,0,0.0,18,0,
+original_test,4927,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,5679,,,FR,FR,1,11,0,0.0,10,0,
+original_test,1151,,,FR,FR,1,17,0,0.0,17,0,
+original_test,704,,,FR,FR,1,19,0,0.0,16,0,
+original_test,3352,,,NFR,NFR,1,13,0,0.0,10,0,
+original_test,3624,,,FR,FR,1,12,0,0.0,12,0,
+original_test,3598,,,NFR,FR,0,21,0,0.0,20,0,
+original_test,445,,,NFR,FR,0,15,0,0.0,15,0,
+original_test,2516,,,FR,FR,1,34,5,0.14705882352941177,26,0,copyrighted; digitalglobe; openstreetmap; powered; simulates
+original_test,2672,,,FR,FR,1,15,0,0.0,14,0,
+original_test,5293,,,NFR,NFR,1,19,0,0.0,17,0,
+original_test,3031,,,FR,FR,1,10,0,0.0,10,0,
+original_test,2531,,,NFR,NFR,1,21,2,0.09523809523809523,18,0,anonymization; billion
+original_test,129,,,FR,FR,1,25,3,0.12,21,0,ucar201; ucar202; ucar203
+original_test,240,,,FR,FR,1,16,0,0.0,16,0,
+original_test,4833,,,FR,FR,1,11,0,0.0,11,0,
+original_test,1717,,,FR,FR,1,9,0,0.0,8,0,
+original_test,5056,,,FR,FR,1,11,0,0.0,10,0,
+original_test,5325,,,NFR,FR,0,15,1,0.06666666666666667,12,0,soon
+original_test,1554,,,FR,FR,1,18,1,0.05555555555555555,16,0,demographics
+original_test,6025,,,FR,NFR,0,17,0,0.0,15,0,
+original_test,4874,,,FR,NFR,0,28,3,0.10714285714285714,21,0,ebs; nfs; smb
+original_test,2356,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,1831,,,FR,FR,1,11,0,0.0,11,0,
+original_test,626,,,FR,FR,1,17,1,0.058823529411764705,13,0,begins
+original_test,606,,,NFR,NFR,1,8,1,0.125,7,0,colour
+original_test,1915,,,FR,FR,1,8,0,0.0,8,0,
+original_test,1752,,,FR,FR,1,7,0,0.0,7,0,
+original_test,211,,,FR,FR,1,13,0,0.0,13,0,
+original_test,1591,,,FR,FR,1,7,0,0.0,7,0,
+original_test,2130,,,FR,FR,1,19,0,0.0,19,0,
+original_test,224,,,FR,FR,1,30,0,0.0,28,0,
+original_test,4510,,,FR,FR,1,11,1,0.09090909090909091,9,0,whales
+original_test,3849,,,FR,FR,1,12,1,0.08333333333333333,10,0,mass
+original_test,2708,,,NFR,NFR,1,14,0,0.0,13,0,
+original_test,511,,,NFR,NFR,1,13,1,0.07692307692307693,12,0,too
+original_test,1994,,,FR,FR,1,15,0,0.0,13,0,
+original_test,3286,,,FR,FR,1,14,1,0.07142857142857142,13,0,audiences
+original_test,5298,,,FR,FR,1,22,1,0.045454545454545456,21,0,prevented
+original_test,1329,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5574,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,1630,,,NFR,FR,0,11,0,0.0,11,0,
+original_test,3344,,,NFR,NFR,1,12,0,0.0,11,0,
+original_test,3108,,,FR,FR,1,11,0,0.0,11,0,
+original_test,5914,,,FR,FR,1,15,0,0.0,15,0,
+original_test,920,,,FR,FR,1,22,3,0.13636363636363635,17,0,certainty; doubtful; qualify
+original_test,3773,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1820,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1911,,,FR,FR,1,12,0,0.0,12,0,
+original_test,169,,,FR,FR,1,17,0,0.0,14,0,
+original_test,1240,,,NFR,NFR,1,7,0,0.0,7,0,
+original_test,5404,,,FR,FR,1,28,1,0.03571428571428571,22,0,producers
+original_test,4555,,,NFR,NFR,1,16,1,0.0625,15,0,chronological
+original_test,2581,,,FR,FR,1,20,0,0.0,20,0,
+original_test,3395,,,FR,FR,1,18,0,0.0,16,0,
+original_test,2460,,,FR,FR,1,16,0,0.0,15,0,
+original_test,5380,,,FR,FR,1,25,0,0.0,24,0,
+original_test,609,,,FR,FR,1,21,0,0.0,17,0,
+original_test,5629,,,FR,FR,1,23,2,0.08695652173913043,20,0,clearance; freight
+original_test,1722,,,FR,FR,1,10,0,0.0,10,0,
+original_test,3608,,,NFR,FR,0,17,1,0.058823529411764705,15,0,2007
+original_test,3022,,,FR,FR,1,11,0,0.0,10,0,
+original_test,4258,,,FR,FR,1,9,0,0.0,9,0,
+original_test,694,,,FR,FR,1,17,0,0.0,12,0,
+original_test,4017,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,1066,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,4565,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,2316,,,FR,FR,1,21,2,0.09523809523809523,18,0,calorie; intake
+original_test,1384,,,FR,FR,1,16,0,0.0,15,0,
+original_test,132,,,FR,FR,1,13,0,0.0,12,0,
+original_test,5165,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1033,,,FR,FR,1,7,0,0.0,7,0,
+original_test,3590,,,NFR,NFR,1,16,1,0.0625,14,0,loaded
+original_test,2160,,,NFR,NFR,1,21,1,0.047619047619047616,19,0,lookup
+original_test,2074,,,NFR,NFR,1,16,0,0.0,14,0,
+original_test,372,,,FR,FR,1,16,0,0.0,16,0,
+original_test,5864,,,NFR,NFR,1,17,0,0.0,16,0,
+original_test,595,,,NFR,NFR,1,19,2,0.10526315789473684,15,0,dialogue; nature
+original_test,2579,,,FR,FR,1,16,0,0.0,16,0,
+original_test,2706,,,NFR,NFR,1,17,1,0.058823529411764705,16,0,matrimonial
+original_test,2576,,,FR,FR,1,13,0,0.0,13,0,
+original_test,5852,,,FR,FR,1,12,0,0.0,11,0,
+original_test,3616,,,NFR,FR,0,22,0,0.0,21,0,
+original_test,4085,,,FR,FR,1,10,0,0.0,10,0,
+original_test,5403,,,FR,FR,1,22,2,0.09090909090909091,17,0,developments; exports
+original_test,3969,,,FR,FR,1,12,0,0.0,12,0,
+original_test,690,,,FR,FR,1,21,0,0.0,17,0,
+original_test,1067,,,NFR,FR,0,18,0,0.0,15,0,
+original_test,5005,,,FR,FR,1,18,0,0.0,15,0,
+original_test,1100,,,NFR,NFR,1,18,0,0.0,16,0,
+original_test,970,,,FR,FR,1,17,0,0.0,15,0,
+original_test,1551,,,FR,FR,1,14,0,0.0,14,0,
+original_test,3950,,,FR,FR,1,9,0,0.0,9,0,
+original_test,1039,,,FR,FR,1,13,1,0.07692307692307693,12,0,variance
+original_test,4416,,,FR,FR,1,11,0,0.0,11,0,
+original_test,5726,,,FR,FR,1,26,0,0.0,25,0,
+original_test,3879,,,FR,FR,1,12,0,0.0,11,0,
+original_test,2747,,,NFR,NFR,1,15,0,0.0,14,0,
+original_test,2417,,,FR,FR,1,9,0,0.0,8,0,
+original_test,3489,,,NFR,NFR,1,17,2,0.11764705882352941,13,0,carried; engineers
+original_test,4262,,,FR,FR,1,10,0,0.0,10,0,
+original_test,528,,,NFR,NFR,1,14,0,0.0,12,0,
+original_test,502,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,2910,,,FR,FR,1,13,0,0.0,13,0,
+original_test,3414,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,5433,,,NFR,NFR,1,9,1,0.1111111111111111,8,0,recommends
+original_test,5931,,,NFR,NFR,1,12,1,0.08333333333333333,11,0,inaccuracies
+original_test,653,,,FR,FR,1,21,1,0.047619047619047616,18,0,kongs
+original_test,4766,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5581,,,FR,FR,1,9,0,0.0,9,0,
+original_test,16,,,NFR,FR,0,22,0,0.0,16,0,
+original_test,5936,,,FR,FR,1,18,1,0.05555555555555555,16,0,streamlining
+original_test,4798,,,FR,FR,1,14,0,0.0,13,0,
+original_test,6053,,,FR,FR,1,14,0,0.0,13,0,
+original_test,4317,,,FR,FR,1,12,1,0.08333333333333333,11,0,opus
+original_test,1410,,,FR,FR,1,14,0,0.0,14,0,
+original_test,5375,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,4640,,,FR,FR,1,28,0,0.0,24,0,
+original_test,3255,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,3444,,,NFR,NFR,1,11,1,0.09090909090909091,10,0,handicap
+original_test,5350,,,FR,FR,1,12,0,0.0,11,0,
+original_test,243,,,FR,FR,1,18,0,0.0,15,0,
+original_test,5171,,,FR,FR,1,17,2,0.11764705882352941,15,0,lesson; syllabus
+original_test,1382,,,FR,FR,1,14,0,0.0,14,0,
+original_test,5323,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,1749,,,FR,FR,1,16,0,0.0,16,0,
+original_test,1316,,,NFR,FR,0,17,1,0.058823529411764705,14,0,countries
+original_test,4338,,,NFR,FR,0,14,1,0.07142857142857142,13,0,integrating
+original_test,962,,,FR,FR,1,18,1,0.05555555555555555,13,0,selections
+original_test,1604,,,FR,FR,1,8,0,0.0,8,0,
+original_test,3626,,,FR,FR,1,12,0,0.0,11,0,
+original_test,1059,,,NFR,FR,0,10,0,0.0,10,0,
+original_test,2643,,,FR,FR,1,19,0,0.0,18,0,
+original_test,2956,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,2628,,,FR,NFR,0,18,1,0.05555555555555555,17,0,assessment
+original_test,1886,,,FR,FR,1,6,0,0.0,6,0,
+original_test,4934,,,FR,FR,1,13,0,0.0,13,0,
+original_test,1025,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,5834,,,FR,FR,1,13,0,0.0,11,0,
+original_test,1508,,,NFR,NFR,1,17,0,0.0,15,0,
+original_test,1539,,,FR,FR,1,19,1,0.05263157894736842,17,0,diagnoses
+original_test,2378,,,FR,FR,1,10,0,0.0,9,0,
+original_test,5185,,,FR,FR,1,11,0,0.0,11,0,
+original_test,5213,,,NFR,FR,0,13,1,0.07692307692307693,12,0,s3
+original_test,2229,,,FR,FR,1,12,1,0.08333333333333333,11,0,reportable
+original_test,2510,,,FR,FR,1,20,1,0.05,18,0,gridlines
+original_test,5453,,,FR,FR,1,10,0,0.0,9,0,
+original_test,3207,,,FR,FR,1,10,0,0.0,9,0,
+original_test,4397,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,1641,,,FR,FR,1,8,0,0.0,8,0,
+original_test,1538,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2938,,,FR,FR,1,9,0,0.0,9,0,
+original_test,2725,,,FR,FR,1,17,0,0.0,16,0,
+original_test,1109,,,NFR,FR,0,7,0,0.0,7,0,
+original_test,3981,,,FR,FR,1,10,0,0.0,10,0,
+original_test,801,,,FR,FR,1,22,0,0.0,21,0,
+original_test,2436,,,FR,FR,1,17,0,0.0,17,0,
+original_test,6,,,NFR,NFR,1,11,0,0.0,9,0,
+original_test,3015,,,FR,FR,1,9,0,0.0,9,0,
+original_test,1486,,,NFR,NFR,1,11,0,0.0,10,0,
+original_test,11,,,NFR,NFR,1,7,0,0.0,7,0,
+original_test,3970,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4360,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,5739,,,FR,FR,1,6,0,0.0,6,0,
+original_test,4851,,,FR,FR,1,10,0,0.0,10,0,
+original_test,183,,,FR,FR,1,10,0,0.0,10,0,
+original_test,3500,,,FR,FR,1,10,2,0.2,8,0,forum; threads
+original_test,3178,,,FR,FR,1,14,0,0.0,13,0,
+original_test,4372,,,FR,FR,1,14,0,0.0,13,0,
+original_test,4742,,,FR,FR,1,6,0,0.0,6,0,
+original_test,451,,,NFR,NFR,1,17,0,0.0,13,0,
+original_test,5510,,,NFR,NFR,1,6,0,0.0,6,0,
+original_test,1629,,,NFR,NFR,1,16,0,0.0,15,0,
+original_test,1307,,,NFR,NFR,1,18,2,0.1111111111111111,15,0,alongside; runtime
+original_test,829,,,NFR,NFR,1,18,1,0.05555555555555555,16,0,fidelity
+original_test,4177,,,NFR,FR,0,9,0,0.0,9,0,
+original_test,324,,,FR,FR,1,23,2,0.08695652173913043,20,0,scraping; structuring
+original_test,2726,,,FR,FR,1,9,0,0.0,8,0,
+original_test,4747,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,4681,,,FR,FR,1,12,0,0.0,10,0,
+original_test,219,,,FR,FR,1,18,1,0.05555555555555555,17,0,releases
+original_test,5224,,,FR,FR,1,24,0,0.0,24,0,
+original_test,738,,,FR,FR,1,32,4,0.125,23,0,autotrack; directional; omni
+original_test,1310,,,NFR,NFR,1,18,2,0.1111111111111111,16,0,db2; hsql
+original_test,4598,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5803,,,FR,FR,1,7,0,0.0,7,0,
+original_test,5653,,,FR,FR,1,17,0,0.0,16,0,
+original_test,1380,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,581,,,FR,FR,1,19,0,0.0,19,0,
+original_test,3814,,,FR,FR,1,21,4,0.19047619047619047,15,0,gis; merged; parcel; transactional
+original_test,1830,,,FR,FR,1,7,0,0.0,7,0,
+original_test,3104,,,FR,FR,1,7,0,0.0,7,0,
+original_test,2381,,,FR,FR,1,14,0,0.0,13,0,
+original_test,2966,,,FR,FR,1,16,0,0.0,14,0,
+original_test,4310,,,FR,FR,1,14,1,0.07142857142857142,11,0,intellectual
+original_test,1295,,,FR,FR,1,17,1,0.058823529411764705,12,0,sums
+original_test,1793,,,FR,FR,1,9,0,0.0,9,0,
+original_test,3374,,,NFR,NFR,1,13,1,0.07692307692307693,12,0,legible
+original_test,3048,,,FR,FR,1,9,0,0.0,9,0,
+original_test,5982,,,FR,FR,1,14,0,0.0,14,0,
+original_test,810,,,FR,FR,1,14,0,0.0,13,0,
+original_test,394,,,FR,FR,1,13,1,0.07692307692307693,11,0,indexed
+original_test,5499,,,NFR,NFR,1,9,1,0.1111111111111111,8,0,crashing
+original_test,3848,,,FR,FR,1,13,2,0.15384615384615385,11,0,allergy; preparedness
+original_test,4206,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,1913,,,FR,FR,1,8,0,0.0,8,0,
+original_test,3896,,,FR,FR,1,9,0,0.0,9,0,
+original_test,4080,,,FR,FR,1,12,0,0.0,12,0,
+original_test,2924,,,NFR,NFR,1,18,1,0.05555555555555555,17,0,overload
+original_test,1953,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2548,,,FR,NFR,0,18,0,0.0,17,0,
+original_test,3099,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,3930,,,FR,FR,1,12,0,0.0,11,0,
+original_test,5596,,,FR,FR,1,23,1,0.043478260869565216,18,0,scholarship
+original_test,4933,,,FR,NFR,0,17,1,0.058823529411764705,14,0,reattempts
+original_test,1134,,,FR,FR,1,13,0,0.0,12,0,
+original_test,4052,,,NFR,NFR,1,14,2,0.14285714285714285,12,0,backward; dependency
+original_test,2059,,,FR,NFR,0,21,0,0.0,21,0,
+original_test,4654,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,5699,,,FR,FR,1,15,0,0.0,14,0,
+original_test,601,,,NFR,NFR,1,15,0,0.0,14,0,
+original_test,766,,,NFR,NFR,1,13,0,0.0,12,0,
+original_test,2575,,,FR,FR,1,20,0,0.0,20,0,
+original_test,5832,,,FR,FR,1,20,1,0.05,17,0,defective
+original_test,3740,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4502,,,FR,FR,1,16,0,0.0,15,0,
+original_test,3417,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,304,,,FR,FR,1,22,0,0.0,21,0,
+original_test,3393,,,FR,FR,1,11,0,0.0,11,0,
+original_test,5778,,,FR,FR,1,9,0,0.0,9,0,
+original_test,4533,,,FR,NFR,0,10,0,0.0,10,0,
+original_test,4646,,,FR,FR,1,13,0,0.0,10,0,
+original_test,652,,,FR,FR,1,27,2,0.07407407407407407,18,0,concealed; faces
+original_test,4998,,,NFR,FR,0,19,2,0.10526315789473684,16,0,blocking; fir
+original_test,1215,,,FR,FR,1,17,0,0.0,15,0,
+original_test,3364,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,2004,,,FR,FR,1,17,0,0.0,15,0,
+original_test,4387,,,FR,FR,1,12,0,0.0,12,0,
+original_test,613,,,FR,NFR,0,23,0,0.0,21,0,
+original_test,2776,,,NFR,NFR,1,9,0,0.0,9,0,
+original_test,4675,,,FR,FR,1,12,0,0.0,12,0,
+original_test,1903,,,NFR,NFR,1,12,1,0.08333333333333333,10,0,2008
+original_test,4209,,,FR,FR,1,16,0,0.0,15,0,
+original_test,2435,,,FR,FR,1,12,0,0.0,10,0,
+original_test,540,,,FR,FR,1,15,0,0.0,13,0,
+original_test,1691,,,NFR,NFR,1,19,0,0.0,17,0,
+original_test,912,,,NFR,FR,0,20,2,0.1,18,0,approach; guaranteed
+original_test,376,,,FR,FR,1,13,0,0.0,13,0,
+original_test,2216,,,NFR,FR,0,13,1,0.07692307692307693,11,0,depict
+original_test,1511,,,NFR,NFR,1,12,1,0.08333333333333333,11,0,disclose
+original_test,2227,,,FR,NFR,0,7,0,0.0,7,0,
+original_test,934,,,FR,FR,1,28,0,0.0,21,0,
+original_test,5048,,,FR,FR,1,14,0,0.0,12,0,
+original_test,1484,,,NFR,FR,0,14,0,0.0,14,0,
+original_test,4499,,,FR,FR,1,12,1,0.08333333333333333,10,0,classifiable
+original_test,2298,,,FR,FR,1,13,0,0.0,12,0,
+original_test,3482,,,FR,FR,1,17,0,0.0,15,0,
+original_test,5051,,,FR,FR,1,10,1,0.1,9,0,rename
+original_test,1882,,,FR,FR,1,8,0,0.0,8,0,
+original_test,1040,,,FR,FR,1,14,0,0.0,13,0,
+original_test,4425,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2645,,,FR,FR,1,11,0,0.0,11,0,
+original_test,5791,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,4450,,,FR,FR,1,9,0,0.0,9,0,
+original_test,3386,,,NFR,NFR,1,17,0,0.0,17,0,
+original_test,3668,,,FR,FR,1,13,0,0.0,12,0,
+original_test,4401,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2873,,,FR,FR,1,13,0,0.0,11,0,
+original_test,2629,,,FR,FR,1,12,1,0.08333333333333333,11,0,oversee
+original_test,1779,,,FR,FR,1,18,0,0.0,17,0,
+original_test,1372,,,FR,FR,1,11,0,0.0,11,0,
+original_test,3829,,,FR,FR,1,14,0,0.0,14,0,
+original_test,790,,,NFR,NFR,1,15,1,0.06666666666666667,13,0,mentors
+original_test,1826,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2214,,,NFR,NFR,1,13,1,0.07692307692307693,11,0,66
+original_test,1719,,,FR,FR,1,10,0,0.0,9,0,
+original_test,3319,,,NFR,FR,0,13,0,0.0,13,0,
+original_test,744,,,FR,NFR,0,17,2,0.11764705882352941,13,0,plant; wind
+original_test,5401,,,FR,FR,1,26,1,0.038461538461538464,23,0,experts
+original_test,4965,,,NFR,NFR,1,16,0,0.0,13,0,
+original_test,3388,,,NFR,NFR,1,20,0,0.0,20,0,
+original_test,5720,,,FR,FR,1,26,0,0.0,21,0,
+original_test,250,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4550,,,NFR,NFR,1,21,1,0.047619047619047616,19,0,unalterable
+original_test,2442,,,FR,FR,1,20,0,0.0,16,0,
+original_test,128,,,FR,FR,1,20,0,0.0,19,0,
+original_test,2647,,,FR,FR,1,7,0,0.0,7,0,
+original_test,4974,,,NFR,NFR,1,10,1,0.1,9,0,volatile
+original_test,5976,,,NFR,NFR,1,21,0,0.0,19,0,
+original_test,4191,,,NFR,FR,0,8,0,0.0,8,0,
+original_test,603,,,NFR,NFR,1,20,0,0.0,17,0,
+original_test,3018,,,FR,FR,1,11,0,0.0,9,0,
+original_test,403,,,FR,FR,1,19,0,0.0,16,0,
+original_test,6010,,,NFR,NFR,1,18,0,0.0,18,0,
+original_test,5120,,,NFR,NFR,1,19,3,0.15789473684210525,16,0,designs; intricate; precise
+original_test,3268,,,FR,FR,1,13,1,0.07692307692307693,12,0,ranges
+original_test,3272,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,4539,,,FR,NFR,0,11,1,0.09090909090909091,10,0,executing
+original_test,3684,,,FR,FR,1,12,1,0.08333333333333333,11,0,embeddable
+original_test,3615,,,NFR,FR,0,20,0,0.0,18,0,
+original_test,5490,,,NFR,NFR,1,13,1,0.07692307692307693,11,0,implies
+original_test,857,,,NFR,FR,0,15,0,0.0,12,0,
+original_test,4645,,,FR,FR,1,16,1,0.0625,14,0,acquiring
+original_test,5079,,,FR,FR,1,20,0,0.0,18,0,
+original_test,1374,,,FR,FR,1,10,0,0.0,10,0,
+original_test,3013,,,FR,FR,1,6,0,0.0,6,0,
+original_test,847,,,NFR,NFR,1,17,0,0.0,16,0,
+original_test,1359,,,FR,FR,1,13,0,0.0,11,0,
+original_test,2447,,,FR,FR,1,18,0,0.0,17,0,
+original_test,4824,,,FR,FR,1,9,0,0.0,9,0,
+original_test,6007,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,5219,,,NFR,NFR,1,16,3,0.1875,13,0,ingestion; kafka; kinesis
+original_test,4838,,,FR,FR,1,12,0,0.0,12,0,
+original_test,3529,,,FR,FR,1,11,0,0.0,11,0,
+original_test,3366,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,5159,,,FR,FR,1,7,0,0.0,7,0,
+original_test,3610,,,NFR,FR,0,17,0,0.0,16,0,
+original_test,5619,,,FR,FR,1,14,0,0.0,12,0,
+original_test,1293,,,FR,FR,1,16,0,0.0,14,0,
+original_test,2200,,,FR,FR,1,14,0,0.0,14,0,
+original_test,2490,,,FR,FR,1,16,0,0.0,16,0,
+original_test,895,,,NFR,NFR,1,16,0,0.0,15,0,
+original_test,6070,,,FR,FR,1,19,0,0.0,19,0,
+original_test,4449,,,FR,FR,1,7,0,0.0,7,0,
+original_test,1313,,,NFR,NFR,1,28,2,0.07142857142857142,20,0,surveyed; weeks
+original_test,4253,,,FR,FR,1,10,0,0.0,9,0,
+original_test,2069,,,NFR,FR,0,13,0,0.0,13,0,
+original_test,709,,,FR,FR,1,17,0,0.0,13,0,
+original_test,2248,,,FR,FR,1,7,1,0.14285714285714285,6,0,unsubscription
+original_test,1513,,,NFR,FR,0,17,0,0.0,17,0,
+original_test,2254,,,FR,FR,1,9,0,0.0,9,0,
+original_test,3926,,,NFR,FR,0,9,0,0.0,9,0,
+original_test,2660,,,FR,FR,1,14,0,0.0,14,0,
+original_test,2683,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,3898,,,FR,FR,1,7,0,0.0,7,0,
+original_test,4333,,,FR,NFR,0,16,0,0.0,16,0,
+original_test,2856,,,FR,FR,1,10,0,0.0,9,0,
+original_test,4745,,,FR,FR,1,5,0,0.0,5,0,
+original_test,755,,,FR,FR,1,15,0,0.0,15,0,
+original_test,4875,,,FR,NFR,0,25,5,0.2,19,0,4254; 9p1; openssh; rfc; ssh
+original_test,5373,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,4046,,,FR,FR,1,16,1,0.0625,14,0,executing
+original_test,2019,,,FR,FR,1,20,0,0.0,17,0,
+original_test,5991,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4505,,,FR,FR,1,10,0,0.0,10,0,
+original_test,914,,,NFR,NFR,1,18,1,0.05555555555555555,16,0,routers
+original_test,5772,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,3145,,,FR,FR,1,15,2,0.13333333333333333,13,0,affiliated; cinemas
+original_test,5879,,,FR,FR,1,12,0,0.0,11,0,
+original_test,2963,,,FR,FR,1,17,0,0.0,15,0,
+original_test,1536,,,FR,FR,1,14,0,0.0,14,0,
+original_test,469,,,NFR,FR,0,20,0,0.0,19,0,
+original_test,1037,,,FR,FR,1,13,1,0.07692307692307693,11,0,sequentially
+original_test,4995,,,NFR,NFR,1,11,1,0.09090909090909091,10,0,unblock
+original_test,75,,,NFR,FR,0,23,0,0.0,21,0,
+original_test,3839,,,FR,FR,1,12,1,0.08333333333333333,10,0,warnings
+original_test,2439,,,FR,FR,1,22,1,0.045454545454545456,16,0,jumping
+original_test,1695,,,FR,NFR,0,16,0,0.0,16,0,
+original_test,4426,,,FR,FR,1,15,0,0.0,14,0,
+original_test,4415,,,FR,FR,1,15,1,0.06666666666666667,14,0,analog
+original_test,5938,,,FR,NFR,0,20,0,0.0,20,0,
+original_test,4495,,,FR,FR,1,15,2,0.13333333333333333,13,0,malfunctions; timestamping
+original_test,5707,,,NFR,NFR,1,15,0,0.0,13,0,
+original_test,1398,,,FR,FR,1,14,1,0.07142857142857142,11,0,belongs
+original_test,1874,,,FR,FR,1,13,0,0.0,13,0,
+original_test,2068,,,NFR,NFR,1,18,0,0.0,16,0,
+original_test,1726,,,FR,FR,1,11,0,0.0,11,0,
+original_test,1612,,,FR,FR,1,16,0,0.0,14,0,
+original_test,5312,,,FR,FR,1,9,0,0.0,8,0,
+original_test,3982,,,FR,FR,1,11,0,0.0,11,0,
+original_test,115,,,FR,FR,1,12,0,0.0,11,0,
+original_test,1818,,,FR,FR,1,10,0,0.0,10,0,
+original_test,27,,,NFR,NFR,1,20,0,0.0,19,0,
+original_test,4779,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5644,,,NFR,FR,0,16,0,0.0,14,0,
+original_test,3383,,,FR,FR,1,13,1,0.07692307692307693,12,0,settlement
+original_test,3708,,,FR,FR,1,11,1,0.09090909090909091,9,0,faq
+original_test,3232,,,FR,NFR,0,16,0,0.0,14,0,
+original_test,1004,,,FR,FR,1,16,1,0.0625,14,0,parse
+original_test,1107,,,NFR,NFR,1,28,0,0.0,18,0,
+original_test,3971,,,FR,FR,1,14,0,0.0,14,0,
+original_test,2273,,,FR,FR,1,8,0,0.0,8,0,
+original_test,1005,,,FR,FR,1,18,0,0.0,16,0,
+original_test,216,,,FR,FR,1,27,1,0.037037037037037035,23,0,ucar903
+original_test,1922,,,NFR,NFR,1,16,1,0.0625,15,0,14
+original_test,1803,,,NFR,NFR,1,9,1,0.1111111111111111,8,0,thousand
+original_test,5655,,,FR,FR,1,9,0,0.0,9,0,
+original_test,498,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,3514,,,NFR,FR,0,11,0,0.0,11,0,
+original_test,5908,,,FR,FR,1,16,0,0.0,16,0,
+original_test,98,,,FR,FR,1,15,0,0.0,15,0,
+original_test,258,,,FR,FR,1,16,1,0.0625,15,0,rejection
+original_test,88,,,NFR,NFR,1,19,2,0.10526315789473684,17,0,fau; identifies
+original_test,5968,,,FR,FR,1,13,0,0.0,11,0,
+original_test,1455,,,FR,FR,1,12,0,0.0,12,0,
+original_test,3623,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2413,,,FR,FR,1,13,0,0.0,13,0,
+original_test,5983,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2280,,,FR,FR,1,13,1,0.07692307692307693,12,0,matters
+original_test,3245,,,FR,FR,1,14,1,0.07142857142857142,13,0,animations
+original_test,3843,,,FR,NFR,0,11,0,0.0,11,0,
+original_test,3913,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1223,,,FR,FR,1,20,0,0.0,20,0,
+original_test,3224,,,FR,NFR,0,8,1,0.125,7,0,2003
+original_test,6110,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,3952,,,FR,FR,1,12,1,0.08333333333333333,9,0,invite
+original_test,3838,,,FR,FR,1,13,0,0.0,12,0,
+original_test,1154,,,FR,FR,1,18,0,0.0,14,0,
+original_test,5128,,,NFR,NFR,1,17,0,0.0,17,0,
+original_test,4961,,,NFR,FR,0,12,0,0.0,12,0,
+original_test,3703,,,FR,FR,1,12,0,0.0,12,0,
+original_test,2454,,,FR,FR,1,8,0,0.0,6,0,
+original_test,954,,,FR,FR,1,36,1,0.027777777777777776,26,0,modifiable
+original_test,5287,,,NFR,NFR,1,15,0,0.0,14,0,
+original_test,5231,,,FR,FR,1,23,1,0.043478260869565216,22,0,debits
+original_test,5843,,,FR,FR,1,8,0,0.0,8,0,
+original_test,4291,,,NFR,FR,0,16,1,0.0625,15,0,accession
+original_test,3221,,,FR,FR,1,16,0,0.0,15,0,
+original_test,3343,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,2156,,,NFR,FR,0,12,0,0.0,11,0,
+original_test,1119,,,NFR,NFR,1,9,0,0.0,8,0,
+original_test,51,,,NFR,NFR,1,7,0,0.0,7,0,
+original_test,4538,,,FR,FR,1,18,0,0.0,18,0,
+original_test,4784,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,1315,,,NFR,NFR,1,21,2,0.09523809523809523,15,0,confirms; surveyed
+original_test,4822,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4985,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5942,,,FR,FR,1,19,2,0.10526315789473684,15,0,improvements; translations
+original_test,3653,,,FR,FR,1,14,2,0.14285714285714285,12,0,gini; indexes
+original_test,2588,,,FR,FR,1,9,0,0.0,9,0,
+original_test,4554,,,NFR,NFR,1,13,2,0.15384615384615385,10,0,violations
+original_test,4878,,,NFR,NFR,1,18,0,0.0,17,0,
+original_test,4568,,,NFR,NFR,1,12,0,0.0,11,0,
+original_test,4994,,,NFR,FR,0,15,1,0.06666666666666667,14,0,illegal
+original_test,1339,,,FR,FR,1,9,0,0.0,9,0,
+original_test,4284,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,466,,,NFR,NFR,1,20,0,0.0,19,0,
+original_test,2973,,,FR,FR,1,14,0,0.0,14,0,
+original_test,3496,,,FR,FR,1,23,0,0.0,20,0,
+original_test,1959,,,NFR,FR,0,15,0,0.0,13,0,
+original_test,4042,,,FR,FR,1,13,2,0.15384615384615385,11,0,collaborative; hosted
+original_test,5820,,,FR,FR,1,11,0,0.0,11,0,
+original_test,189,,,FR,FR,1,15,0,0.0,15,0,
+original_test,4816,,,FR,FR,1,26,0,0.0,21,0,
+original_test,278,,,FR,NFR,0,10,0,0.0,10,0,
+original_test,4972,,,NFR,NFR,1,10,1,0.1,9,0,thoroughly
+original_test,4514,,,FR,FR,1,9,1,0.1111111111111111,8,0,interesting
+original_test,2861,,,FR,FR,1,8,0,0.0,8,0,
+original_test,6023,,,NFR,NFR,1,21,0,0.0,21,0,
+original_test,3844,,,FR,FR,1,12,2,0.16666666666666666,10,0,guardian; parent
+original_test,2855,,,FR,FR,1,12,0,0.0,11,0,
+original_test,5897,,,NFR,NFR,1,16,1,0.0625,15,0,mtbf
+original_test,4382,,,FR,FR,1,8,0,0.0,8,0,
+original_test,1898,,,NFR,NFR,1,5,1,0.2,4,0,jdk
+original_test,1254,,,NFR,NFR,1,17,0,0.0,16,0,
+original_test,5351,,,FR,NFR,0,16,0,0.0,16,0,
+original_test,2526,,,FR,FR,1,23,0,0.0,19,0,
+original_test,3667,,,FR,FR,1,12,0,0.0,12,0,
+original_test,1960,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,2408,,,FR,FR,1,13,0,0.0,13,0,
+original_test,6006,,,NFR,NFR,1,9,1,0.1111111111111111,8,0,acknowledgement
+original_test,1423,,,FR,FR,1,11,0,0.0,11,0,
+original_test,90,,,NFR,NFR,1,31,0,0.0,28,0,
+original_test,853,,,NFR,NFR,1,30,2,0.06666666666666667,25,0,scaleable; ultimately
+original_test,5184,,,FR,FR,1,15,0,0.0,14,0,
+original_test,5811,,,FR,FR,1,7,1,0.14285714285714285,6,0,forum
+original_test,1286,,,FR,FR,1,11,0,0.0,10,0,
+original_test,3611,,,NFR,FR,0,15,0,0.0,15,0,
+original_test,2110,,,NFR,NFR,1,21,0,0.0,19,0,
+original_test,4820,,,FR,FR,1,8,0,0.0,8,0,
+original_test,5124,,,NFR,NFR,1,16,1,0.0625,15,0,utilization
+original_test,5813,,,FR,FR,1,10,0,0.0,10,0,
+original_test,298,,,FR,FR,1,19,0,0.0,18,0,
+original_test,5714,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,6091,,,FR,FR,1,10,0,0.0,10,0,
+original_test,5521,,,NFR,FR,0,14,1,0.07142857142857142,12,0,scholarships
+original_test,4627,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,4097,,,NFR,NFR,1,13,0,0.0,12,0,
+original_test,314,,,FR,FR,1,14,0,0.0,13,0,
+original_test,2073,,,NFR,FR,0,19,1,0.05263157894736842,16,0,scenes
+original_test,5418,,,FR,NFR,0,13,0,0.0,13,0,
+original_test,5756,,,FR,FR,1,13,1,0.07692307692307693,11,0,mailed
+original_test,1424,,,FR,FR,1,14,0,0.0,14,0,
+original_test,4743,,,FR,FR,1,7,0,0.0,7,0,
+original_test,3004,,,FR,FR,1,9,0,0.0,9,0,
+original_test,2233,,,FR,FR,1,9,2,0.2222222222222222,7,0,vacancy; viewings
+original_test,462,,,NFR,FR,0,26,1,0.038461538461538464,22,0,indication
+original_test,4472,,,NFR,FR,0,10,0,0.0,9,0,
+original_test,3297,,,NFR,NFR,1,14,0,0.0,13,0,
+original_test,6058,,,FR,FR,1,18,0,0.0,17,0,
+original_test,1563,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,5036,,,NFR,FR,0,11,0,0.0,10,0,
+original_test,1273,,,FR,FR,1,17,1,0.058823529411764705,13,0,unknown
+original_test,3772,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4886,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,3602,,,NFR,NFR,1,19,0,0.0,18,0,
+original_test,5162,,,FR,FR,1,16,1,0.0625,13,0,journals
+original_test,1787,,,FR,NFR,0,6,1,0.16666666666666666,5,0,mandate
+original_test,1937,,,FR,FR,1,16,1,0.0625,15,0,savings
+original_test,5821,,,FR,FR,1,8,0,0.0,8,0,
+original_test,687,,,FR,FR,1,13,0,0.0,12,0,
+original_test,3775,,,FR,FR,1,11,0,0.0,10,0,
+original_test,5591,,,FR,FR,1,22,1,0.045454545454545456,18,0,donations
+original_test,5881,,,FR,FR,1,14,0,0.0,13,0,
+original_test,3765,,,NFR,FR,0,14,0,0.0,12,0,
+original_test,1532,,,FR,FR,1,16,0,0.0,14,0,
+original_test,993,,,NFR,NFR,1,17,2,0.11764705882352941,13,0,obstruct; thematic
+original_test,2124,,,FR,FR,1,12,0,0.0,12,0,
+original_test,3498,,,FR,FR,1,19,0,0.0,19,0,
+original_test,865,,,NFR,NFR,1,36,6,0.16666666666666666,26,0,coordinate; outage; peripherals; powered; prolonged; wherever
+original_test,1819,,,FR,FR,1,7,0,0.0,7,0,
+original_test,1479,,,FR,FR,1,22,1,0.045454545454545456,20,0,2mb
+original_test,3678,,,FR,FR,1,16,0,0.0,15,0,
+original_test,6030,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1369,,,FR,FR,1,18,2,0.1111111111111111,14,0,250; limitation
+original_test,4938,,,FR,FR,1,12,1,0.08333333333333333,11,0,brief
+original_test,4245,,,NFR,FR,0,10,1,0.1,9,0,catalogues
+original_test,2377,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5947,,,NFR,NFR,1,23,2,0.08695652173913043,19,0,constrained; utilization
+original_test,757,,,FR,FR,1,15,0,0.0,15,0,
+original_test,4808,,,FR,FR,1,9,0,0.0,9,0,
+original_test,741,,,FR,FR,1,22,1,0.045454545454545456,17,0,shipboard
+original_test,1772,,,FR,FR,1,10,0,0.0,10,0,
+original_test,2202,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4200,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,5721,,,FR,FR,1,15,0,0.0,14,0,
+original_test,2112,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,5708,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,1584,,,NFR,NFR,1,8,1,0.125,7,0,exclusive
+original_test,4257,,,FR,FR,1,7,0,0.0,7,0,
+original_test,5965,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4479,,,FR,FR,1,15,0,0.0,15,0,
+original_test,5032,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,4213,,,FR,FR,1,17,0,0.0,15,0,
+original_test,4241,,,NFR,NFR,1,14,0,0.0,13,0,
+original_test,3057,,,FR,FR,1,9,1,0.1111111111111111,8,0,approvals
+original_test,1417,,,FR,FR,1,12,0,0.0,11,0,
+original_test,2448,,,FR,FR,1,23,0,0.0,19,0,
+original_test,5328,,,FR,FR,1,15,0,0.0,15,0,
+original_test,1905,,,NFR,NFR,1,12,0,0.0,11,0,
+original_test,5681,,,FR,FR,1,11,0,0.0,10,0,
+original_test,1786,,,FR,FR,1,13,0,0.0,11,0,
+original_test,877,,,NFR,NFR,1,26,0,0.0,23,0,
+original_test,4701,,,FR,FR,1,11,0,0.0,11,0,
+original_test,3915,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4218,,,FR,FR,1,11,0,0.0,11,0,
+original_test,893,,,NFR,NFR,1,23,0,0.0,22,0,
+original_test,2388,,,FR,FR,1,14,0,0.0,14,0,
+original_test,1667,,,FR,FR,1,18,1,0.05555555555555555,14,0,mirror
+original_test,2815,,,FR,FR,1,24,0,0.0,20,0,
+original_test,5624,,,FR,FR,1,17,0,0.0,17,0,
+original_test,1888,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,5555,,,FR,FR,1,14,0,0.0,13,0,
+original_test,4754,,,NFR,FR,0,12,0,0.0,12,0,
+original_test,3886,,,FR,FR,1,9,1,0.1111111111111111,8,0,agreed
+original_test,5926,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,761,,,FR,FR,1,28,0,0.0,22,0,
+original_test,1011,,,FR,FR,1,16,1,0.0625,14,0,extraction
+original_test,631,,,FR,FR,1,14,1,0.07142857142857142,12,0,whose
+original_test,1341,,,FR,FR,1,9,0,0.0,9,0,
+original_test,4831,,,FR,FR,1,7,0,0.0,7,0,
+original_test,3551,,,NFR,FR,0,8,0,0.0,8,0,
+original_test,3079,,,NFR,FR,0,13,0,0.0,13,0,
+original_test,1723,,,FR,FR,1,14,1,0.07142857142857142,13,0,piece
+original_test,5512,,,NFR,NFR,1,7,0,0.0,7,0,
+original_test,5781,,,FR,FR,1,13,0,0.0,12,0,
+original_test,5841,,,FR,FR,1,14,0,0.0,14,0,
+original_test,5706,,,FR,FR,1,10,0,0.0,9,0,
+original_test,4099,,,NFR,NFR,1,9,2,0.2222222222222222,7,0,backward; dependency
+original_test,287,,,FR,FR,1,15,0,0.0,14,0,
+original_test,1568,,,FR,FR,1,12,2,0.16666666666666666,10,0,dividend; released
+original_test,355,,,FR,FR,1,15,0,0.0,14,0,
+original_test,2314,,,FR,FR,1,17,1,0.058823529411764705,16,0,calorie
+original_test,2351,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,4364,,,NFR,FR,0,12,1,0.08333333333333333,11,0,sword2
+original_test,3156,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,5532,,,FR,FR,1,20,0,0.0,16,0,
+original_test,4992,,,NFR,FR,0,10,0,0.0,9,0,
+original_test,6067,,,FR,FR,1,11,0,0.0,11,0,
+original_test,1651,,,NFR,NFR,1,15,1,0.06666666666666667,14,0,scene
+original_test,4764,,,FR,FR,1,18,0,0.0,15,0,
+original_test,4919,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,5125,,,NFR,NFR,1,24,1,0.041666666666666664,22,0,bug
+original_test,4830,,,FR,FR,1,12,0,0.0,12,0,
+original_test,2893,,,FR,FR,1,18,0,0.0,16,0,
+original_test,184,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4794,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4292,,,NFR,NFR,1,15,0,0.0,13,0,
+original_test,6085,,,FR,FR,1,9,0,0.0,8,0,
+original_test,2703,,,FR,FR,1,14,0,0.0,14,0,
+original_test,4113,,,FR,FR,1,24,0,0.0,23,0,
+original_test,295,,,FR,FR,1,13,0,0.0,12,0,
+original_test,5407,,,NFR,NFR,1,20,0,0.0,19,0,
+original_test,1948,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2544,,,NFR,FR,0,15,0,0.0,13,0,
+original_test,4733,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1442,,,FR,FR,1,19,0,0.0,16,0,
+original_test,110,,,FR,FR,1,14,0,0.0,12,0,
+original_test,2321,,,FR,FR,1,22,1,0.045454545454545456,19,0,excessively
+original_test,4947,,,FR,FR,1,5,1,0.2,4,0,resistant
+original_test,2652,,,FR,FR,1,16,1,0.0625,14,0,discussing
+original_test,2661,,,FR,FR,1,6,0,0.0,6,0,
+original_test,4107,,,NFR,FR,0,9,0,0.0,9,0,
+original_test,1908,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2821,,,NFR,NFR,1,19,0,0.0,18,0,
+original_test,1592,,,FR,FR,1,5,0,0.0,5,0,
+original_test,1348,,,FR,FR,1,16,0,0.0,16,0,
+original_test,3945,,,FR,FR,1,12,0,0.0,12,0,
+original_test,512,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,113,,,FR,FR,1,21,0,0.0,18,0,
+original_test,1397,,,FR,FR,1,13,0,0.0,12,0,
+original_test,1796,,,FR,FR,1,10,0,0.0,10,0,
+original_test,4455,,,FR,FR,1,7,0,0.0,7,0,
+original_test,2383,,,NFR,NFR,1,19,0,0.0,19,0,
+original_test,3729,,,FR,FR,1,17,0,0.0,16,0,
+original_test,1487,,,NFR,FR,0,13,1,0.07692307692307693,12,0,microphone
+original_test,726,,,FR,FR,1,23,0,0.0,20,0,
+original_test,3159,,,NFR,NFR,1,12,0,0.0,10,0,
+original_test,1018,,,FR,FR,1,12,0,0.0,12,0,
+original_test,4667,,,FR,FR,1,14,0,0.0,14,0,
+original_test,908,,,FR,FR,1,13,0,0.0,13,0,
+original_test,5227,,,FR,FR,1,26,2,0.07692307692307693,22,0,trains
+original_test,4734,,,FR,FR,1,10,0,0.0,10,0,
+original_test,3532,,,FR,FR,1,13,0,0.0,13,0,
+original_test,3336,,,FR,FR,1,14,0,0.0,14,0,
+original_test,3885,,,FR,FR,1,15,0,0.0,13,0,
+original_test,5391,,,NFR,NFR,1,16,0,0.0,15,0,
+original_test,2594,,,FR,FR,1,14,0,0.0,13,0,
+original_test,3778,,,FR,FR,1,9,2,0.2222222222222222,7,0,resubmit; revised
+original_test,4712,,,FR,FR,1,15,0,0.0,15,0,
+original_test,2449,,,FR,FR,1,12,0,0.0,11,0,
+original_test,530,,,NFR,NFR,1,11,2,0.18181818181818182,9,0,coordinate; yoggie
+original_test,533,,,FR,FR,1,23,0,0.0,21,0,
+original_test,5722,,,FR,FR,1,30,0,0.0,27,0,
+original_test,5845,,,FR,FR,1,8,0,0.0,8,0,
+original_test,4895,,,FR,NFR,0,10,0,0.0,10,0,
+original_test,2264,,,FR,FR,1,8,1,0.125,7,0,powerful
+original_test,4797,,,NFR,FR,0,16,1,0.0625,15,0,csun
+original_test,5498,,,NFR,NFR,1,7,0,0.0,7,0,
+original_test,2103,,,NFR,NFR,1,10,1,0.1,9,0,numerous
+original_test,5492,,,FR,FR,1,20,0,0.0,13,0,
+original_test,4928,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,4047,,,NFR,FR,0,12,0,0.0,12,0,
+original_test,4352,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,2405,,,FR,FR,1,9,0,0.0,9,0,
+original_test,5724,,,FR,FR,1,16,0,0.0,16,0,
+original_test,4286,,,NFR,FR,0,17,2,0.11764705882352941,13,0,accessions; extents
+original_test,4665,,,FR,FR,1,15,0,0.0,14,0,
+original_test,3153,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,4053,,,NFR,NFR,1,13,0,0.0,12,0,
+original_test,5004,,,FR,FR,1,13,0,0.0,13,0,
+original_test,4525,,,FR,FR,1,9,0,0.0,9,0,
+original_test,2063,,,FR,NFR,0,29,3,0.10344827586206896,22,0,gifs; giphy; stickers
+original_test,4370,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5944,,,FR,FR,1,18,3,0.16666666666666666,14,0,assisting; fallback; foreign
+original_test,5824,,,FR,FR,1,19,1,0.05263157894736842,17,0,additions
+original_test,3738,,,FR,FR,1,9,0,0.0,9,0,
+original_test,3580,,,FR,NFR,0,11,0,0.0,11,0,
+original_test,5390,,,NFR,NFR,1,16,0,0.0,15,0,
+original_test,1844,,,FR,NFR,0,7,0,0.0,7,0,
+original_test,5472,,,FR,FR,1,16,0,0.0,15,0,
+original_test,1855,,,FR,FR,1,6,0,0.0,6,0,
+original_test,434,,,FR,FR,1,12,0,0.0,11,0,
+original_test,3658,,,NFR,FR,0,11,0,0.0,11,0,
+original_test,4136,,,FR,FR,1,21,0,0.0,19,0,
+original_test,5847,,,FR,FR,1,7,0,0.0,7,0,
+original_test,2145,,,FR,FR,1,24,0,0.0,22,0,
+original_test,5303,,,FR,FR,1,20,0,0.0,19,0,
+original_test,5246,,,NFR,NFR,1,20,0,0.0,19,0,
+original_test,5069,,,FR,FR,1,9,1,0.1111111111111111,8,0,midi
+original_test,508,,,NFR,NFR,1,9,0,0.0,8,0,
+original_test,2843,,,NFR,NFR,1,17,0,0.0,17,0,
+original_test,3446,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,2809,,,FR,FR,1,15,0,0.0,11,0,
+original_test,3554,,,NFR,FR,0,11,1,0.09090909090909091,10,0,lessons
+original_test,1617,,,FR,NFR,0,12,1,0.08333333333333333,9,0,forecasts
+original_test,299,,,FR,FR,1,23,0,0.0,18,0,
+original_test,1817,,,FR,FR,1,7,0,0.0,7,0,
+original_test,492,,,NFR,NFR,1,20,1,0.05,16,0,plugged
+original_test,842,,,NFR,NFR,1,29,1,0.034482758620689655,23,0,indefinitely
+original_test,411,,,FR,FR,1,21,0,0.0,19,0,
+original_test,4349,,,NFR,FR,0,15,1,0.06666666666666667,14,0,licensing
+original_test,3236,,,NFR,NFR,1,11,0,0.0,11,0,
+original_test,5425,,,FR,FR,1,16,0,0.0,16,0,
+original_test,3780,,,FR,FR,1,8,0,0.0,8,0,
+original_test,3430,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1150,,,FR,FR,1,18,0,0.0,18,0,
+original_test,5671,,,FR,FR,1,11,0,0.0,10,0,
+original_test,3461,,,NFR,NFR,1,15,0,0.0,15,0,
+original_test,2369,,,FR,FR,1,11,0,0.0,11,0,
+original_test,5866,,,NFR,NFR,1,15,0,0.0,14,0,
+original_test,4432,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,144,,,FR,FR,1,15,0,0.0,13,0,
+original_test,4027,,,FR,FR,1,11,1,0.09090909090909091,10,0,theme
+original_test,5667,,,FR,FR,1,8,0,0.0,8,0,
+original_test,3562,,,FR,NFR,0,10,0,0.0,8,0,
+original_test,300,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2904,,,FR,FR,1,16,0,0.0,13,0,
+original_test,3919,,,NFR,FR,0,9,1,0.1111111111111111,8,0,legacy
+original_test,4443,,,FR,FR,1,7,0,0.0,7,0,
+original_test,3637,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2868,,,FR,FR,1,7,0,0.0,7,0,
+original_test,1847,,,FR,FR,1,8,0,0.0,8,0,
+original_test,5970,,,FR,FR,1,17,0,0.0,16,0,
+original_test,2847,,,FR,FR,1,11,0,0.0,11,0,
+original_test,2789,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,1161,,,FR,FR,1,34,1,0.029411764705882353,27,0,enlisted
+original_test,1657,,,NFR,NFR,1,21,1,0.047619047619047616,19,0,suffering
+original_test,6038,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,5662,,,FR,FR,1,9,0,0.0,9,0,
+original_test,5497,,,FR,FR,1,23,2,0.08695652173913043,17,0,scholarships
+original_test,1611,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5747,,,FR,FR,1,5,0,0.0,5,0,
+original_test,1268,,,NFR,NFR,1,13,1,0.07692307692307693,11,0,estimatics
+original_test,1533,,,FR,FR,1,14,0,0.0,13,0,
+original_test,4993,,,NFR,FR,0,9,0,0.0,9,0,
+original_test,804,,,FR,FR,1,18,2,0.1111111111111111,15,0,measurement; quantizer
+original_test,6037,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,2194,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,4757,,,NFR,NFR,1,13,0,0.0,13,0,
+original_test,5945,,,FR,FR,1,22,0,0.0,21,0,
+original_test,6086,,,FR,FR,1,19,0,0.0,14,0,
+original_test,4946,,,FR,FR,1,10,2,0.2,7,0,tactile
+original_test,4963,,,NFR,NFR,1,15,0,0.0,12,0,
+original_test,3473,,,FR,FR,1,16,0,0.0,13,0,
+original_test,635,,,FR,FR,1,11,1,0.09090909090909091,9,0,fishing
+original_test,4954,,,FR,FR,1,9,1,0.1111111111111111,8,0,dispensers
+original_test,4271,,,FR,FR,1,12,0,0.0,12,0,
+original_test,5177,,,NFR,FR,0,8,0,0.0,8,0,
+original_test,1132,,,FR,FR,1,16,0,0.0,15,0,
+original_test,1739,,,FR,FR,1,17,0,0.0,17,0,
+original_test,1427,,,FR,FR,1,10,0,0.0,10,0,
+original_test,1304,,,FR,FR,1,11,0,0.0,10,0,
+original_test,3539,,,FR,FR,1,11,0,0.0,11,0,
+original_test,1325,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,2190,,,NFR,NFR,1,18,1,0.05555555555555555,15,0,overhaul
+original_test,3519,,,FR,FR,1,14,0,0.0,14,0,
+original_test,5348,,,FR,FR,1,17,2,0.11764705882352941,13,0,approach; works
+original_test,3056,,,FR,FR,1,9,0,0.0,9,0,
+original_test,5703,,,FR,FR,1,11,1,0.09090909090909091,10,0,policy
+original_test,5605,,,NFR,NFR,1,16,2,0.125,13,0,becoming; overloaded
+original_test,2440,,,FR,FR,1,13,0,0.0,11,0,
+original_test,5202,,,FR,NFR,0,14,0,0.0,14,0,
+original_test,3704,,,FR,FR,1,15,1,0.06666666666666667,14,0,certified
+original_test,2397,,,NFR,NFR,1,14,0,0.0,14,0,
+original_test,3146,,,FR,FR,1,15,0,0.0,13,0,
+original_test,3512,,,NFR,FR,0,10,2,0.2,8,0,forum; threads
+original_test,4384,,,FR,FR,1,13,0,0.0,12,0,
+original_test,2803,,,NFR,NFR,1,10,0,0.0,10,0,
+original_test,2168,,,NFR,NFR,1,14,0,0.0,13,0,
+original_test,4982,,,NFR,NFR,1,12,1,0.08333333333333333,11,0,14
+original_test,3150,,,FR,FR,1,18,2,0.1111111111111111,16,0,finalizing; put
+original_test,5854,,,FR,FR,1,9,0,0.0,9,0,
+original_test,4389,,,FR,FR,1,13,0,0.0,13,0,
+original_test,630,,,FR,FR,1,26,3,0.11538461538461539,19,0,jong; mah; rulebook
+original_test,2319,,,FR,FR,1,18,1,0.05555555555555555,17,0,barcodes
+original_test,2593,,,FR,FR,1,14,0,0.0,14,0,
+original_test,4876,,,FR,NFR,0,10,1,0.1,9,0,ssh
+original_test,5438,,,NFR,NFR,1,12,0,0.0,12,0,
+original_test,5233,,,NFR,NFR,1,16,0,0.0,16,0,
+original_test,2735,,,NFR,FR,0,19,0,0.0,16,0,
+original_test,2870,,,FR,FR,1,11,0,0.0,11,0,
+original_test,342,,,FR,FR,1,14,4,0.2857142857142857,10,0,2013; spring; winter
+original_test,2783,,,NFR,NFR,1,8,0,0.0,8,0,
+original_test,192,,,FR,FR,1,10,0,0.0,10,0,
+original_test,5090,,,FR,FR,1,17,2,0.11764705882352941,13,0,angle; brushes
+original_test,1914,,,FR,FR,1,8,0,0.0,8,0,
+original_test,846,,,NFR,NFR,1,17,0,0.0,16,0,
+original_test,3586,,,NFR,FR,0,12,0,0.0,12,0,
+original_test,3883,,,FR,FR,1,12,1,0.08333333333333333,11,0,revealing
+original_test,4770,,,FR,FR,1,21,0,0.0,17,0,
+original_test,3397,,,FR,FR,1,24,1,0.041666666666666664,22,0,photographs
+original_test,1482,,,NFR,FR,0,16,0,0.0,15,0,
+original_test,2663,,,FR,FR,1,10,0,0.0,9,0,
+original_test,2705,,,NFR,FR,0,20,1,0.05,18,0,matrimonial
+secreq_combined,,3150,CPN,NFR,NFR,1,20,6,0.3,12,0,cnd; cng; cpn; internally; transmitting; unauthorised
+secreq_combined,,3151,CPN,NFR,NFR,1,23,5,0.21739130434782608,16,0,cnd; cng; cpn; internally; unauthorised
+secreq_combined,,3152,CPN,NFR,NFR,1,26,3,0.11538461538461539,15,0,cnd; cng
+secreq_combined,,3153,CPN,NFR,FR,0,23,6,0.2608695652173913,14,0,attempting; cng; cpn; invoke; mediated
+secreq_combined,,3154,CPN,NFR,NFR,1,9,2,0.2222222222222222,7,0,cng; policy
+secreq_combined,,3155,CPN,NFR,NFR,1,50,5,0.1,28,0,cng; policy; replay; silently; true
+secreq_combined,,3156,CPN,NFR,NFR,1,10,2,0.2,8,0,cng; replayed
+secreq_combined,,3157,CPN,NFR,FR,0,17,4,0.23529411764705882,11,0,cng; detects; replayed
+secreq_combined,,3158,CPN,NFR,NFR,1,14,2,0.14285714285714285,12,0,cng; policy
+secreq_combined,,3159,CPN,NFR,FR,0,21,8,0.38095238095238093,10,0,cng; detects; ngn; policy; signalling; violation
+secreq_combined,,3160,CPN,NFR,FR,0,9,2,0.2222222222222222,7,0,cng; policy
+secreq_combined,,3161,CPN,NFR,NFR,1,37,5,0.13513513513513514,24,0,cng; cpn; policy; reception
+secreq_combined,,3162,CPN,NFR,FR,0,23,7,0.30434782608695654,12,0,association; cnd; cng; invokes; invoking
+secreq_combined,,3163,CPN,NFR,FR,0,22,4,0.18181818181818182,15,0,append; cnd; cng
+secreq_combined,,3164,CPN,NFR,FR,0,28,4,0.14285714285714285,20,0,cng; reception; replayed
+secreq_combined,,3165,CPN,NFR,FR,0,25,3,0.12,19,0,cng; reception
+secreq_combined,,3166,CPN,NFR,FR,0,15,2,0.13333333333333333,10,0,cng
+secreq_combined,,3167,CPN,NFR,FR,0,24,4,0.16666666666666666,15,0,cng; indication; invocation
+secreq_combined,,3168,CPN,NFR,FR,0,23,2,0.08695652173913043,17,0,cng
+secreq_combined,,3169,CPN,NFR,FR,0,27,3,0.1111111111111111,18,0,cng; hosted
+secreq_combined,,3170,CPN,NFR,NFR,1,22,4,0.18181818181818182,18,0,cng; discontinuity; revert; specifically
+secreq_combined,,3171,CPN,NFR,NFR,1,14,2,0.14285714285714285,10,0,cng; ngn
+secreq_combined,,3172,CPN,NFR,FR,0,15,2,0.13333333333333333,11,0,cng; ngn
+secreq_combined,,3173,CPN,NFR,FR,0,30,3,0.1,22,0,cnds; cng; ngn
+secreq_combined,,3174,CPN,NFR,NFR,1,23,2,0.08695652173913043,17,0,cnds; cng
+secreq_combined,,3175,CPN,NFR,NFR,1,16,2,0.125,13,0,cng; cpn
+secreq_combined,,3176,CPN,NFR,NFR,1,20,1,0.05,15,0,cng
+secreq_combined,,3177,CPN,NFR,FR,0,22,3,0.13636363636363635,14,0,cng; cpn; wan
+secreq_combined,,3178,CPN,NFR,FR,0,20,1,0.05,17,0,cpn
+secreq_combined,,3179,CPN,NFR,NFR,1,16,3,0.1875,12,0,cng; cpn; stateful
+secreq_combined,,3180,CPN,NFR,NFR,1,37,5,0.13513513513513514,26,0,broadband; cng; cpn; devoted; parental
+secreq_combined,,3181,CPN,FR,NFR,0,18,3,0.16666666666666666,14,0,cng; ngn; wan
+secreq_combined,,3182,CPN,FR,NFR,0,47,14,0.2978723404255319,28,0,alliance; analog; cat; certified; cng; dect; fiber; fxs; iq; mbit; optical; plastic; powerlines; telephony
+secreq_combined,,3183,CPN,FR,NFR,0,11,3,0.2727272727272727,8,0,bridged; cng; routed
+secreq_combined,,3184,CPN,FR,NFR,0,19,3,0.15789473684210525,15,0,cng; pair; premises
+secreq_combined,,3185,CPN,FR,NFR,0,50,13,0.26,27,0,addressability; bridged; cnds; cng; flows; irrespective; ngn; plane; relation; routed; subnets
+secreq_combined,,3187,CPN,FR,NFR,0,22,2,0.09090909090909091,17,0,cng; identities
+secreq_combined,,3188,CPN,FR,NFR,0,27,4,0.14814814814814814,18,0,cng; entertainment; iptv; ngn
+secreq_combined,,3189,CPN,FR,FR,1,27,7,0.25925925925925924,18,0,005; 181; cnd; cng; multimedia; ngn; ts
+secreq_combined,,3190,CPN,NFR,NFR,1,19,3,0.15789473684210525,12,0,cng; flows; signalling
+secreq_combined,,3192,CPN,FR,FR,1,17,2,0.11764705882352941,13,0,cng; ngn
+secreq_combined,,3193,CPN,FR,NFR,0,11,2,0.18181818181818182,9,0,cpn; ngn
+secreq_combined,,3194,CPN,FR,FR,1,19,3,0.15789473684210525,13,0,cnd; cng; surveillance
+secreq_combined,,3195,CPN,FR,NFR,0,14,2,0.14285714285714285,11,0,ngn; routing
+secreq_combined,,3196,CPN,FR,NFR,0,16,3,0.1875,11,0,cng; qos; tunnel
+secreq_combined,,3197,CPN,NFR,NFR,1,17,2,0.11764705882352941,15,0,cng; ngn
+secreq_combined,,3198,CPN,FR,FR,1,15,4,0.26666666666666666,10,0,cnds; cng; cpns; h2h
+secreq_combined,,3199,CPN,NFR,FR,0,33,4,0.12121212121212122,25,0,cnds; cng; h2h
+secreq_combined,,3200,CPN,NFR,FR,0,33,4,0.12121212121212122,27,0,cng; cpn; h2h; originating
+secreq_combined,,3201,CPN,NFR,NFR,1,23,3,0.13043478260869565,16,0,cnd; cng; cpn
+secreq_combined,,3202,CPN,FR,FR,1,23,1,0.043478260869565216,18,0,cng
+secreq_combined,,3203,CPN,NFR,NFR,1,21,2,0.09523809523809523,18,0,cng; nomadism
+secreq_combined,,3204,CPN,FR,NFR,0,21,5,0.23809523809523808,16,0,cnds; cng; establishing; rich; suite
+secreq_combined,,3205,CPN,FR,NFR,0,16,1,0.0625,14,0,cpn
+secreq_combined,,3206,CPN,NFR,NFR,1,16,1,0.0625,14,0,cpn
+secreq_combined,,3207,CPN,FR,FR,1,22,2,0.09090909090909091,18,0,association; cnds
+secreq_combined,,3209,CPN,FR,NFR,0,17,3,0.17647058823529413,12,0,cng; forking; ims
+secreq_combined,,3210,CPN,NFR,FR,0,16,4,0.25,11,0,cnds; cng; identities; ims
+secreq_combined,,3211,CPN,FR,FR,1,16,4,0.25,10,0,cnds; cng; ims; toward
+secreq_combined,,3212,CPN,FR,NFR,0,14,5,0.35714285714285715,9,0,cnds; cng; cpn; ims
+secreq_combined,,3216,CPN,FR,FR,1,16,3,0.1875,13,0,cng; flows; iptv
+secreq_combined,,3217,CPN,FR,FR,1,19,2,0.10526315789473684,14,0,cng; flows
+secreq_combined,,3218,CPN,FR,FR,1,29,4,0.13793103448275862,18,0,cng; iptv; stb
+secreq_combined,,3219,CPN,FR,NFR,0,20,4,0.2,13,0,bridged; cng; routed; stb
+secreq_combined,,3220,CPN,FR,FR,1,39,5,0.1282051282051282,25,0,bridged; cng; iptv; touted; treated
+secreq_combined,,3221,CPN,FR,NFR,0,20,2,0.1,15,0,cng; signalling
+secreq_combined,,3222,CPN,FR,FR,1,27,4,0.14814814814814814,22,0,cng; flows; powerlines; stb
+secreq_combined,,3224,CPN,FR,NFR,0,21,3,0.14285714285714285,16,0,cng; drm; stb
+secreq_combined,,3225,CPN,FR,NFR,0,18,5,0.2777777777777778,11,0,cng; flows; plane; stb; transcoding
+secreq_combined,,3226,CPN,FR,NFR,0,13,4,0.3076923076923077,9,0,adaptation; cng; plane
+secreq_combined,,3227,CPN,FR,FR,1,45,5,0.1111111111111111,25,0,architectural; cng; ngn; stb
+secreq_combined,,3228,CPN,FR,NFR,0,11,3,0.2727272727272727,8,0,cpn; ngn; ugc
+secreq_combined,,3229,CPN,FR,NFR,0,9,3,0.3333333333333333,6,0,cpn; ugc
+secreq_combined,,3230,CPN,FR,NFR,0,20,4,0.2,14,0,cpn; regulation; ugc
+secreq_combined,,3231,CPN,FR,NFR,0,24,3,0.125,16,0,cpn; hyperlinks; ugc
+secreq_combined,,3232,CPN,NFR,FR,0,10,1,0.1,8,0,ugc
+secreq_combined,,3233,CPN,FR,NFR,0,34,4,0.11764705882352941,24,0,cpn; multimedia; noticeable; synchronisation
+secreq_combined,,3234,CPN,NFR,NFR,1,83,12,0.14457831325301204,46,0,adopting; bullets; clause; cnds; cng; cpn; hgi; initiative; mentioned; performances; specification
+secreq_combined,,3235,CPN,NFR,NFR,1,16,2,0.125,12,0,ngn; qos
+secreq_combined,,3236,CPN,NFR,NFR,1,25,6,0.24,17,0,001; 282; cng; es; qos; racs
+secreq_combined,,3237,CPN,NFR,NFR,1,17,4,0.23529411764705882,10,0,cng; cpn; qos
+secreq_combined,,3244,CPN,NFR,NFR,1,21,5,0.23809523809523808,14,0,bridged; cng; cpn; simply
+secreq_combined,,3245,CPN,NFR,FR,0,29,3,0.10344827586206896,22,0,cnds; cng
+secreq_combined,,3246,CPN,NFR,NFR,1,32,4,0.125,22,0,cng; congestion; huge; upstream
+secreq_combined,,3247,CPN,NFR,FR,0,17,2,0.11764705882352941,14,0,cng; qos
+secreq_combined,,3248,CPN,FR,NFR,0,18,3,0.16666666666666666,14,0,cng; qos; unmanaged
+secreq_combined,,3249,CPN,FR,FR,1,53,5,0.09433962264150944,35,0,cng; configuring; firmware; manageable; referring
+secreq_combined,,3251,CPN,NFR,NFR,1,14,1,0.07142857142857142,13,0,cng
+secreq_combined,,3253,CPN,FR,FR,1,25,4,0.16,18,0,cpn; ngn; subscribing
+secreq_combined,,3254,CPN,FR,FR,1,31,5,0.16129032258064516,23,0,cpn; ngn; provisioning
+secreq_combined,,3255,CPN,FR,FR,1,14,2,0.14285714285714285,10,0,cpn; unmanaged
+secreq_combined,,3256,CPN,FR,FR,1,33,2,0.06060606060606061,25,0,cng
+secreq_combined,,3257,CPN,NFR,FR,0,23,1,0.043478260869565216,18,0,cng
+secreq_combined,,3258,CPN,FR,NFR,0,16,5,0.3125,10,0,cnds; cpn; devoted; manageable; ngn
+secreq_combined,,3261,CPN,FR,NFR,0,30,8,0.26666666666666666,19,0,cnds; cng; cpn; cscf; impi; impu; ims; trough
+secreq_combined,,3262,CPN,FR,FR,1,22,2,0.09090909090909091,18,0,cnd; cng
+secreq_combined,,3263,CPN,FR,NFR,0,16,0,0.0,15,0,
+secreq_combined,,3264,CPN,FR,NFR,0,20,2,0.1,15,0,cnd; ngn
+secreq_combined,,3265,CPN,FR,FR,1,47,4,0.0851063829787234,30,0,association; cnd; cng; uicc
+secreq_combined,,3266,CPN,FR,NFR,0,14,3,0.21428571428571427,11,0,cnd; cng; cpn
+secreq_combined,,3267,CPN,NFR,FR,0,19,6,0.3157894736842105,12,0,cpn; nb; originating; prioritization; qos; terminating
+secreq_combined,,3268,CPN,FR,NFR,0,13,4,0.3076923076923077,9,0,clause; cnd; cng; ngn
+secreq_combined,,3269,CPN,FR,FR,1,16,2,0.125,14,0,ngn
+secreq_combined,,3270,CPN,FR,NFR,0,18,4,0.2222222222222222,11,0,ims; uicc
+secreq_combined,,3271,CPN,FR,FR,1,17,7,0.4117647058823529,9,0,001; 187; aka; cnd; isim; ts; uicc
+secreq_combined,,3272,CPN,FR,FR,1,19,5,0.2631578947368421,12,0,cnd; digest; isim; nba; uicc
+secreq_combined,,3273,CPN,FR,NFR,0,15,1,0.06666666666666667,11,0,cnd
+secreq_combined,,3274,CPN,FR,FR,1,32,8,0.25,19,0,addressable; cnds; cng; cpn; l2; l3; ngn
+secreq_combined,,3275,CPN,FR,NFR,0,9,1,0.1111111111111111,8,0,cnd
+secreq_combined,,3276,CPN,FR,FR,1,11,3,0.2727272727272727,8,0,cnd; cng; cpn
+secreq_combined,,3277,CPN,FR,NFR,0,28,4,0.14285714285714285,18,0,cnd; entertainment; iptv; ngn
+secreq_combined,,3278,CPN,FR,NFR,0,12,2,0.16666666666666666,9,0,cnd; ngn
+secreq_combined,,3279,CPN,FR,NFR,0,14,2,0.14285714285714285,12,0,clause; cnd
+secreq_combined,,3280,CPN,FR,FR,1,12,1,0.08333333333333333,11,0,cnd
+secreq_combined,,3281,CPN,FR,FR,1,14,2,0.14285714285714285,10,0,cnd; cng
+secreq_combined,,3282,CPN,FR,NFR,0,20,4,0.2,16,0,005; 181; cnd; ts
+secreq_combined,,3301,CPN,FR,NFR,0,30,7,0.23333333333333334,20,0,005; 181; cnd; cng; multimedia; ngn; ts
+secreq_combined,,3305,CPN,NFR,NFR,1,13,2,0.15384615384615385,11,0,cpn; ngn
+secreq_combined,,3312,CPN,FR,NFR,0,37,3,0.08108108108108109,23,0,identities; impu
+secreq_combined,,3314,CPN,FR,NFR,0,32,6,0.1875,19,0,cnds; cng; forking; identities; ims
+secreq_combined,,3318,CPN,FR,NFR,0,26,7,0.2692307692307692,17,0,cnd; cnds; cpns; declaring; discussed; ims; scenario
+secreq_combined,,3339,CPN,FR,NFR,0,20,5,0.25,14,0,bridged; cng; cpn; simply
+secreq_combined,,3344,CPN,FR,FR,1,54,5,0.09259259259259259,35,0,cng; configuring; firmware; manageable; referring
+secreq_combined,,3346,CPN,NFR,NFR,1,15,1,0.06666666666666667,13,0,cng
+secreq_combined,,3348,CPN,FR,FR,1,46,6,0.13043478260869565,26,0,cng; himself; manageable; provisioning; unmanaged
+secreq_combined,,3351,CPN,FR,NFR,0,15,4,0.26666666666666666,10,0,cnds; cpn; devoted; manageable
+secreq_combined,,3352,CPN,FR,FR,1,6,2,0.3333333333333333,3,0,stbs; voip
+secreq_combined,,3356,CPN,FR,NFR,0,38,2,0.05263157894736842,26,0,cnd; cng
+secreq_combined,,3358,CPN,FR,FR,1,32,4,0.125,24,0,association; cnd; cng; uicc
+secreq_combined,,3360,ePurse,NFR,FR,0,15,2,0.13333333333333333,13,0,ceps; prerequisite
+secreq_combined,,3361,ePurse,NFR,NFR,1,21,2,0.09523809523809523,16,0,cep; unload
+secreq_combined,,3362,ePurse,NFR,FR,0,15,2,0.13333333333333333,10,0,cep; macs
+secreq_combined,,3363,ePurse,NFR,FR,0,23,2,0.08695652173913043,18,0,cep; psam
+secreq_combined,,3364,ePurse,NFR,FR,0,32,4,0.125,20,0,cep; mutual; psam
+secreq_combined,,3365,ePurse,NFR,FR,0,22,3,0.13636363636363635,14,0,cep; establishes
+secreq_combined,,3366,ePurse,NFR,FR,0,18,1,0.05555555555555555,15,0,diversified
+secreq_combined,,3367,ePurse,NFR,FR,0,33,3,0.09090909090909091,24,0,enciphered; legitimate; normally
+secreq_combined,,3368,ePurse,NFR,FR,0,23,3,0.13043478260869565,14,0,acquirer; authentic; guaranteeing
+secreq_combined,,3369,ePurse,NFR,FR,0,38,4,0.10526315789473684,18,0,acquirer; apparent; true
+secreq_combined,,3370,ePurse,NFR,FR,0,12,1,0.08333333333333333,10,0,s1
+secreq_combined,,3371,ePurse,NFR,FR,0,30,0,0.0,23,0,
+secreq_combined,,3372,ePurse,NFR,FR,0,17,2,0.11764705882352941,11,0,s1; validates
+secreq_combined,,3373,ePurse,NFR,FR,0,13,2,0.15384615384615385,9,0,acquirer; s2
+secreq_combined,,3374,ePurse,NFR,NFR,1,26,1,0.038461538461538464,19,0,unloads
+secreq_combined,,3375,ePurse,NFR,FR,0,31,3,0.0967741935483871,17,0,authenticates; credited; relationship
+secreq_combined,,3376,ePurse,NFR,FR,0,29,0,0.0,15,0,
+secreq_combined,,3377,ePurse,NFR,FR,0,34,2,0.058823529411764705,19,0,s1
+secreq_combined,,3378,ePurse,NFR,FR,0,42,3,0.07142857142857142,21,1,authenticity; issuerƒ; s2
+secreq_combined,,3379,ePurse,NFR,NFR,1,19,0,0.0,15,0,
+secreq_combined,,3380,ePurse,NFR,FR,0,34,4,0.11764705882352941,22,0,authentic; cep; dealing; signature
+secreq_combined,,3381,ePurse,NFR,NFR,1,24,4,0.16666666666666666,18,0,acquirer; authentic; batches; dealing
+secreq_combined,,3382,ePurse,NFR,NFR,1,13,3,0.23076923076923078,8,0,cep; psam; reversal
+secreq_combined,,3383,ePurse,NFR,FR,0,55,0,0.0,30,0,
+secreq_combined,,3384,ePurse,NFR,FR,0,17,2,0.11764705882352941,13,0,cep; psam
+secreq_combined,,3385,ePurse,NFR,FR,0,26,3,0.11538461538461539,15,0,authenticates; psam
+secreq_combined,,3386,ePurse,NFR,FR,0,15,1,0.06666666666666667,12,0,acquirer
+secreq_combined,,3387,ePurse,NFR,NFR,1,20,2,0.1,17,0,macs; transmissions
+secreq_combined,,3388,ePurse,NFR,NFR,1,18,2,0.1111111111111111,15,0,transmitted; unload
+secreq_combined,,3389,ePurse,NFR,FR,0,15,2,0.13333333333333333,11,0,acquirer; totals
+secreq_combined,,3390,ePurse,NFR,NFR,1,28,2,0.07142857142857142,21,1,issuerƒ; s4
+secreq_combined,,3391,ePurse,NFR,NFR,1,13,3,0.23076923076923078,10,0,acquirers; identifying; psams
+secreq_combined,,3392,ePurse,NFR,FR,0,10,2,0.2,8,0,acquirers; psams
+secreq_combined,,3393,ePurse,NFR,FR,0,34,4,0.11764705882352941,20,0,cep; psam
+secreq_combined,,3394,ePurse,NFR,FR,0,28,6,0.21428571428571427,17,1,ca; cep; mutual; psamƒ; rsa
+secreq_combined,,3395,ePurse,NFR,FR,0,22,5,0.22727272727272727,12,1,cep; psam; psamƒ; rsa; signature
+secreq_combined,,3396,ePurse,FR,FR,1,24,2,0.08333333333333333,19,0,acquirer; batches
+secreq_combined,,3397,ePurse,FR,FR,1,20,0,0.0,12,0,
+secreq_combined,,3398,ePurse,NFR,NFR,1,17,1,0.058823529411764705,14,0,maintains
+secreq_combined,,3399,ePurse,NFR,FR,0,14,0,0.0,12,0,
+secreq_combined,,3400,ePurse,NFR,FR,0,14,1,0.07142857142857142,11,0,cleared
+secreq_combined,,3401,ePurse,FR,FR,1,18,1,0.05555555555555555,16,0,issuers
+secreq_combined,,3402,ePurse,NFR,FR,0,24,4,0.16666666666666666,18,0,aggregation; blocking; ca; revocation
+secreq_combined,,3403,ePurse,NFR,FR,0,29,0,0.0,22,0,
+secreq_combined,,3404,ePurse,FR,FR,1,15,0,0.0,14,0,
+secreq_combined,,3405,ePurse,NFR,FR,0,39,1,0.02564102564102564,30,0,repayment
+secreq_combined,,3406,ePurse,NFR,NFR,1,21,4,0.19047619047619047,15,0,acquirers; auditable; issuers; reconcilable
+secreq_combined,,3407,ePurse,NFR,FR,0,33,2,0.06060606060606061,25,0,discovered; refunded
+secreq_combined,,3408,ePurse,NFR,FR,0,33,1,0.030303030303030304,26,0,establishes
+secreq_combined,,3409,ePurse,FR,FR,1,25,1,0.04,18,0,acquirer
+secreq_combined,,3410,ePurse,NFR,FR,0,17,1,0.058823529411764705,11,0,acquirer
+secreq_combined,,3411,ePurse,NFR,FR,0,37,7,0.1891891891891892,21,0,cep; exchanged; psam; reversal; reversed
+secreq_combined,,3412,ePurse,NFR,FR,0,30,6,0.2,15,0,cep; computed; psam; reversal; reversed; s2
+secreq_combined,,3413,ePurse,NFR,FR,0,30,5,0.16666666666666666,18,0,acquirer; computes; psam; s4; s5
+secreq_combined,,3414,ePurse,NFR,FR,0,27,7,0.25925925925925924,11,0,authenticates; cep; increments; psam; purse; s2
+secreq_combined,,3415,ePurse,FR,FR,1,34,4,0.11764705882352941,20,0,cep; reversal
+secreq_combined,,3416,ePurse,FR,FR,1,19,3,0.15789473684210525,11,0,cep; initiates; inserted
+secreq_combined,,3417,ePurse,FR,FR,1,35,2,0.05714285714285714,26,0,cep; determines
+secreq_combined,,3418,ePurse,NFR,FR,0,72,7,0.09722222222222222,40,0,cep; computes; psam; s1; verifies
+secreq_combined,,3419,ePurse,NFR,FR,0,32,5,0.15625,21,0,authenticates; cep; psam; retrieves; s1
+secreq_combined,,3420,ePurse,NFR,FR,0,61,7,0.11475409836065574,30,0,acquirer; collects; psam; s4; s5; subtracted
+secreq_combined,,3421,ePurse,NFR,FR,0,21,4,0.19047619047619047,14,0,cep; computed; psam; s2
+secreq_combined,,3422,ePurse,NFR,FR,0,54,8,0.14814814814814814,24,0,authenticates; cep; increments; purse; s2; verifies
+secreq_combined,,3423,ePurse,NFR,NFR,1,23,2,0.08695652173913043,18,0,transmitted
+secreq_combined,,3424,ePurse,FR,FR,1,25,2,0.08,17,0,acquirer
+secreq_combined,,3425,ePurse,FR,FR,1,20,3,0.15,14,0,acquirer; transmitted; validates
+secreq_combined,,3426,ePurse,FR,FR,1,48,6,0.125,24,0,aggregated; aggregation; psam
+secreq_combined,,3427,ePurse,FR,FR,1,28,5,0.17857142857142858,19,0,acquirer; aggregated; totals; transmitted
+secreq_combined,,3428,ePurse,NFR,FR,0,57,6,0.10526315789473684,32,0,acquirer; psam; s4; s5
+secreq_combined,,3429,ePurse,NFR,FR,0,33,5,0.15151515151515152,23,1,acquirer; macs; psam; psamƒ; validates
+secreq_combined,,3430,ePurse,NFR,FR,0,40,8,0.2,19,1,cardƒ; cep; counterfeit; legitimate; s6; validates
+secreq_combined,,3431,ePurse,NFR,FR,0,16,2,0.125,12,0,acquirer; signature
+secreq_combined,,3432,ePurse,NFR,FR,0,28,3,0.10714285714285714,20,0,acquirer; decides; settle
+secreq_combined,,3433,ePurse,FR,FR,1,39,4,0.10256410256410256,22,1,acquirer; forwarded; passes; providerƒ
+secreq_combined,,3434,ePurse,NFR,FR,0,41,3,0.07317073170731707,27,0,acquirer; acquirers; s5
+secreq_combined,,3435,ePurse,FR,FR,1,36,3,0.08333333333333333,28,0,acquirer; cep; forwarded
+secreq_combined,,3436,ePurse,NFR,NFR,1,33,0,0.0,22,0,
+secreq_combined,,3437,ePurse,NFR,NFR,1,11,1,0.09090909090909091,9,0,unencrypted
+secreq_combined,,3438,ePurse,NFR,NFR,1,30,3,0.1,20,0,cep; cvmi; unencrypted
+secreq_combined,,3439,ePurse,NFR,FR,0,33,1,0.030303030303030304,20,0,opportunity
+secreq_combined,,3440,ePurse,NFR,FR,0,15,3,0.2,12,0,cardholders; issuers; purses
+secreq_combined,,3441,ePurse,NFR,FR,0,13,1,0.07692307692307693,10,0,acquirers
+secreq_combined,,3442,ePurse,FR,NFR,0,42,4,0.09523809523809523,25,0,cep; institution
+secreq_combined,,3443,ePurse,NFR,NFR,1,49,6,0.12244897959183673,38,0,leg; parallel; preclude; sequentially; specification; unlinked
+secreq_combined,,3444,ePurse,NFR,FR,0,68,5,0.07352941176470588,44,0,cep; issuers; unload
+secreq_combined,,3445,ePurse,NFR,NFR,1,25,0,0.0,20,0,
+secreq_combined,,3446,ePurse,NFR,FR,0,60,7,0.11666666666666667,33,1,_x009d_; bring; fluctuations; issuers; partial; toƒ; unload
+secreq_combined,,3447,ePurse,FR,FR,1,41,5,0.12195121951219512,29,0,acquirer; alphabetic; cep; exponent
+secreq_combined,,3448,ePurse,FR,FR,1,44,5,0.11363636363636363,28,0,alphabetic; establishes; exponent; issuers
+secreq_combined,,3449,ePurse,FR,FR,1,62,5,0.08064516129032258,38,0,cep; emv; unload
+secreq_combined,,3450,ePurse,FR,NFR,0,18,2,0.1111111111111111,14,0,cep; discretionary
+secreq_combined,,3451,ePurse,FR,FR,1,33,1,0.030303030303030304,23,0,assessment
+secreq_combined,,3452,ePurse,FR,FR,1,20,1,0.05,16,0,cep
+secreq_combined,,3453,ePurse,FR,NFR,0,50,5,0.1,33,1,_x009d_; cep; occupies; slotƒ
+secreq_combined,,3454,ePurse,FR,FR,1,44,4,0.09090909090909091,26,1,approving; cep; issuerƒ; occupy
+secreq_combined,,3455,ePurse,FR,NFR,0,33,3,0.09090909090909091,22,0,cep; occupy
+secreq_combined,,3456,ePurse,FR,NFR,0,69,3,0.043478260869565216,36,0,cep; maximums
+secreq_combined,,3457,ePurse,NFR,NFR,1,41,5,0.12195121951219512,30,0,ca; cep; cryptograms; psams
+secreq_combined,,3458,ePurse,NFR,FR,0,27,3,0.1111111111111111,18,0,authenticates; mutual
+secreq_combined,,3459,ePurse,NFR,NFR,1,18,2,0.1111111111111111,14,0,asymmetric; cryptography
+secreq_combined,,3460,ePurse,NFR,FR,0,24,0,0.0,21,0,
+secreq_combined,,3461,ePurse,NFR,FR,0,21,0,0.0,17,0,
+secreq_combined,,3462,ePurse,NFR,FR,0,12,0,0.0,11,0,
+secreq_combined,,3463,ePurse,NFR,FR,0,15,0,0.0,13,0,
+secreq_combined,,3464,ePurse,NFR,FR,0,18,4,0.2222222222222222,12,1,cardƒ; macing; signature; symmetric
+secreq_combined,,3465,ePurse,NFR,FR,0,15,4,0.26666666666666666,10,0,acquirer; macing; signature; symmetric
+secreq_combined,,3466,ePurse,NFR,FR,0,34,3,0.08823529411764706,23,0,authenticating; increments
+secreq_combined,,3467,ePurse,NFR,NFR,1,19,1,0.05263157894736842,14,0,unload
+secreq_combined,,3468,ePurse,NFR,FR,0,12,1,0.08333333333333333,9,0,unload
+secreq_combined,,3469,ePurse,NFR,FR,0,13,0,0.0,10,0,
+secreq_combined,,3470,ePurse,NFR,FR,0,16,3,0.1875,11,0,acquirer; repudiation; unload
+secreq_combined,,3471,ePurse,NFR,NFR,1,11,1,0.09090909090909091,10,0,certified
+secreq_combined,,3472,ePurse,NFR,FR,0,36,3,0.08333333333333333,27,0,domestic; perhaps; region
+secreq_combined,,3473,ePurse,NFR,NFR,1,29,1,0.034482758620689655,21,0,suspected
+secreq_combined,,3474,ePurse,FR,NFR,0,10,0,0.0,10,0,
+secreq_combined,,3475,ePurse,FR,FR,1,25,1,0.04,24,0,unload
+secreq_combined,,3476,ePurse,FR,FR,1,36,1,0.027777777777777776,28,0,acquirer
+secreq_combined,,3477,ePurse,NFR,NFR,1,15,1,0.06666666666666667,13,0,issuers
+secreq_combined,,3478,ePurse,FR,NFR,0,22,1,0.045454545454545456,19,0,unlinked
+secreq_combined,,3479,ePurse,NFR,FR,0,12,1,0.08333333333333333,10,0,authorizations
+secreq_combined,,3480,ePurse,NFR,NFR,1,14,0,0.0,12,0,
+secreq_combined,,3481,ePurse,NFR,NFR,1,32,1,0.03125,21,0,emv
+secreq_combined,,3482,ePurse,NFR,NFR,1,21,2,0.09523809523809523,18,1,acquirerƒ; unload
+secreq_combined,,3483,ePurse,FR,NFR,0,46,6,0.13043478260869565,29,0,acquirer; eventual; preclude; precluded; purse; unload

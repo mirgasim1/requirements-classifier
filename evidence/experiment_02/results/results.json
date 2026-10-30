@@ -1,0 +1,603 @@
+{
+  "experiment_date": "2026-10-22",
+  "experiment": "Original-data model comparison and SecReq external case study",
+  "selected_model": "linear_svm",
+  "versions": {
+    "python": "3.12.10",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "training_records": 4748,
+  "original_test_records": 1188,
+  "external_test_records": 253,
+  "training_counts": {
+    "FR": 3119,
+    "NFR": 1629
+  },
+  "original_test_counts": {
+    "NFR": 408,
+    "FR": 780
+  },
+  "tfidf_settings": {
+    "analyzer": "word",
+    "binary": false,
+    "decode_error": "strict",
+    "dtype": "<class 'numpy.float64'>",
+    "encoding": "utf-8",
+    "input": "content",
+    "lowercase": true,
+    "max_df": 1.0,
+    "max_features": null,
+    "min_df": 1,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "norm": "l2",
+    "preprocessor": null,
+    "smooth_idf": true,
+    "stop_words": null,
+    "strip_accents": null,
+    "sublinear_tf": false,
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "tokenizer": null,
+    "use_idf": true,
+    "vocabulary": null
+  },
+  "classifier_settings": {
+    "linear_svm": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": "auto",
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 10000,
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": 42,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "logistic_regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 10000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 42,
+      "solver": "liblinear",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "multinomial_naive_bayes": {
+      "alpha": 1.0,
+      "class_prior": null,
+      "fit_prior": true,
+      "force_alpha": true
+    }
+  },
+  "validation": "Five identical stratified folds within the original training data only; shuffle=True, random_state=42. Each pipeline refits TF-IDF inside each fold. Three fixed configurations, with no parameter search.",
+  "input_features": "Requirement text only; no IDs, labels, source names or subcategory columns.",
+  "models": {
+    "linear_svm": {
+      "cross_validation": {
+        "fold_macro_f1": [
+          0.8326216107619044,
+          0.8313960754905637,
+          0.8551431071116111,
+          0.8740749086174954,
+          0.8576699262103306
+        ],
+        "mean_macro_f1": 0.850181125638381,
+        "std_macro_f1_population": 0.016203894167473067
+      },
+      "original_test": {
+        "accuracy": 0.8796296296296297,
+        "macro_precision": 0.8760814880069134,
+        "macro_recall": 0.8528092006033183,
+        "macro_f1": 0.8625292628236512,
+        "FR": {
+          "precision": 0.8851269649334945,
+          "recall": 0.9384615384615385,
+          "f1-score": 0.911014312383323,
+          "support": 780.0
+        },
+        "NFR": {
+          "precision": 0.8670360110803325,
+          "recall": 0.7671568627450981,
+          "f1-score": 0.8140442132639792,
+          "support": 408.0
+        },
+        "confusion_matrix": [
+          [
+            732,
+            48
+          ],
+          [
+            95,
+            313
+          ]
+        ]
+      },
+      "secreq_combined": {
+        "accuracy": 0.4268774703557312,
+        "macro_precision": 0.43738825031928485,
+        "macro_recall": 0.4370748299319728,
+        "macro_f1": 0.42684165299585974,
+        "FR": {
+          "precision": 0.36551724137931035,
+          "recall": 0.5,
+          "f1-score": 0.42231075697211157,
+          "support": 106.0
+        },
+        "NFR": {
+          "precision": 0.5092592592592593,
+          "recall": 0.3741496598639456,
+          "f1-score": 0.43137254901960786,
+          "support": 147.0
+        },
+        "confusion_matrix": [
+          [
+            53,
+            53
+          ],
+          [
+            92,
+            55
+          ]
+        ]
+      },
+      "secreq_CPN": {
+        "accuracy": 0.46511627906976744,
+        "macro_precision": 0.47776412776412774,
+        "macro_recall": 0.47753227408142995,
+        "macro_f1": 0.4649876780669592,
+        "FR": {
+          "precision": 0.5636363636363636,
+          "recall": 0.40789473684210525,
+          "f1-score": 0.4732824427480916,
+          "support": 76.0
+        },
+        "NFR": {
+          "precision": 0.3918918918918919,
+          "recall": 0.5471698113207547,
+          "f1-score": 0.4566929133858268,
+          "support": 53.0
+        },
+        "confusion_matrix": [
+          [
+            31,
+            45
+          ],
+          [
+            24,
+            29
+          ]
+        ]
+      },
+      "secreq_ePurse": {
+        "accuracy": 0.3870967741935484,
+        "macro_precision": 0.5045751633986928,
+        "macro_recall": 0.5049645390070922,
+        "macro_f1": 0.38645833333333335,
+        "FR": {
+          "precision": 0.24444444444444444,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.36666666666666664,
+          "support": 30.0
+        },
+        "NFR": {
+          "precision": 0.7647058823529411,
+          "recall": 0.2765957446808511,
+          "f1-score": 0.40625,
+          "support": 94.0
+        },
+        "confusion_matrix": [
+          [
+            22,
+            8
+          ],
+          [
+            68,
+            26
+          ]
+        ]
+      }
+    },
+    "logistic_regression": {
+      "cross_validation": {
+        "fold_macro_f1": [
+          0.8167022149302707,
+          0.8283448701699652,
+          0.8409951072423453,
+          0.8605836142640646,
+          0.8370671356030966
+        ],
+        "mean_macro_f1": 0.8367385884419486,
+        "std_macro_f1_population": 0.014551439254736988
+      },
+      "original_test": {
+        "accuracy": 0.8661616161616161,
+        "macro_precision": 0.8699431373867259,
+        "macro_recall": 0.828525641025641,
+        "macro_f1": 0.8436250717128209,
+        "FR": {
+          "precision": 0.8614668218859138,
+          "recall": 0.9487179487179487,
+          "f1-score": 0.9029896278218426,
+          "support": 780.0
+        },
+        "NFR": {
+          "precision": 0.878419452887538,
+          "recall": 0.7083333333333334,
+          "f1-score": 0.7842605156037992,
+          "support": 408.0
+        },
+        "confusion_matrix": [
+          [
+            740,
+            40
+          ],
+          [
+            119,
+            289
+          ]
+        ]
+      },
+      "secreq_combined": {
+        "accuracy": 0.45849802371541504,
+        "macro_precision": 0.4877655677655678,
+        "macro_recall": 0.4892825054550122,
+        "macro_f1": 0.451783313562673,
+        "FR": {
+          "precision": 0.4114285714285714,
+          "recall": 0.6792452830188679,
+          "f1-score": 0.5124555160142349,
+          "support": 106.0
+        },
+        "NFR": {
+          "precision": 0.5641025641025641,
+          "recall": 0.29931972789115646,
+          "f1-score": 0.39111111111111113,
+          "support": 147.0
+        },
+        "confusion_matrix": [
+          [
+            72,
+            34
+          ],
+          [
+            103,
+            44
+          ]
+        ]
+      },
+      "secreq_CPN": {
+        "accuracy": 0.49612403100775193,
+        "macro_precision": 0.4714506172839506,
+        "macro_recall": 0.4724428997020854,
+        "macro_f1": 0.4712114523554266,
+        "FR": {
+          "precision": 0.5679012345679012,
+          "recall": 0.6052631578947368,
+          "f1-score": 0.5859872611464968,
+          "support": 76.0
+        },
+        "NFR": {
+          "precision": 0.375,
+          "recall": 0.33962264150943394,
+          "f1-score": 0.3564356435643564,
+          "support": 53.0
+        },
+        "confusion_matrix": [
+          [
+            46,
+            30
+          ],
+          [
+            35,
+            18
+          ]
+        ]
+      },
+      "secreq_ePurse": {
+        "accuracy": 0.41935483870967744,
+        "macro_precision": 0.5716312056737589,
+        "macro_recall": 0.5716312056737589,
+        "macro_f1": 0.41935483870967744,
+        "FR": {
+          "precision": 0.2765957446808511,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.41935483870967744,
+          "support": 30.0
+        },
+        "NFR": {
+          "precision": 0.8666666666666667,
+          "recall": 0.2765957446808511,
+          "f1-score": 0.41935483870967744,
+          "support": 94.0
+        },
+        "confusion_matrix": [
+          [
+            26,
+            4
+          ],
+          [
+            68,
+            26
+          ]
+        ]
+      }
+    },
+    "multinomial_naive_bayes": {
+      "cross_validation": {
+        "fold_macro_f1": [
+          0.8133148675691898,
+          0.8001942462909006,
+          0.8070090232867257,
+          0.8540431824903875,
+          0.8105584030213111
+        ],
+        "mean_macro_f1": 0.817023944531703,
+        "std_macro_f1_population": 0.019023784315417975
+      },
+      "original_test": {
+        "accuracy": 0.8459595959595959,
+        "macro_precision": 0.8626508130792097,
+        "macro_recall": 0.7932692307692308,
+        "macro_f1": 0.813598166539343,
+        "FR": {
+          "precision": 0.8305647840531561,
+          "recall": 0.9615384615384616,
+          "f1-score": 0.8912655971479501,
+          "support": 780.0
+        },
+        "NFR": {
+          "precision": 0.8947368421052632,
+          "recall": 0.625,
+          "f1-score": 0.7359307359307359,
+          "support": 408.0
+        },
+        "confusion_matrix": [
+          [
+            750,
+            30
+          ],
+          [
+            153,
+            255
+          ]
+        ]
+      },
+      "secreq_combined": {
+        "accuracy": 0.4505928853754941,
+        "macro_precision": 0.47731213872832373,
+        "macro_recall": 0.47984854319086123,
+        "macro_f1": 0.44472865646661297,
+        "FR": {
+          "precision": 0.4046242774566474,
+          "recall": 0.660377358490566,
+          "f1-score": 0.5017921146953405,
+          "support": 106.0
+        },
+        "NFR": {
+          "precision": 0.55,
+          "recall": 0.29931972789115646,
+          "f1-score": 0.3876651982378855,
+          "support": 147.0
+        },
+        "confusion_matrix": [
+          [
+            70,
+            36
+          ],
+          [
+            103,
+            44
+          ]
+        ]
+      },
+      "secreq_CPN": {
+        "accuracy": 0.5581395348837209,
+        "macro_precision": 0.5521739130434782,
+        "macro_recall": 0.5536246276067527,
+        "macro_f1": 0.551235886481538,
+        "FR": {
+          "precision": 0.6376811594202898,
+          "recall": 0.5789473684210527,
+          "f1-score": 0.6068965517241379,
+          "support": 76.0
+        },
+        "NFR": {
+          "precision": 0.4666666666666667,
+          "recall": 0.5283018867924528,
+          "f1-score": 0.49557522123893805,
+          "support": 53.0
+        },
+        "confusion_matrix": [
+          [
+            44,
+            32
+          ],
+          [
+            25,
+            28
+          ]
+        ]
+      },
+      "secreq_ePurse": {
+        "accuracy": 0.3387096774193548,
+        "macro_precision": 0.525,
+        "macro_recall": 0.5184397163120568,
+        "macro_f1": 0.3343807279392511,
+        "FR": {
+          "precision": 0.25,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.3880597014925373,
+          "support": 30.0
+        },
+        "NFR": {
+          "precision": 0.8,
+          "recall": 0.1702127659574468,
+          "f1-score": 0.2807017543859649,
+          "support": 94.0
+        },
+        "confusion_matrix": [
+          [
+            26,
+            4
+          ],
+          [
+            78,
+            16
+          ]
+        ]
+      }
+    }
+  },
+  "training_majority_label": "FR",
+  "training_majority_baselines": {
+    "original_test": {
+      "accuracy": 0.6565656565656566,
+      "macro_precision": 0.3282828282828283,
+      "macro_recall": 0.5,
+      "macro_f1": 0.39634146341463417,
+      "FR": {
+        "precision": 0.6565656565656566,
+        "recall": 1.0,
+        "f1-score": 0.7926829268292683,
+        "support": 780.0
+      },
+      "NFR": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 408.0
+      },
+      "confusion_matrix": [
+        [
+          780,
+          0
+        ],
+        [
+          408,
+          0
+        ]
+      ]
+    },
+    "secreq_combined": {
+      "accuracy": 0.4189723320158103,
+      "macro_precision": 0.20948616600790515,
+      "macro_recall": 0.5,
+      "macro_f1": 0.29526462395543174,
+      "FR": {
+        "precision": 0.4189723320158103,
+        "recall": 1.0,
+        "f1-score": 0.5905292479108635,
+        "support": 106.0
+      },
+      "NFR": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 147.0
+      },
+      "confusion_matrix": [
+        [
+          106,
+          0
+        ],
+        [
+          147,
+          0
+        ]
+      ]
+    }
+  },
+  "external_disagreements_selected_model": 145,
+  "preparation": {
+    "raw_workbook_records": 3482,
+    "selected_project_records_before_cleaning": 334,
+    "raw_project_label_counts": {
+      "CPN": {
+        "NFR": 88,
+        "FR": 122
+      },
+      "ePurse": {
+        "NFR": 94,
+        "FR": 30
+      }
+    },
+    "excluded_counts": {
+      "outside_selected_projects": 3148,
+      "conflicting_binary_label_group": 34,
+      "additional_same_label_duplicate": 47
+    },
+    "prepared_records": 253,
+    "prepared_label_counts": {
+      "NFR": 147,
+      "FR": 106
+    },
+    "prepared_project_label_counts": {
+      "CPN": {
+        "NFR": 53,
+        "FR": 76
+      },
+      "ePurse": {
+        "NFR": 94,
+        "FR": 30
+      }
+    },
+    "selected_conflicting_groups": 17,
+    "remaining_normalized_matches_with_original": 0,
+    "near_match_candidates": 0,
+    "source_sha256": "216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec",
+    "prepared_sha256": "2f2c3ae1a00fe3cc14dee71f8d75f5c8fb963570d5dcfafb0ac01475344f7ad8",
+    "matching_rule": "NFKC normalization, casefold and Unicode word tokens. Used only for matching.",
+    "duplicate_rule": "Conflicting FR/NFR groups are identified across the whole workbook. Within the selected projects, keep the first remaining same-label occurrence in workbook order.",
+    "near_match_rule": "Use shared word trigrams to find ten candidate original records per external statement. Check candidates with trigram Jaccard >= 0.30; flag sequence similarity >= 0.80 or trigram Jaccard >= 0.70. This is not an exhaustive semantic-overlap test.",
+    "input_text": "The Requirement cell only. Text and supplied Type labels of retained records are unchanged. IDs, source names and category fields are not classifier inputs.",
+    "label_review": "No independent relabelling of the retained requirements. Disagreements measure differences from the published reference labels, not necessarily proven model mistakes.",
+    "scope": "The CPN and ePurse sections only. These are two security-heavy specifications, not the whole merged dataset or a representative sample of all software domains."
+  },
+  "confusion_matrix_label_order": [
+    "FR",
+    "NFR"
+  ],
+  "confusion_matrix_orientation": "Rows are reference labels; columns are predicted labels",
+  "input_sha256": {
+    "dcai24_src_dataset.xlsx": "216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec",
+    "original_prepared.csv": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+    "original_results.json": "74e061a3a44975e41ac1d0081550a7556640eb8f22a2ad3aedff1bfb48092cb4",
+    "original_saved_classifier.joblib": "0695ca262f5f5824810499e8537a789204d95ade6cd2ea9e9b6f3d801c3445ce",
+    "original_split_membership.csv": "45025653672573e6512ebb315438e0d081864bff0ca28732d26f6ebe45078af7",
+    "original_test_predictions.csv": "c67d1aaa24dd5be6e8d9c0c93b231ebe74fcd4231b2145bcdd4de1890e0f0b26"
+  },
+  "verification": {
+    "original_split_and_order_match": true,
+    "svm_matches_recorded_original_predictions": true,
+    "saved_application_matches_refitted_svm": {
+      "original_test": true,
+      "secreq_combined": true
+    }
+  },
+  "limitations": [
+    "External evaluation covers the CPN and ePurse sections only, not the complete merged workbook or all software domains.",
+    "These specifications contain many security requirements, and the supplied labels reflect the source authors' classification conventions.",
+    "The supplied FR/NFR labels have not been independently reannotated. A disagreement is not automatically a proven classifier error.",
+    "Exact normalized overlap and a limited near-match screen were checked. Complete semantic or underlying project independence from the original mixed corpus is not established.",
+    "Different wording, label conventions and category distributions can affect scores. This experiment does not isolate a causal domain-shift effect.",
+    "The original holdout was already inspected during the 50% stage. It is not a newly untouched test set.",
+    "The curated dataset version was released in 2025. Its underlying specifications are older; the release date is not the collection date.",
+    "Three fixed model configurations are compared, not every possible model or tuning setting.",
+    "No user study, measured time saving or concurrent-use evaluation is included in this experiment."
+  ]
+}
