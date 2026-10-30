@@ -1,0 +1,18 @@
+Base model: Snowflake/snowflake-arctic-embed-xs
+Publisher: Snowflake
+Revision: d8c86521100d3556476a063fc2342036d45c106f
+Source: https://huggingface.co/Snowflake/snowflake-arctic-embed-xs
+Licence: Apache License, Version 2.0 (included in BASE_MODEL_LICENSE.txt).
+
+The original_only and augmented safetensors files are modified derivatives.
+The changes are supervised FR/NFR fine-tuning of the pretrained encoder and
+the addition of a two-output classification layer. The training procedure,
+source datasets, validation choices, results and checkpoint hashes are recorded
+in this experiment's protocol, source code and results files.
+
+Original-only training uses the original 4,748-record training subset.
+Augmented training adds the documented 1,496-record PROMISE+ training pool.
+Neither condition uses the reserved test records for fitting or epoch selection.
+
+This notice retains attribution to the base model. It does not assert that
+the base-model publisher endorses these derivatives or their predictions.

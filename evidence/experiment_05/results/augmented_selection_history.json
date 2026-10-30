@@ -1,0 +1,113 @@
+[
+  {
+    "epoch": 1,
+    "mean_batch_weighted_loss": 0.5133995898189296,
+    "fitting_records": 4900,
+    "training_class_weights_FR_NFR": [
+      0.7622900009155273,
+      1.4531434774398804
+    ],
+    "validation": {
+      "accuracy": 0.8452380952380952,
+      "macro_precision": 0.8082596837715303,
+      "macro_recall": 0.8309223623092237,
+      "macro_f1": 0.8177451279523709,
+      "FR": {
+        "precision": 0.9140022050716649,
+        "recall": 0.8644421272158499,
+        "f1-score": 0.8885316184351554,
+        "support": 959.0
+      },
+      "NFR": {
+        "precision": 0.7025171624713958,
+        "recall": 0.7974025974025974,
+        "f1-score": 0.7469586374695864,
+        "support": 385.0
+      },
+      "confusion_matrix": [
+        [
+          829,
+          130
+        ],
+        [
+          78,
+          307
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 2,
+    "mean_batch_weighted_loss": 0.3439046925461642,
+    "fitting_records": 4900,
+    "training_class_weights_FR_NFR": [
+      0.7622900009155273,
+      1.4531434774398804
+    ],
+    "validation": {
+      "accuracy": 0.8325892857142857,
+      "macro_precision": 0.7960167211224294,
+      "macro_recall": 0.833718835908617,
+      "macro_f1": 0.8086936827794582,
+      "FR": {
+        "precision": 0.9267441860465117,
+        "recall": 0.8310740354535975,
+        "f1-score": 0.8763056624518967,
+        "support": 959.0
+      },
+      "NFR": {
+        "precision": 0.6652892561983471,
+        "recall": 0.8363636363636363,
+        "f1-score": 0.7410817031070196,
+        "support": 385.0
+      },
+      "confusion_matrix": [
+        [
+          797,
+          162
+        ],
+        [
+          63,
+          322
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 3,
+    "mean_batch_weighted_loss": 0.2877189164514068,
+    "fitting_records": 4900,
+    "training_class_weights_FR_NFR": [
+      0.7622900009155273,
+      1.4531434774398804
+    ],
+    "validation": {
+      "accuracy": 0.8392857142857143,
+      "macro_precision": 0.8025840872074819,
+      "macro_recall": 0.8376338989477675,
+      "macro_f1": 0.8151094806832512,
+      "FR": {
+        "precision": 0.9265212399540758,
+        "recall": 0.8415015641293013,
+        "f1-score": 0.8819672131147541,
+        "support": 959.0
+      },
+      "NFR": {
+        "precision": 0.678646934460888,
+        "recall": 0.8337662337662337,
+        "f1-score": 0.7482517482517482,
+        "support": 385.0
+      },
+      "confusion_matrix": [
+        [
+          807,
+          152
+        ],
+        [
+          64,
+          321
+        ]
+      ]
+    }
+  }
+]

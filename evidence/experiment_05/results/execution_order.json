@@ -1,0 +1,50 @@
+[
+  {
+    "stage": "Pinned inputs and pretrained weights checked before training",
+    "completed_at_utc": "2026-10-22T12:52:02.921630+00:00"
+  },
+  {
+    "stage": "Duration selected before final test predictions: original_only, 3 epochs",
+    "completed_at_utc": "2026-10-22T12:55:37.128622+00:00"
+  },
+  {
+    "stage": "Final model saved without using test results: original_only",
+    "completed_at_utc": "2026-10-22T12:59:51.025812+00:00"
+  },
+  {
+    "stage": "Duration selected before final test predictions: augmented, 1 epochs",
+    "completed_at_utc": "2026-10-22T13:06:18.817317+00:00"
+  },
+  {
+    "stage": "Final model saved without using test results: augmented",
+    "completed_at_utc": "2026-10-22T13:08:51.764663+00:00"
+  },
+  {
+    "stage": "Fixed test scored: original_only, original_test, accuracy=0.882997",
+    "completed_at_utc": "2026-10-22T13:08:55.196306+00:00"
+  },
+  {
+    "stage": "Fixed test scored: original_only, secreq, accuracy=0.541502",
+    "completed_at_utc": "2026-10-22T13:08:56.581608+00:00"
+  },
+  {
+    "stage": "Fixed test scored: original_only, promise_plus_heldout_projects, accuracy=0.726933",
+    "completed_at_utc": "2026-10-22T13:09:01.922813+00:00"
+  },
+  {
+    "stage": "Fixed test scored: augmented, original_test, accuracy=0.864478",
+    "completed_at_utc": "2026-10-22T13:09:05.383175+00:00"
+  },
+  {
+    "stage": "Fixed test scored: augmented, secreq, accuracy=0.577075",
+    "completed_at_utc": "2026-10-22T13:09:06.712081+00:00"
+  },
+  {
+    "stage": "Fixed test scored: augmented, promise_plus_heldout_projects, accuracy=0.679551",
+    "completed_at_utc": "2026-10-22T13:09:12.075228+00:00"
+  },
+  {
+    "stage": "Both training conditions completed; original application and evidence preserved",
+    "completed_at_utc": "2026-10-22T13:09:12.327074+00:00"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "original_only": {
+    "status": "passed",
+    "checks": [
+      "one statement field and classify button present",
+      "empty and whitespace-only input rejected before model call",
+      "saved model output displayed with retained escaped input and warning",
+      "prediction failure returns an error without a category"
+    ],
+    "scope": "Local HTTP and returned HTML; no usability or concurrent-load claim. Output categories are compared with the saved model, not independently relabelled gold examples."
+  },
+  "augmented": {
+    "status": "passed",
+    "checks": [
+      "one statement field and classify button present",
+      "empty and whitespace-only input rejected before model call",
+      "saved model output displayed with retained escaped input and warning",
+      "prediction failure returns an error without a category"
+    ],
+    "scope": "Local HTTP and returned HTML; no usability or concurrent-load claim. Output categories are compared with the saved model, not independently relabelled gold examples."
+  },
+  "original_application_files_unchanged": true
+}

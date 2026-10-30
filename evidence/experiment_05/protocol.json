@@ -1,0 +1,53 @@
+{
+  "created_at_utc": "2026-10-22T12:49:35.446116+00:00",
+  "recorded_before_finetuning": true,
+  "status": "Exploratory follow-up after all experiment_04 test outcomes were inspected. No current test set is newly untouched.",
+  "rationale": "The frozen retrieval encoder was not trained for FR/NFR classification. Test supervised fine-tuning of its encoder and classification head, with original-only and broader-training conditions.",
+  "model": "Snowflake/snowflake-arctic-embed-xs, revision d8c86521100d3556476a063fc2342036d45c106f",
+  "weights_sha256": "ee789e0b1d6ecbbd5ce37b474af556cc1a1319cee4417d9e3b11f82e90300706",
+  "architecture": "Six-layer BertModel without pooling layer; first CLS hidden state; dropout=0.1; new linear layer from 384 to 2 outputs; raw logits; label order FR,NFR.",
+  "training_conditions": [
+    "original_only",
+    "augmented"
+  ],
+  "validation": "Use an 80/20 stratified split (seed 42) within the original 4748 training rows. For the augmented condition, also reserve ceil(31*0.20)=7 of the 31 additional-training project IDs after a single seed-42 shuffle. Additional validation projects are never used for fitting during epoch selection. The original-only condition uses only the original validation partition.",
+  "epoch_selection": "Run 3 epochs. Select highest validation macro F1, earliest epoch on exact tie. Evaluate validation once per epoch. Reinitialize from the same pretrained weights and seed, then refit the selected number of epochs on the full allowable training pool. Never select epochs on any test set.",
+  "optimizer": {
+    "name": "AdamW",
+    "encoder_learning_rate": 2e-05,
+    "new_head_learning_rate": 0.0002,
+    "weight_decay": 0.01,
+    "gradient_clipping_max_norm": 1.0
+  },
+  "learning_rate_rationale": "Use a small encoder learning rate and a ten-times larger fixed rate for the newly initialized classification layer. These values are fixed, not searched against test results.",
+  "schedule": "Linear warmup for first 10% of optimizer steps, followed by linear decay over each run's planned duration. Refit duration is the validation-selected number of epochs.",
+  "loss": "Cross entropy with inverse-frequency balanced weights calculated from the fitting labels for each run. Validation and test labels do not determine weights.",
+  "batch_size": 16,
+  "max_tokens": 256,
+  "seed": 42,
+  "cpu_threads": 4,
+  "truncation": "Same fixed 256-token maximum in training, validation and inference. Record truncated counts per subset; no statement is removed because of length.",
+  "reproducibility": "CPU, seeded Python/NumPy/PyTorch and data-loader generator; deterministic algorithms; no remote code or data upload.",
+  "evaluation": "Only the final refitted original-only and augmented models, on unchanged original test (1188), SecReq (253) and PROMISE+ held-out project test (802). All metrics and every prediction retained, including negative results. Report both constant-label baselines from experiment_04.",
+  "test_integrity": "No label edits, additional exclusions, new test split, external-driven threshold or repeated hyperparameter search. Broader training is exactly experiment_04's 1496 auxiliary rows.",
+  "stopping_rule": "Complete both recorded training conditions and verify the saved models. Do not extend epochs or change choices because a test score is below 80%.",
+  "deployment": "Save candidates separately. Do not replace the application automatically or claim one model has 80-90% performance on every source.",
+  "source_files": {
+    "evidence/experiment_02/inputs/original_prepared.csv": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+    "evidence/experiment_02/inputs/original_split_membership.csv": "45025653672573e6512ebb315438e0d081864bff0ca28732d26f6ebe45078af7",
+    "evidence/experiment_02/results/SecReq_FR_NFR_prepared.csv": "2f2c3ae1a00fe3cc14dee71f8d75f5c8fb963570d5dcfafb0ac01475344f7ad8",
+    "evidence/experiment_04/prepared/Promise_plus_partition.csv": "3598df794e7b41dbd36a35c2b32a8e332887eeb9297ee5b902dbabee66914526"
+  },
+  "method_sources": [
+    "https://huggingface.co/docs/transformers/tasks/sequence_classification",
+    "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs",
+    "https://arxiv.org/abs/2405.05374"
+  ],
+  "limitations": [
+    "Existing test results informed the decision to try fine-tuning, so this remains exploratory.",
+    "Original source project IDs are absent; text overlap screens cannot guarantee all underlying source independence.",
+    "Reference labels remain debatable in some cases; fine-tuning does not independently validate them.",
+    "The augmented condition has seen other PROMISE+ projects, not the reserved test project IDs.",
+    "A score in the requested range is an aim, not a guaranteed or fabricated outcome."
+  ]
+}

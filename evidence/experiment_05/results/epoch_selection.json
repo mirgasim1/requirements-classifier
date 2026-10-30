@@ -1,0 +1,18 @@
+{
+  "original_only": {
+    "selected_epochs": 3,
+    "validation_macro_f1": 0.8559359980894952,
+    "criterion": "Validation macro F1 only; earliest exact tie",
+    "fitting_records": 3798,
+    "validation_records": 950,
+    "final_refit_records": 4748
+  },
+  "augmented": {
+    "selected_epochs": 1,
+    "validation_macro_f1": 0.8177451279523709,
+    "criterion": "Validation macro F1 only; earliest exact tie",
+    "fitting_records": 4900,
+    "validation_records": 1344,
+    "final_refit_records": 6244
+  }
+}

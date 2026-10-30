@@ -1,0 +1,11 @@
+[
+  {
+    "epoch": 1,
+    "mean_batch_weighted_loss": 0.4782628165486524,
+    "fitting_records": 6244,
+    "training_class_weights_FR_NFR": [
+      0.7481428384780884,
+      1.5074843168258667
+    ]
+  }
+]
