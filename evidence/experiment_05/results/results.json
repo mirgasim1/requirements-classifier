@@ -1,0 +1,252 @@
+{
+  "models": {
+    "original_only": {
+      "original_test": {
+        "accuracy": 0.882996632996633,
+        "macro_precision": 0.8674131061959061,
+        "macro_recall": 0.8781674208144796,
+        "macro_f1": 0.8722204037857526,
+        "FR": {
+          "precision": 0.9256308100929614,
+          "recall": 0.8935897435897436,
+          "f1-score": 0.9093281148075668,
+          "support": 780.0
+        },
+        "NFR": {
+          "precision": 0.8091954022988506,
+          "recall": 0.8627450980392157,
+          "f1-score": 0.8351126927639383,
+          "support": 408.0
+        },
+        "confusion_matrix": [
+          [
+            697,
+            83
+          ],
+          [
+            56,
+            352
+          ]
+        ]
+      },
+      "secreq": {
+        "accuracy": 0.541501976284585,
+        "macro_precision": 0.5314685314685315,
+        "macro_recall": 0.5317674239507124,
+        "macro_f1": 0.5314814814814814,
+        "FR": {
+          "precision": 0.45454545454545453,
+          "recall": 0.4716981132075472,
+          "f1-score": 0.46296296296296297,
+          "support": 106.0
+        },
+        "NFR": {
+          "precision": 0.6083916083916084,
+          "recall": 0.5918367346938775,
+          "f1-score": 0.6,
+          "support": 147.0
+        },
+        "confusion_matrix": [
+          [
+            50,
+            56
+          ],
+          [
+            60,
+            87
+          ]
+        ]
+      },
+      "promise_plus_heldout_projects": {
+        "accuracy": 0.726932668329177,
+        "macro_precision": 0.729585990434436,
+        "macro_recall": 0.7328854523976476,
+        "macro_f1": 0.7264116115947719,
+        "FR": {
+          "precision": 0.8005181347150259,
+          "recall": 0.6851441241685144,
+          "f1-score": 0.7383512544802867,
+          "support": 451.0
+        },
+        "NFR": {
+          "precision": 0.6586538461538461,
+          "recall": 0.7806267806267806,
+          "f1-score": 0.7144719687092569,
+          "support": 351.0
+        },
+        "confusion_matrix": [
+          [
+            309,
+            142
+          ],
+          [
+            77,
+            274
+          ]
+        ]
+      }
+    },
+    "augmented": {
+      "original_test": {
+        "accuracy": 0.8644781144781145,
+        "macro_precision": 0.847108639992728,
+        "macro_recall": 0.8599736048265461,
+        "macro_f1": 0.8526185201595038,
+        "FR": {
+          "precision": 0.9154362416107382,
+          "recall": 0.8743589743589744,
+          "f1-score": 0.8944262295081967,
+          "support": 780.0
+        },
+        "NFR": {
+          "precision": 0.7787810383747178,
+          "recall": 0.8455882352941176,
+          "f1-score": 0.8108108108108109,
+          "support": 408.0
+        },
+        "confusion_matrix": [
+          [
+            682,
+            98
+          ],
+          [
+            63,
+            345
+          ]
+        ]
+      },
+      "secreq": {
+        "accuracy": 0.5770750988142292,
+        "macro_precision": 0.5598118279569892,
+        "macro_recall": 0.5571171864972404,
+        "macro_f1": 0.5568886779172737,
+        "FR": {
+          "precision": 0.4946236559139785,
+          "recall": 0.4339622641509434,
+          "f1-score": 0.4623115577889447,
+          "support": 106.0
+        },
+        "NFR": {
+          "precision": 0.625,
+          "recall": 0.6802721088435374,
+          "f1-score": 0.6514657980456026,
+          "support": 147.0
+        },
+        "confusion_matrix": [
+          [
+            46,
+            60
+          ],
+          [
+            47,
+            100
+          ]
+        ]
+      },
+      "promise_plus_heldout_projects": {
+        "accuracy": 0.6795511221945137,
+        "macro_precision": 0.6995794513457556,
+        "macro_recall": 0.694862950960512,
+        "macro_f1": 0.679131581364431,
+        "FR": {
+          "precision": 0.8012422360248447,
+          "recall": 0.5720620842572062,
+          "f1-score": 0.6675291073738681,
+          "support": 451.0
+        },
+        "NFR": {
+          "precision": 0.5979166666666667,
+          "recall": 0.8176638176638177,
+          "f1-score": 0.690734055354994,
+          "support": 351.0
+        },
+        "confusion_matrix": [
+          [
+            258,
+            193
+          ],
+          [
+            64,
+            287
+          ]
+        ]
+      }
+    }
+  },
+  "epoch_selection": {
+    "original_only": {
+      "selected_epochs": 3,
+      "validation_macro_f1": 0.8559359980894952,
+      "criterion": "Validation macro F1 only; earliest exact tie",
+      "fitting_records": 3798,
+      "validation_records": 950,
+      "final_refit_records": 4748
+    },
+    "augmented": {
+      "selected_epochs": 1,
+      "validation_macro_f1": 0.8177451279523709,
+      "criterion": "Validation macro F1 only; earliest exact tie",
+      "fitting_records": 4900,
+      "validation_records": 1344,
+      "final_refit_records": 6244
+    }
+  },
+  "tokenization": {
+    "original_only": {
+      "fitting": {
+        "records": 3798,
+        "truncated_to_256_tokens": 0
+      },
+      "validation": {
+        "records": 950,
+        "truncated_to_256_tokens": 0
+      },
+      "refit": {
+        "records": 4748,
+        "truncated_to_256_tokens": 0
+      }
+    },
+    "augmented": {
+      "fitting": {
+        "records": 4900,
+        "truncated_to_256_tokens": 0
+      },
+      "validation": {
+        "records": 1344,
+        "truncated_to_256_tokens": 0
+      },
+      "refit": {
+        "records": 6244,
+        "truncated_to_256_tokens": 0
+      }
+    },
+    "test_original_test": {
+      "records": 1188,
+      "truncated_to_256_tokens": 0
+    },
+    "test_secreq": {
+      "records": 253,
+      "truncated_to_256_tokens": 0
+    },
+    "test_promise_plus_heldout_projects": {
+      "records": 802,
+      "truncated_to_256_tokens": 0
+    }
+  },
+  "protocol_sha256": "c2fb14b18bc2700258a2e4b40e33ac7a6843b15744d85c05d0c5b83f2aebaa79",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.2",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "scikit-learn": "1.9.1"
+  },
+  "model_sha256": {
+    "original_only": "9d4c554d5d3e89ff752f57ff71300fef1228c1f3d760f51447513578a67395db",
+    "augmented": "03c61173adc5f351e2b4a22590e6ecc04f375897594ee75cee03c82e09e4e8a8"
+  },
+  "app_model_replaced": false,
+  "qualification": "Exploratory fine-tuning after prior outcomes were inspected. Test records and labels unchanged. Epoch selection uses validation only. Augmented training includes other PROMISE+ projects, so that condition is not an unseen-source test."
+}
