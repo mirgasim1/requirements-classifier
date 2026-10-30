@@ -1,0 +1,118 @@
+{
+  "selected_candidate": "word_pairs_balanced",
+  "criterion": "Largest mean training-only five-fold macro F1; first candidate in recorded order if exact tie. This validation score is not an unbiased post-selection performance estimate.",
+  "cross_validation": {
+    "baseline_word_unigrams": {
+      "fold_macro_f1": [
+        0.8326216107619044,
+        0.8313960754905637,
+        0.8551431071116111,
+        0.8740749086174954,
+        0.8576699262103306
+      ],
+      "mean_macro_f1": 0.850181125638381,
+      "std_macro_f1_population": 0.016203894167473067
+    },
+    "word_unigrams_balanced": {
+      "fold_macro_f1": [
+        0.8513977723830181,
+        0.844007332758215,
+        0.8623481781376519,
+        0.8713503215051203,
+        0.8557226274353837
+      ],
+      "mean_macro_f1": 0.8569652464438778,
+      "std_macro_f1_population": 0.009341892042205582
+    },
+    "word_pairs_C0p1": {
+      "fold_macro_f1": [
+        0.8267193249587615,
+        0.8199090066559946,
+        0.8425631476409265,
+        0.8649812714705517,
+        0.8434441882655398
+      ],
+      "mean_macro_f1": 0.8395233877983548,
+      "std_macro_f1_population": 0.01562936102384948
+    },
+    "word_pairs_C1": {
+      "fold_macro_f1": [
+        0.8626772469081956,
+        0.8480189976252968,
+        0.8702815875713072,
+        0.8899545514055398,
+        0.8837275688675397
+      ],
+      "mean_macro_f1": 0.8709319904755759,
+      "std_macro_f1_population": 0.014960973948089814
+    },
+    "word_pairs_C10": {
+      "fold_macro_f1": [
+        0.8633450871151616,
+        0.8511016240745164,
+        0.8784989542634454,
+        0.8828395061728396,
+        0.881012086864938
+      ],
+      "mean_macro_f1": 0.87135945169818,
+      "std_macro_f1_population": 0.012251915221570257
+    },
+    "word_pairs_balanced": {
+      "fold_macro_f1": [
+        0.8680555555555556,
+        0.8497194886415893,
+        0.8714908182020131,
+        0.8897398297819257,
+        0.8895385697445194
+      ],
+      "mean_macro_f1": 0.8737088523851206,
+      "std_macro_f1_population": 0.014966236677771628
+    },
+    "character_patterns": {
+      "fold_macro_f1": [
+        0.8473316250672234,
+        0.8369255158555857,
+        0.8480974090315627,
+        0.8682401119732025,
+        0.8510226355291093
+      ],
+      "mean_macro_f1": 0.8503234594913366,
+      "std_macro_f1_population": 0.01014797074123958
+    },
+    "character_patterns_balanced": {
+      "fold_macro_f1": [
+        0.8628303207396639,
+        0.8476093214849427,
+        0.8531079270178332,
+        0.8649563792795193,
+        0.8521590964412638
+      ],
+      "mean_macro_f1": 0.8561326089926447,
+      "std_macro_f1_population": 0.0066378038191162335
+    },
+    "words_and_characters": {
+      "fold_macro_f1": [
+        0.8648425765398944,
+        0.8525317469855387,
+        0.871559908664824,
+        0.8754371105629687,
+        0.8673681268218664
+      ],
+      "mean_macro_f1": 0.8663478939150184,
+      "std_macro_f1_population": 0.007797072894190557
+    },
+    "words_and_characters_balanced": {
+      "fold_macro_f1": [
+        0.8727678571428572,
+        0.8473167306246785,
+        0.8714908182020131,
+        0.8777867311308085,
+        0.8738392303223075
+      ],
+      "mean_macro_f1": 0.8686402734845329,
+      "std_macro_f1_population": 0.010867776882279329
+    }
+  },
+  "test_data_used_to_rank_candidates": false,
+  "qualification": "This is an exploratory follow-up to inspected results, not a new untouched-test claim. The best validation score is subject to selection optimism."
+}

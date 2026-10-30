@@ -1,0 +1,62 @@
+[
+  {
+    "stage": "Protocol and preservation checks completed before fitting",
+    "completed_at_utc": "2026-10-22T12:18:50.550954+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: baseline_word_unigrams",
+    "completed_at_utc": "2026-10-22T12:18:50.856299+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: word_unigrams_balanced",
+    "completed_at_utc": "2026-10-22T12:18:51.118280+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: word_pairs_C0p1",
+    "completed_at_utc": "2026-10-22T12:18:51.621056+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: word_pairs_C1",
+    "completed_at_utc": "2026-10-22T12:18:52.170598+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: word_pairs_C10",
+    "completed_at_utc": "2026-10-22T12:18:52.889214+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: word_pairs_balanced",
+    "completed_at_utc": "2026-10-22T12:18:53.455854+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: character_patterns",
+    "completed_at_utc": "2026-10-22T12:18:55.448408+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: character_patterns_balanced",
+    "completed_at_utc": "2026-10-22T12:18:57.495935+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: words_and_characters",
+    "completed_at_utc": "2026-10-22T12:19:00.074603+00:00"
+  },
+  {
+    "stage": "Training-only five-fold evaluation completed: words_and_characters_balanced",
+    "completed_at_utc": "2026-10-22T12:19:02.717509+00:00"
+  },
+  {
+    "stage": "Candidate selected and recorded before follow-up test predictions: word_pairs_balanced",
+    "completed_at_utc": "2026-10-22T12:19:02.807150+00:00"
+  },
+  {
+    "stage": "Test predictions recorded: original_app_svm",
+    "completed_at_utc": "2026-10-22T12:19:03.065070+00:00"
+  },
+  {
+    "stage": "Test predictions recorded: word_pairs_balanced",
+    "completed_at_utc": "2026-10-22T12:19:03.115483+00:00"
+  },
+  {
+    "stage": "All earlier project files remain unchanged; application model not replaced",
+    "completed_at_utc": "2026-10-22T12:19:03.138726+00:00"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "created_at_utc": "2026-10-22T12:18:31.747788+00:00",
+  "recorded_before_this_followup_fitting": true,
+  "status": "Exploratory follow-up after original and external test outcomes and case diagnostics were inspected.",
+  "purpose": "Test whether simple SVM configuration and feature changes improve training validation performance, then describe their measured test behaviour.",
+  "candidate_rationale": {
+    "word_pairs": "Preserve short combinations of words instead of only isolated words.",
+    "class_balance": "Account for the smaller NFR class in the original training data using training label frequencies.",
+    "character_patterns": "Allow overlapping character patterns within words; shared subword patterns can remain present when a complete word is unseen.",
+    "C_values": "A small fixed check of stronger, original and weaker regularisation for word pairs."
+  },
+  "candidates": [
+    {
+      "name": "baseline_word_unigrams",
+      "features": "word",
+      "word_ngram_range": [
+        1,
+        1
+      ],
+      "C": 1.0,
+      "class_weight": null
+    },
+    {
+      "name": "word_unigrams_balanced",
+      "features": "word",
+      "word_ngram_range": [
+        1,
+        1
+      ],
+      "C": 1.0,
+      "class_weight": "balanced"
+    },
+    {
+      "name": "word_pairs_C0p1",
+      "features": "word",
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "C": 0.1,
+      "class_weight": null
+    },
+    {
+      "name": "word_pairs_C1",
+      "features": "word",
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "C": 1.0,
+      "class_weight": null
+    },
+    {
+      "name": "word_pairs_C10",
+      "features": "word",
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "C": 10.0,
+      "class_weight": null
+    },
+    {
+      "name": "word_pairs_balanced",
+      "features": "word",
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "C": 1.0,
+      "class_weight": "balanced"
+    },
+    {
+      "name": "character_patterns",
+      "features": "character",
+      "word_ngram_range": [
+        1,
+        1
+      ],
+      "C": 1.0,
+      "class_weight": null
+    },
+    {
+      "name": "character_patterns_balanced",
+      "features": "character",
+      "word_ngram_range": [
+        1,
+        1
+      ],
+      "C": 1.0,
+      "class_weight": "balanced"
+    },
+    {
+      "name": "words_and_characters",
+      "features": "word_and_character",
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "C": 1.0,
+      "class_weight": null
+    },
+    {
+      "name": "words_and_characters_balanced",
+      "features": "word_and_character",
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "C": 1.0,
+      "class_weight": "balanced"
+    }
+  ],
+  "word_vectorizer": "Default TF-IDF, lowercase=True, no stop-word removal; unigrams or unigrams+bigrams as listed. min_df=1, norm=l2, smooth_idf=True, sublinear_tf=False.",
+  "character_vectorizer": "TF-IDF analyzer=char_wb, ngram_range=(3,5), min_df=2, lowercase=True, other defaults unchanged.",
+  "combined_vectorizer": "FeatureUnion of separately L2-normalised word and character branches with equal weight; no further normalisation.",
+  "classifier": "LinearSVC, seed=42, max_iter=10000; C and class_weight as listed; other defaults unchanged.",
+  "fitting": "Only the original 4748 training records. No external texts or labels used to fit transformations or classifiers.",
+  "validation": "Reuse the same five stratified folds from experiment_02. Fit all transformations inside every fold.",
+  "selection_criterion": "Largest mean training-only five-fold macro F1; first candidate in recorded order if exact tie. This validation score is not an unbiased post-selection performance estimate.",
+  "test_evaluation": "Only the selected candidate and original saved app model, on the unchanged 1188 original test and 253 SecReq records. Also report CPN and ePurse separately. Do not evaluate all candidates on SecReq or switch selection based on test scores.",
+  "deployment": "Save the candidate separately. Do not replace classifier.joblib or any existing experiment files.",
+  "data_integrity": "No relabelling, additional exclusions, balancing by deleting records, synthetic test data or changes to old predictions.",
+  "limitations": "Existing test results influenced the decision to investigate these methods. Evaluation remains exploratory, and current SecReq label and source limitations still apply. New untouched evaluation would be needed for an independent improvement claim.",
+  "input_sha256": {
+    "inputs/original_prepared.csv": "5c1ee75cebf50fb2c2a659edb4dc1eb6e18379e68b7ff16f9cbaa67458f20aad",
+    "inputs/original_split_membership.csv": "45025653672573e6512ebb315438e0d081864bff0ca28732d26f6ebe45078af7",
+    "inputs/original_saved_classifier.joblib": "0695ca262f5f5824810499e8537a789204d95ade6cd2ea9e9b6f3d801c3445ce",
+    "results/cv_fold_membership.csv": "3c1835fe8f8ddf4b781137badee270b748e8f71322498ed992870130b6452a4f",
+    "results/SecReq_FR_NFR_prepared.csv": "2f2c3ae1a00fe3cc14dee71f8d75f5c8fb963570d5dcfafb0ac01475344f7ad8"
+  },
+  "method_documentation_accessed": "2026-10-22",
+  "method_documentation": [
+    "https://scikit-learn.org/stable/modules/feature_extraction.html",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.FeatureUnion.html"
+  ]
+}

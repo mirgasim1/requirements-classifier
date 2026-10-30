@@ -1,0 +1,260 @@
+{
+  "selected_candidate": "word_pairs_balanced",
+  "selected_configuration": {
+    "name": "word_pairs_balanced",
+    "features": "word",
+    "word_ngram_range": [
+      1,
+      2
+    ],
+    "C": 1.0,
+    "class_weight": "balanced"
+  },
+  "models": {
+    "original_app_svm": {
+      "original_test": {
+        "accuracy": 0.8796296296296297,
+        "macro_precision": 0.8760814880069134,
+        "macro_recall": 0.8528092006033183,
+        "macro_f1": 0.8625292628236512,
+        "FR": {
+          "precision": 0.8851269649334945,
+          "recall": 0.9384615384615385,
+          "f1-score": 0.911014312383323,
+          "support": 780.0
+        },
+        "NFR": {
+          "precision": 0.8670360110803325,
+          "recall": 0.7671568627450981,
+          "f1-score": 0.8140442132639792,
+          "support": 408.0
+        },
+        "confusion_matrix": [
+          [
+            732,
+            48
+          ],
+          [
+            95,
+            313
+          ]
+        ]
+      },
+      "secreq_combined": {
+        "accuracy": 0.4268774703557312,
+        "macro_precision": 0.43738825031928485,
+        "macro_recall": 0.4370748299319728,
+        "macro_f1": 0.42684165299585974,
+        "FR": {
+          "precision": 0.36551724137931035,
+          "recall": 0.5,
+          "f1-score": 0.42231075697211157,
+          "support": 106.0
+        },
+        "NFR": {
+          "precision": 0.5092592592592593,
+          "recall": 0.3741496598639456,
+          "f1-score": 0.43137254901960786,
+          "support": 147.0
+        },
+        "confusion_matrix": [
+          [
+            53,
+            53
+          ],
+          [
+            92,
+            55
+          ]
+        ]
+      },
+      "secreq_CPN": {
+        "accuracy": 0.46511627906976744,
+        "macro_precision": 0.47776412776412774,
+        "macro_recall": 0.47753227408142995,
+        "macro_f1": 0.4649876780669592,
+        "FR": {
+          "precision": 0.5636363636363636,
+          "recall": 0.40789473684210525,
+          "f1-score": 0.4732824427480916,
+          "support": 76.0
+        },
+        "NFR": {
+          "precision": 0.3918918918918919,
+          "recall": 0.5471698113207547,
+          "f1-score": 0.4566929133858268,
+          "support": 53.0
+        },
+        "confusion_matrix": [
+          [
+            31,
+            45
+          ],
+          [
+            24,
+            29
+          ]
+        ]
+      },
+      "secreq_ePurse": {
+        "accuracy": 0.3870967741935484,
+        "macro_precision": 0.5045751633986928,
+        "macro_recall": 0.5049645390070922,
+        "macro_f1": 0.38645833333333335,
+        "FR": {
+          "precision": 0.24444444444444444,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.36666666666666664,
+          "support": 30.0
+        },
+        "NFR": {
+          "precision": 0.7647058823529411,
+          "recall": 0.2765957446808511,
+          "f1-score": 0.40625,
+          "support": 94.0
+        },
+        "confusion_matrix": [
+          [
+            22,
+            8
+          ],
+          [
+            68,
+            26
+          ]
+        ]
+      }
+    },
+    "word_pairs_balanced": {
+      "original_test": {
+        "accuracy": 0.8998316498316499,
+        "macro_precision": 0.8901491506304126,
+        "macro_recall": 0.8868966817496229,
+        "macro_f1": 0.888481765839475,
+        "FR": {
+          "precision": 0.9199491740787802,
+          "recall": 0.9282051282051282,
+          "f1-score": 0.9240587109125717,
+          "support": 780.0
+        },
+        "NFR": {
+          "precision": 0.8603491271820449,
+          "recall": 0.8455882352941176,
+          "f1-score": 0.8529048207663782,
+          "support": 408.0
+        },
+        "confusion_matrix": [
+          [
+            724,
+            56
+          ],
+          [
+            63,
+            345
+          ]
+        ]
+      },
+      "secreq_combined": {
+        "accuracy": 0.4505928853754941,
+        "macro_precision": 0.4604895104895105,
+        "macro_recall": 0.4601142343729945,
+        "macro_f1": 0.45045551857234384,
+        "FR": {
+          "precision": 0.38461538461538464,
+          "recall": 0.5188679245283019,
+          "f1-score": 0.44176706827309237,
+          "support": 106.0
+        },
+        "NFR": {
+          "precision": 0.5363636363636364,
+          "recall": 0.4013605442176871,
+          "f1-score": 0.4591439688715953,
+          "support": 147.0
+        },
+        "confusion_matrix": [
+          [
+            55,
+            51
+          ],
+          [
+            88,
+            59
+          ]
+        ]
+      },
+      "secreq_CPN": {
+        "accuracy": 0.4728682170542636,
+        "macro_precision": 0.481665857212239,
+        "macro_recall": 0.48125620655412116,
+        "macro_f1": 0.4720751083293211,
+        "FR": {
+          "precision": 0.5689655172413793,
+          "recall": 0.4342105263157895,
+          "f1-score": 0.4925373134328358,
+          "support": 76.0
+        },
+        "NFR": {
+          "precision": 0.39436619718309857,
+          "recall": 0.5283018867924528,
+          "f1-score": 0.45161290322580644,
+          "support": 53.0
+        },
+        "confusion_matrix": [
+          [
+            33,
+            43
+          ],
+          [
+            25,
+            28
+          ]
+        ]
+      },
+      "secreq_ePurse": {
+        "accuracy": 0.4274193548387097,
+        "macro_precision": 0.5268476621417798,
+        "macro_recall": 0.5315602836879432,
+        "macro_f1": 0.42438705459300424,
+        "FR": {
+          "precision": 0.25882352941176473,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.3826086956521739,
+          "support": 30.0
+        },
+        "NFR": {
+          "precision": 0.7948717948717948,
+          "recall": 0.32978723404255317,
+          "f1-score": 0.46616541353383456,
+          "support": 94.0
+        },
+        "confusion_matrix": [
+          [
+            22,
+            8
+          ],
+          [
+            63,
+            31
+          ]
+        ]
+      }
+    }
+  },
+  "training_records": 4748,
+  "original_test_records": 1188,
+  "external_records": 253,
+  "versions": {
+    "python": "3.12.10",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  },
+  "protocol_sha256": "9c658ecef0d58aeaeedacf536d465f36774bbbe8aeff61b8093362c3bb80a85c",
+  "app_model_replaced": false,
+  "qualification": "Exploratory follow-up. Existing test results and case review were known before this search. Retained labels and data are unchanged. The external set is not used to rank configurations. No new independent test set was introduced.",
+  "confusion_matrix_order": [
+    "FR",
+    "NFR"
+  ],
+  "confusion_matrix_orientation": "Rows actual, columns predicted"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "cv_predictions_checked": 47480,
+  "saved_test_predictions_recomputed": 2882,
+  "metric_groups_recomputed": 8,
+  "protected_existing_files_unchanged": 67,
+  "original_and_external_data_unchanged": true,
+  "app_model_replaced": false,
+  "training_only_selected_candidate": "word_pairs_balanced",
+  "cv_means_recomputed": {
+    "baseline_word_unigrams": 0.850181125638381,
+    "word_unigrams_balanced": 0.8569652464438778,
+    "word_pairs_C0p1": 0.8395233877983548,
+    "word_pairs_C1": 0.8709319904755759,
+    "word_pairs_C10": 0.87135945169818,
+    "word_pairs_balanced": 0.8737088523851206,
+    "character_patterns": 0.8503234594913366,
+    "character_patterns_balanced": 0.8561326089926447,
+    "words_and_characters": 0.8663478939150184,
+    "words_and_characters_balanced": 0.8686402734845329
+  },
+  "balanced_training_class_weights_FR_NFR": [
+    0.7611413914716255,
+    1.4573357888275016
+  ],
+  "paired_match_changes": {
+    "original_test": {
+      "original_1_candidate_1": 1027,
+      "original_0_candidate_0": 101,
+      "original_0_candidate_1": 42,
+      "original_1_candidate_0": 18
+    },
+    "secreq_combined": {
+      "original_1_candidate_0": 17,
+      "original_1_candidate_1": 91,
+      "original_0_candidate_1": 23,
+      "original_0_candidate_0": 122
+    }
+  },
+  "local_candidate_integration_checks": [
+    {
+      "check": "form available with candidate model",
+      "passed": true
+    },
+    {
+      "check": "empty and whitespace inputs rejected",
+      "passed": true
+    },
+    {
+      "check": "valid inputs use candidate predictions, retain escaped text and show warning",
+      "passed": true
+    }
+  ],
+  "integration_scope": "Local HTTP/HTML checks with candidate substituted in memory; application file and saved model remain unchanged. Not a concurrent-use or human-usability study."
+}
