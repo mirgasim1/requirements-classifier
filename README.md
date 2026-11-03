@@ -97,14 +97,6 @@ The base model uses the Apache 2.0 licence. Its licence and derivation notice ar
 
 ## Evaluation notes
 
-The original dataset contains 5,936 prepared requirements, split into 4,748 training and 1,188 test records. SecReq contains 253 selected requirements. PROMISE+ supplies 1,496 additional training requirements and 802 requirements from reserved projects.
+The original dataset has 5,936 prepared requirements, split into 4,748 training and 1,188 test records. SecReq contains 253 selected requirements. PROMISE+ supplies 1,496 additional training requirements and 802 requirements from reserved projects. Scores measure agreement with supplied labels, not independently verified correctness. SecReq is security-focused; cross-source performance remains limited. The case review is provisional and is not a replacement gold-labelled dataset.
 
-Scores measure agreement with the supplied reference labels. They do not establish that every reference label is correct. SecReq is security-focused, and performance on requirements from other sources remains limited. The case-review interpretations are tentative and do not replace the reference labels.
-
-PROMISE+ preparation replays the recorded near-match pairs and checks them against the source text. The original top-ten candidate search did not specify how candidates with equal counts were ordered. The preparation script therefore keeps the verified exclusions and the fixed evaluation sample.
-
-Overlap checks do not guarantee complete independence between the underlying projects. Broader-training models have seen other PROMISE+ projects, while SecReq was not used for training. Later experiments were exploratory because earlier test results were already known.
-
-Application checks cover the tested local requests. They do not establish usability with participants, performance during concurrent use or measured time savings.
-
-This repository uses a simplified file layout. Repeated input copies, separate READMEs and repeated file-preservation lists were consolidated. The recorded protocols, data, model weights, predictions and numerical results were retained. `evidence/file_hashes.json` and `evidence/check_files.py` check the retained fixed files in this layout.
+PROMISE+ preparation replays the recorded, individually verified near-match pairs. The original top-ten candidate shortlist did not specify equal-count ordering; the reproducer retains the fixed exclusions instead of changing the evaluation sample. Overlap screening does not establish complete underlying project independence. Broader-training models have seen other PROMISE+ projects. Later experiments were exploratory because earlier test outcomes were known. No human-usability, concurrent-load or measured time-saving claim is made.
