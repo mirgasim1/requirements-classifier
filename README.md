@@ -1,8 +1,8 @@
 # Software requirements classifier
 
-The application predicts Functional or Non-functional for one English software requirement at a time. It runs locally using the original TF-IDF and linear SVM model. The additional experiments compare other settings and models. They do not replace the default application.
+The application predicts Functional or Non-functional for one English software requirement at a time. It runs locally using the baseline TF-IDF and linear SVM model. The additional experiments compare other settings and models. They do not replace the default application.
 
-In this project, “original dataset” means the FR_NFR dataset. “Original training” and “original test” refer to its prepared training and test subsets, as explained in the thesis.
+FR_NFR training and FR_NFR test refer to the prepared training and test subsets of the FR_NFR dataset.
 
 ## Run on Windows
 
@@ -20,13 +20,13 @@ Predictions may be incorrect and should be reviewed.
 | --- | --- |
 | `app.py`, `index.html`, `classifier.joblib` | Server, interface and default saved model |
 | `evidence/original/`, `evidence/prepared/` | Original FR_NFR dataset, prepared data and exclusions |
-| `evidence/experiment_01/` | Original split, predictions and baseline results |
+| `evidence/experiment_01/` | FR_NFR split, predictions and baseline results |
 | `evidence/experiment_02/` | Three-classifier comparison, SecReq preparation, case review and application checks |
 | `evidence/experiment_03/` | TF-IDF and SVM tuning |
 | `evidence/experiment_04/` | Frozen encoder, PROMISE+ preparation and broader training |
 | `evidence/experiment_05/` | Fine-tuning, validation records, candidate models and launcher |
 
-The root `classifier.joblib` file is the baseline model. The original data, split and cross-validation membership are shared between experiments rather than stored as repeated copies. Model settings and source hashes are kept in the recorded protocols. `evidence/check_files.py` resolves old file paths in those records to their current locations.
+The root `classifier.joblib` file is the baseline model. The FR_NFR data, split and cross-validation membership are shared between experiments rather than stored as repeated copies. Model settings and source hashes are kept in the recorded protocols. `evidence/check_files.py` resolves old file paths in those records to their current locations.
 
 ## Check saved results
 
@@ -97,6 +97,6 @@ The base model uses the Apache 2.0 licence. Its licence and derivation notice ar
 
 ## Evaluation notes
 
-The original dataset has 5,936 prepared requirements, split into 4,748 training and 1,188 test records. SecReq contains 253 selected requirements. PROMISE+ supplies 1,496 additional training requirements and 802 requirements from reserved projects. Scores measure agreement with supplied labels, not independently verified correctness. SecReq is security-focused; cross-source performance remains limited. The case review is provisional and is not a replacement gold-labelled dataset.
+The FR_NFR dataset has 5,936 prepared requirements, split into 4,748 training and 1,188 test records. SecReq contains 253 selected requirements. PROMISE+ supplies 1,496 additional training requirements and 802 requirements from reserved projects. Scores measure agreement with supplied labels, not independently verified correctness. SecReq is security-focused; cross-source performance remains limited. The case review is provisional and is not a replacement gold-labelled dataset.
 
 PROMISE+ preparation replays the recorded, individually verified near-match pairs. The original top-ten candidate shortlist did not specify equal-count ordering; the reproducer retains the fixed exclusions instead of changing the evaluation sample. Overlap screening does not establish complete underlying project independence. Broader-training models have seen other PROMISE+ projects. Later experiments were exploratory because earlier test outcomes were known. No human-usability, concurrent-load or measured time-saving claim is made.
